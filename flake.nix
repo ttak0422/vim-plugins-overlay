@@ -29,6 +29,7 @@
         buildVitalityPlugin = name:
           buildVimPluginFrom2Nix {
             pname = name;
+            version = "latest";
             src = getAttr name inputs;
           };
 
