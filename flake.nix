@@ -18,6 +18,10 @@
       url = "github:lewis6991/gitsigns.nvim";
       flake = false;
     };
+    winresizer = {
+      url = "github:simeji/winresizer";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
