@@ -22,6 +22,10 @@
       url = "github:simeji/winresizer";
       flake = false;
     };
+    confirm-quit-nvim = {
+      url = "github:yutkat/confirm-quit.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
