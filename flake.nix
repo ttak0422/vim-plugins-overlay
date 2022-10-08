@@ -26,6 +26,10 @@
       url = "github:yutkat/confirm-quit.nvim";
       flake = false;
     };
+    stickybuf-nvim = {
+      url = "github:stevearc/stickybuf.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
