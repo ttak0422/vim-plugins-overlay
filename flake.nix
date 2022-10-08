@@ -30,6 +30,10 @@
       url = "github:stevearc/stickybuf.nvim";
       flake = false;
     };
+    lspsaga-nvim = {
+      url = "github:glepnir/lspsaga.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
