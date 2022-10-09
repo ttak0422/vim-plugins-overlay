@@ -34,6 +34,10 @@
       url = "github:glepnir/lspsaga.nvim";
       flake = false;
     };
+    virtual-types-nvim = {
+      url = "github:jubnzv/virtual-types.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
