@@ -38,6 +38,10 @@
       url = "github:jubnzv/virtual-types.nvim";
       flake = false;
     };
+    neogen = {
+      url = "github:danymat/neogen";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
