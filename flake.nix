@@ -42,6 +42,10 @@
       url = "github:danymat/neogen";
       flake = false;
     };
+    vim-sonictemplate = {
+      url = "github:mattn/vim-sonictemplate";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
