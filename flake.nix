@@ -46,6 +46,10 @@
       url = "github:mattn/vim-sonictemplate";
       flake = false;
     };
+    telescope-sonictemplate-nvim = {
+      url = "github:tamago324/telescope-sonictemplate.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
