@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    nvim-docs-view = {
+      url = "github:amrbashir/nvim-docs-view";
+      flake = false;
+    };
     tint-nvim = {
       url = "github:levouh/tint.nvim";
       flake = false;
