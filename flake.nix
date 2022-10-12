@@ -50,6 +50,10 @@
       url = "github:tamago324/telescope-sonictemplate.nvim";
       flake = false;
     };
+    glow-hover-nvim = {
+      url = "github:JASONews/glow-hover.nvim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
