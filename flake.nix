@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    comfortable-motion-vim = {
+      url = "github:yuttie/comfortable-motion.vim";
+      flake = false;
+    };
     nvim-docs-view = {
       url = "github:amrbashir/nvim-docs-view";
       flake = false;
