@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    lsp-inlayhints-nvim = {
+      url = "github:lvimuser/lsp-inlayhints.nvim";
+      flake = false;
+    };
     comfortable-motion-vim = {
       url = "github:yuttie/comfortable-motion.vim";
       flake = false;
