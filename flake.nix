@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    toolwindow-nvim = {
+      url = "github:EthanJWright/toolwindow.nvim";
+      flake = false;
+    };
     lsp-inlayhints-nvim = {
       url = "github:lvimuser/lsp-inlayhints.nvim";
       flake = false;
