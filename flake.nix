@@ -7,7 +7,7 @@
       flake = false;
     };
     skkeleton = {
-      url = "vim-skk/skkeleton";
+      url = "github:vim-skk/skkeleton";
       flake = false;
     };
     denops-vim = {
