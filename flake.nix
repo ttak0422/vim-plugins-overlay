@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    tig-explorer-vim = {
+      url = "github:iberianpig/tig-explorer.vim";
+      flake = false;
+    };
     skkeleton_indicator-nvim = {
       url = "github:delphinus/skkeleton_indicator.nvim";
       flake = false;
