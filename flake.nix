@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    bclose-vim = {
+      url = "github:rbgrouleff/bclose.vim";
+      flake = false;
+    };
     tig-explorer-vim = {
       url = "github:iberianpig/tig-explorer.vim";
       flake = false;
