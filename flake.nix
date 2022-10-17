@@ -2,6 +2,14 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    skkeleton_indicator-nvim = {
+      url = "github:delphinus/skkeleton_indicator.nvim";
+      flake = false;
+    };
+    skkeleton = {
+      url = "vim-skk/skkeleton";
+      flake = false;
+    };
     denops-vim = {
       url = "github:vim-denops/denops.vim";
       flake = false;
