@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    denops-vim = {
+      url = "github:vim-denops/denops.vim";
+      flake = false;
+    };
     toolwindow-nvim = {
       url = "github:EthanJWright/toolwindow.nvim";
       flake = false;
