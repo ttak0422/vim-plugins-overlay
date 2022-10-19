@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    telescope-live-grep-args-nvim = {
+      url = "github:nvim-telescope/telescope-live-grep-args.nvim";
+      flake = false;
+    };
     bclose-vim = {
       url = "github:rbgrouleff/bclose.vim";
       flake = false;
