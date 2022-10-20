@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    telescope-command-palette-nvim = {
+      url = "github:LinArcX/telescope-command-palette.nvim";
+      flake = false;
+    };
     telescope-live-grep-args-nvim = {
       url = "github:nvim-telescope/telescope-live-grep-args.nvim";
       flake = false;
