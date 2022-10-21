@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    legendary-nvim = {
+      url = "github:mrjones2014/legendary.nvim";
+      flake = false;
+    };
     telescope-command-palette-nvim = {
       url = "github:LinArcX/telescope-command-palette.nvim";
       flake = false;
