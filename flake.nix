@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    chowcho-nvim = {
+      url = "github:tkmpypy/chowcho.nvim";
+      flake = false;
+    };
     legendary-nvim = {
       url = "github:mrjones2014/legendary.nvim";
       flake = false;
