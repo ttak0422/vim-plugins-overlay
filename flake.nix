@@ -102,6 +102,10 @@
       url = "github:JASONews/glow-hover.nvim";
       flake = false;
     };
+    bufpreview-vim = {
+      url = "github:kat0h/bufpreview.vim";
+      flake = false;
+    };
   };
 
   outputs = { self, ... }@inputs: {
