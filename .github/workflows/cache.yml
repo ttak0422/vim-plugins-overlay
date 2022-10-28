@@ -22,7 +22,7 @@ jobs:
               - 'flake.nix'
 
       - name: Setup Nix
-        if: steps.changes.outputs.nix == 'true'
+        if: steps.changes.outputs.flake == 'true'
         uses: cachix/install-nix-action@v18
         with:
           extra_nix_config: |
@@ -36,6 +36,6 @@ jobs:
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
       - name: Check flake
-        if: steps.changes.outputs.nix == 'true'
+        if: steps.changes.outputs.flake == 'true'
         run: |
           nix flake check
