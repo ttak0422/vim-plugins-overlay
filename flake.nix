@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    cmp-nvim-lsp-signature-help = {
+      url = "github:hrsh7th/cmp-nvim-lsp-signature-help";
+      flake = false;
+    };
     chowcho-nvim = {
       url = "github:tkmpypy/chowcho.nvim";
       flake = false;
