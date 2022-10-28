@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    spaceless-nvim = {
+      url = "github:lewis6991/spaceless.nvim";
+      flake = false;
+    };
     cmp-nvim-lsp-signature-help = {
       url = "github:hrsh7th/cmp-nvim-lsp-signature-help";
       flake = false;
