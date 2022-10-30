@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    vim-postlist = {
+      url = "github:thinca/vim-poslist";
+      flake = false;
+    };
     vimdoc-ja = {
       url = "github:vim-jp/vimdoc-ja";
       flake = false;
