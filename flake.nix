@@ -2,7 +2,7 @@
   description = "vim-plugins-overlay";
 
   inputs = {
-    vim-postlist = {
+    vim-poslist = {
       url = "github:thinca/vim-poslist";
       flake = false;
     };
