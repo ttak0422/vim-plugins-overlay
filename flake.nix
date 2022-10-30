@@ -2,6 +2,10 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    vimdoc-ja = {
+      url = "github:vim-jp/vimdoc-ja";
+      flake = false;
+    };
     spaceless-nvim = {
       url = "github:lewis6991/spaceless.nvim";
       flake = false;
