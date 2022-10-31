@@ -76,7 +76,7 @@
       flake = false;
     };
     vim-nix = {
-      url = "github:nL7/vim-nix";
+      url = "github:LnL7/vim-nix";
       flake = false;
     };
     neofsharp-vim = {
