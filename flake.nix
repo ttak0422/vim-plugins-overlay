@@ -224,7 +224,7 @@
       flake = false;
     };
     cmp_luasnip = {
-      url = "github:aadparwaiz1/cmp_luasnip";
+      url = "github:saadparwaiz1/cmp_luasnip";
       flake = false;
     };
     cmp-nvim-lsp-signature-help = {
