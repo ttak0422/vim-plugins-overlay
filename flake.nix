@@ -56,7 +56,7 @@
       flake = false;
     };
     windline-nvim = {
-      url = "github:indwp/windline.nvim";
+      url = "github:windwp/windline.nvim";
       flake = false;
     };
     wilder-nvim = {
