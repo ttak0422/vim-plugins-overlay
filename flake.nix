@@ -148,7 +148,7 @@
       flake = false;
     };
     nvim-ts-rainbow = {
-      url = "github:p00f/nvim-ts-rainbow/actions";
+      url = "github:p00f/nvim-ts-rainbow";
       flake = false;
     };
     nvim-ts-autotag = {
