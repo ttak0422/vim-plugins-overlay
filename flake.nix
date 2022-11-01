@@ -7,7 +7,7 @@
       flake = false;
     };
     filetype-nvim = {
-      url = "github:klen/nvim-config-local";
+      url = "github:nathom/filetype.nvim";
       flake = false;
     };
     serenade = {
