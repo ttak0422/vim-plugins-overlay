@@ -64,7 +64,7 @@
       flake = false;
     };
     fzy-lua-native = {
-      url = "github:gelguy/wilder.nvim";
+      url = "github:romgrk/fzy-lua-native";
       flake = false;
     };
     mkdir-nvim = {
