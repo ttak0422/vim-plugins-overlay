@@ -208,7 +208,7 @@
       flake = false;
     };
     cmp-calc = {
-      url = "github:hrsh7th/nvim-cmp";
+      url = "github:hrsh7th/cmp-calc";
       flake = false;
     };
     cmp-treesitter = {
