@@ -509,6 +509,9 @@
             src = getAttr name inputs;
           };
         }) plugins);
-        overlay = final: prev: { vimPlugins = prev.vimPlugins // packages; };
-      });
+      }) // {
+        overlay = final: prev: {
+          vimPlugins = prev.vimPlugins // self.packages;
+        };
+      };
 }
