@@ -2,6 +2,8 @@
   description = "vim-plugins-overlay";
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
     nvim-config-local = {
       url = "github:klen/nvim-config-local";
       flake = false;
@@ -489,25 +491,24 @@
     };
   };
 
-  outputs = { self, ... }@inputs: {
-    overlay = final: prev:
-      let
-        inherit (builtins) getAttr filter attrNames listToAttrs;
-        inherit (prev.vimUtils) buildVimPluginFrom2Nix;
+  outputs = { self, nixpkgs, flake-utils, ... }@inputs:
+    let
+      inherit (builtins) getAttr filter attrNames listToAttrs elem;
+      inherit (flake-utils.lib) eachSystem;
 
-        buildVitalityPlugin = name:
-          buildVimPluginFrom2Nix {
+      nonVimPlugins = [ "self" "nixpkgs" "flake-utils" ];
+      plugins = filter (name: !(elem name nonVimPlugins)) (attrNames inputs);
+    in eachSystem [ "x86_64-linux" "x86_64-darwin" "aarch64-darwin" ] (system:
+      let pkgs = import nixpkgs { inherit system; };
+      in rec {
+        packages = listToAttrs (map (name: {
+          inherit name;
+          value = pkgs.vimUtils.buildVimPluginFrom2Nix {
             pname = name;
             version = "latest";
             src = getAttr name inputs;
           };
-
-        plugins = filter (name: name != "self") (attrNames inputs);
-      in {
-        vimPlugins = prev.vimPlugins // listToAttrs (map (name: {
-          inherit name;
-          value = buildVitalityPlugin name;
         }) plugins);
-      };
-  };
+        overlay = final: prev: { vimPlugins = prev.vimPlugins // packages; };
+      });
 }
