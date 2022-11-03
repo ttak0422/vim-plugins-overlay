@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-matchup = {
+      url = "github:andymass/vim-matchup";
+      flake = false;
+    };
     nvim-config-local = {
       url = "github:klen/nvim-config-local";
       flake = false;
