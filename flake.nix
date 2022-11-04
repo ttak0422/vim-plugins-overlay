@@ -3,6 +3,26 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    dps-dial-vim = {
+      url = "github:monaqa/dps-dial.vim";
+      flake = false;
+    };
+    nvim-surround = {
+      url = "github:kylechui/nvim-surround";
+      flake = false;
+    };
+    Comment-nvim = {
+      url = "github:numToStr/Comment.nvim";
+      flake = false;
+    };
+    vim-better-whitespace = {
+      url = "github:ntpeters/vim-better-whitespace";
+      flake = false;
+    };
+    vim-altercmd = {
+      url = "github:tyru/vim-altercmd";
+      flake = false;
+    };
     vim-matchup = {
       url = "github:andymass/vim-matchup";
       flake = false;
