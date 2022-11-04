@@ -38,4 +38,5 @@ jobs:
 
       - name: Build
         if: steps.changes.outputs.flake == 'true'
-        run: nix build
+        # https://www.reddit.com/r/NixOS/comments/vohopf/is_there_an_easy_way_to_build_all_the_packages_of/
+        run: nix flake show --json | jq  '.packages."x86_64-linux"|keys[]'| xargs -I {} nix build .#{}
