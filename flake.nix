@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    AbbrevMan-nvim = {
+      url = "github:Pocco81/AbbrevMan.nvim";
+      flake = false;
+    };
+    true-zen = {
+      url = "github:Pocco81/true-zen.nvim";
+      flake = false;
+    };
     actions-preview-nvim = {
       url = "github:aznhe21/actions-preview.nvim";
       flake = false;
