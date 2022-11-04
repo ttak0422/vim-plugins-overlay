@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    actions-preview-nvim = {
+      url = "github:aznhe21/actions-preview.nvim";
+      flake = false;
+    };
     cmp-cmdline = {
       url = "github:hrsh7th/cmp-cmdline";
       flake = false;
