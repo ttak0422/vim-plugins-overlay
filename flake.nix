@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nui-nvim = {
+      url = "github:MunifTanjim/nui.nvim";
+      flake = false;
+    };
     nvim-dap-ui = {
       url = "github:rcarriga/nvim-dap-ui";
       flake = false;
