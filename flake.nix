@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    telescope-frecency-nvim = {
+      url = "github:nvim-telescope/telescope-frecency.nvim";
+      flake = false;
+    };
+    colorful-winsep-nvim = {
+      url = "github:nvim-zh/colorful-winsep.nvim";
+      flake = false;
+    };
     AbbrevMan-nvim = {
       url = "github:Pocco81/AbbrevMan.nvim";
       flake = false;
