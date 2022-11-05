@@ -3,6 +3,22 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-dap-ui = {
+      url = "github:rcarriga/nvim-dap-ui";
+      flake = false;
+    };
+    nvim-dap-virtual-text = {
+      url = "github:theHamsta/nvim-dap-virtual-text";
+      flake = false;
+    };
+    nvim-dap = {
+      url = "github:mfussenegger/nvim-dap";
+      flake = false;
+    };
+    flutter-tools-nvim = {
+      url = "github:akinsho/flutter-tools.nvim";
+      flake = false;
+    };
     searchbox-nvim = {
       url = "github:VonHeikemen/searchbox.nvim";
       flake = false;
