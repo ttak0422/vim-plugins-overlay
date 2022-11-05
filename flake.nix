@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    searchbox-nvim = {
+      url = "github:VonHeikemen/searchbox.nvim";
+      flake = false;
+    };
+    fine-cmdline-nvim = {
+      url = "github:VonHeikemen/fine-cmdline.nvim";
+      flake = false;
+    };
     telescope-frecency-nvim = {
       url = "github:nvim-telescope/telescope-frecency.nvim";
       flake = false;
