@@ -36,6 +36,13 @@ jobs:
           name: ttak0422-vim-plugins-overlay
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
+      - name: Push inputs
+        if: steps.changes.outputs.flake == 'true'
+        run: |
+          nix flake archive --json \
+          | jq -r '.path,(.inputs|to_entries[].value.path)' \
+          | cachix push ttak0422-vim-plugins-overlay
+
       - name: Build
         if: steps.changes.outputs.flake == 'true'
         # https://www.reddit.com/r/NixOS/comments/vohopf/is_there_an_easy_way_to_build_all_the_packages_of/
