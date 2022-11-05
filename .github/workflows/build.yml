@@ -32,4 +32,9 @@ jobs:
           | cachix push ttak0422-vim-plugins-overlay
       
       - name: Check flake
-        run: nix flake check
+        run: |
+          nix flake check --commit-lock-file
+          git push
+
+      - name: Build
+        run: nix flake show --json | jq '.packages."x86_64-linux"|keys[]'| xargs -I {} nix build .#{}
