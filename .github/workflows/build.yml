@@ -13,37 +13,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Filter
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            flake:
-              - 'flake.nix'
-              - 'flake.lock'
-
       - name: Setup Nix
-        if: steps.changes.outputs.flake == 'true'
         uses: cachix/install-nix-action@v18
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Cachix
-        if: steps.changes.outputs.flake == 'true'
         uses: cachix/cachix-action@v11
         with:
           name: ttak0422-vim-plugins-overlay
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
       - name: Push inputs
-        if: steps.changes.outputs.flake == 'true'
         run: |
           nix flake archive --json \
           | jq -r '.path,(.inputs|to_entries[].value.path)' \
           | cachix push ttak0422-vim-plugins-overlay
-
-      - name: Build
-        if: steps.changes.outputs.flake == 'true'
-        # https://www.reddit.com/r/NixOS/comments/vohopf/is_there_an_easy_way_to_build_all_the_packages_of/
-        run: nix flake show --json | jq  '.packages."x86_64-linux"|keys[]'| xargs -I {} nix build .#{}
+      
+      - name: Check flake
+        run: nix flake check
