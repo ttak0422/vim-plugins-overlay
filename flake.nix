@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    cmp-cmdline-history = {
+      url = "github:dmitmel/cmp-cmdline-history";
+      flake = false;
+    };
+    cmp-nvim-lsp-document-symbol = {
+      url = "github:hrsh7th/cmp-nvim-lsp-document-symbol";
+      flake = false;
+    };
     nui-nvim = {
       url = "github:MunifTanjim/nui.nvim";
       flake = false;
