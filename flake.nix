@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    scope-nvim = {
+      url = "github:tiagovla/scope.nvim";
+      flake = false;
+    };
     vim-illuminate = {
       url = "github:RRethy/vim-illuminate";
       flake = false;
