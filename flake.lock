@@ -515,11 +515,11 @@
     "editorconfig-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1667312682,
-        "narHash": "sha256-Ylk1KdJtXHwR2ekEvIQSwHaAfxnMB2nL7Tw7EJZ56gw=",
+        "lastModified": 1668824719,
+        "narHash": "sha256-PM6GEUJMJTFD5AAS+hZy+l//tCPLeezxIcAZiooBZ+c=",
         "owner": "gpanders",
         "repo": "editorconfig.nvim",
-        "rev": "e72d2331b43e3f08d0ecca44cecded4e20c01fab",
+        "rev": "2af880947129f1ab776b732a4eecb92528472ef5",
         "type": "github"
       },
       "original": {
