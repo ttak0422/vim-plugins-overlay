@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    bigfile-nvim = {
+      url = "github:LunarVim/bigfile.nvim";
+      flake = false;
+    };
     scope-nvim = {
       url = "github:tiagovla/scope.nvim";
       flake = false;
