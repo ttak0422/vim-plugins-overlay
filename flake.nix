@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-ui-pum = {
+      url = "github:Shougo/ddc-ui-pum";
+      flake = false;
+    };
     ddc-converter_remove_overlap = {
       url = "github:Shougo/ddc-converter_remove_overlap";
       flake = false;
