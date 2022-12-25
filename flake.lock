@@ -480,6 +480,22 @@
         "type": "github"
       }
     },
+    "ddc-converter_remove_overlap": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669264829,
+        "narHash": "sha256-IgEDtxlUcCCGTC+Jr6m3gAlyu3xDYi65WDg3CjIV1c0=",
+        "owner": "Shougo",
+        "repo": "ddc-converter_remove_overlap",
+        "rev": "5af0aa467a432304b6e54e071d41173bc0fc3ef7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-converter_remove_overlap",
+        "type": "github"
+      }
+    },
     "ddc-fuzzy": {
       "flake": false,
       "locked": {
@@ -637,6 +653,22 @@
       "original": {
         "owner": "Shougo",
         "repo": "ddc-source-nvim-lsp",
+        "type": "github"
+      }
+    },
+    "ddc-ui-pum": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669523629,
+        "narHash": "sha256-gQ3Yhn7k+HWn18fS7DsIOh6ksc9cEw0BlASfYMGapoI=",
+        "owner": "Shougo",
+        "repo": "ddc-ui-pum",
+        "rev": "82c646416d8653988e56b27e68256f01d02f7b1c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-ui-pum",
         "type": "github"
       }
     },
@@ -1808,7 +1840,7 @@
         "type": "github"
       }
     },
-    "pub-vim": {
+    "pum-vim": {
       "flake": false,
       "locked": {
         "lastModified": 1671703512,
@@ -1920,6 +1952,7 @@
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "confirm-quit-nvim": "confirm-quit-nvim",
         "ddc-buffer": "ddc-buffer",
+        "ddc-converter_remove_overlap": "ddc-converter_remove_overlap",
         "ddc-fuzzy": "ddc-fuzzy",
         "ddc-matcher_head": "ddc-matcher_head",
         "ddc-path": "ddc-path",
@@ -1930,6 +1963,7 @@
         "ddc-source-line": "ddc-source-line",
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
+        "ddc-ui-pum": "ddc-ui-pum",
         "ddc-vim": "ddc-vim",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
@@ -2003,7 +2037,7 @@
         "plenary-nvim": "plenary-nvim",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "project-nvim": "project-nvim",
-        "pub-vim": "pub-vim",
+        "pum-vim": "pum-vim",
         "qfheight-nvim": "qfheight-nvim",
         "quick-scope": "quick-scope",
         "range-highlight-nvim": "range-highlight-nvim",
