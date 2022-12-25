@@ -928,6 +928,22 @@
         "type": "github"
       }
     },
+    "haskell-tools-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671961425,
+        "narHash": "sha256-col7kTDxQ8cupvOlpflEDimM6YrjNKWK95IuJLxm6ec=",
+        "owner": "MrcJkb",
+        "repo": "haskell-tools.nvim",
+        "rev": "7d771612036ffded31a80e34daa048e060566f9d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "MrcJkb",
+        "repo": "haskell-tools.nvim",
+        "type": "github"
+      }
+    },
     "headlines-nvim": {
       "flake": false,
       "locked": {
@@ -1868,6 +1884,7 @@
         "glow-hover-nvim": "glow-hover-nvim",
         "glow-nvim": "glow-nvim",
         "goto-preview": "goto-preview",
+        "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",
         "hop-nvim": "hop-nvim",
         "incline-nvim": "incline-nvim",
@@ -1940,6 +1957,7 @@
         "telescope-nvim": "telescope-nvim",
         "telescope-sonictemplate-nvim": "telescope-sonictemplate-nvim",
         "telescope-ui-select-nvim": "telescope-ui-select-nvim",
+        "telescope-undo-nvim": "telescope-undo-nvim",
         "tig-explorer-vim": "tig-explorer-vim",
         "tint-nvim": "tint-nvim",
         "todo-comments-nvim": "todo-comments-nvim",
@@ -2239,6 +2257,22 @@
       "original": {
         "owner": "nvim-telescope",
         "repo": "telescope-ui-select.nvim",
+        "type": "github"
+      }
+    },
+    "telescope-undo-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671733489,
+        "narHash": "sha256-moR2kI2LZkDYXrH8Fc4Mz2Bf8IwfEhdnsRl/Hhn4Z64=",
+        "owner": "debugloop",
+        "repo": "telescope-undo.nvim",
+        "rev": "85b1cac55bbf8ea843f6a64f57d99aacac3ceff3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "debugloop",
+        "repo": "telescope-undo.nvim",
         "type": "github"
       }
     },
