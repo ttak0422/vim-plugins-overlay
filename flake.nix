@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    pub-vim = {
+      url = "github:Shougo/pum.vim";
+      flake = false;
+    };
     telescope-undo-nvim = {
       url = "github:debugloop/telescope-undo.nvim";
       flake = false;
@@ -49,6 +53,18 @@
     };
     ddc-sorter_rank = {
       url = "github:Shougo/ddc-sorter_rank";
+      flake = false;
+    };
+    ddc-source-nvim-lsp = {
+      url = "github:Shougo/ddc-source-nvim-lsp";
+      flake = false;
+    };
+    denops-popup-preview-vim = {
+      url = "github:matsui54/denops-popup-preview.vim";
+      flake = false;
+    };
+    denops-signature_help = {
+      url = "github:matsui54/denops-signature_help";
       flake = false;
     };
     ddc-fuzzy = {
