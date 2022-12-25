@@ -464,6 +464,182 @@
         "type": "github"
       }
     },
+    "ddc-buffer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671426127,
+        "narHash": "sha256-iNaLOdwa8kBc/UTqmwGXwbO8nMk3FUMCqqrCF0KAdDM=",
+        "owner": "matsui54",
+        "repo": "ddc-buffer",
+        "rev": "3d8a7794fddf9d52792136cde751bc83d0d11b57",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matsui54",
+        "repo": "ddc-buffer",
+        "type": "github"
+      }
+    },
+    "ddc-fuzzy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1670475944,
+        "narHash": "sha256-qAjFdY7y6h/ePEYL1a6ODm3cQAemRhFPuR3PBnL70AE=",
+        "owner": "tani",
+        "repo": "ddc-fuzzy",
+        "rev": "146efed475b3ce9cdbe5a2ae4a593f6fb3f466d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tani",
+        "repo": "ddc-fuzzy",
+        "type": "github"
+      }
+    },
+    "ddc-matcher_head": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669264863,
+        "narHash": "sha256-qWhpMVICknfKtzegLSbaify0Fu5R/PKVQlpyB43f/8M=",
+        "owner": "Shougo",
+        "repo": "ddc-matcher_head",
+        "rev": "470cd38e80e935e3ade8389a1de686266b2e1c56",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-matcher_head",
+        "type": "github"
+      }
+    },
+    "ddc-path": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1650639289,
+        "narHash": "sha256-O/k9qf3MtUQW4QMBXegN99K2cByAyebbRKj1QyxhgTA=",
+        "owner": "tani",
+        "repo": "ddc-path",
+        "rev": "61684ec6aa9bab7de5df2e7a101a3c68acc35278",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tani",
+        "repo": "ddc-path",
+        "type": "github"
+      }
+    },
+    "ddc-sorter_rank": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669264931,
+        "narHash": "sha256-59y+GHiQN4arjAJ8AAz+xT98MD9oEEPl5+hKfzI4K80=",
+        "owner": "Shougo",
+        "repo": "ddc-sorter_rank",
+        "rev": "412c0f039d1690978089cac479f71d393135a2ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-sorter_rank",
+        "type": "github"
+      }
+    },
+    "ddc-source-around": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669264968,
+        "narHash": "sha256-RcRMBcclMm1/suUDTjT/uKaOKHtl05/zS6SuK1tWmPQ=",
+        "owner": "Shougo",
+        "repo": "ddc-source-around",
+        "rev": "4da913e4b82d303c2f690b39f2252038c7046221",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-around",
+        "type": "github"
+      }
+    },
+    "ddc-source-cmdline": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669264997,
+        "narHash": "sha256-jxAuqf4u0sPmMN+wGuMpBeVrjyt6r9vcDcoSBFdV4to=",
+        "owner": "Shougo",
+        "repo": "ddc-source-cmdline",
+        "rev": "6925e7a879ef598a8ddfde0a40c4d3324030535d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-cmdline",
+        "type": "github"
+      }
+    },
+    "ddc-source-file": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667905121,
+        "narHash": "sha256-4YPGb6RHSgFfJWopOqrRncJ3lr+AXRA0NhjZs02mFTk=",
+        "owner": "LumaKernel",
+        "repo": "ddc-source-file",
+        "rev": "f10a559015f1bf1779f9eb6d7db2ad7af6eff89e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LumaKernel",
+        "repo": "ddc-source-file",
+        "type": "github"
+      }
+    },
+    "ddc-source-line": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669265357,
+        "narHash": "sha256-VX5VQp2lG/vXpop275i34vju1AuuA0HMSa2s99xNSlA=",
+        "owner": "Shougo",
+        "repo": "ddc-source-line",
+        "rev": "578dd9f5182efc558a831c9dc52ecc92da62132a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-line",
+        "type": "github"
+      }
+    },
+    "ddc-source-nextword": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669265438,
+        "narHash": "sha256-TXH7obfG1Bn/pDfaZASPxkXBuThAVEb40uB8KRq7+x4=",
+        "owner": "Shougo",
+        "repo": "ddc-source-nextword",
+        "rev": "47477cf435224b4b96484fb85e39a8ad2259db71",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-nextword",
+        "type": "github"
+      }
+    },
+    "ddc-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671868253,
+        "narHash": "sha256-uInldj8O1r/Jaa4xL43XM30zAZZaHy+smi/693Qq0A4=",
+        "owner": "Shougo",
+        "repo": "ddc.vim",
+        "rev": "601ec660a9912e650a19f8b7dd2168f02c4bf04a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc.vim",
+        "type": "github"
+      }
+    },
     "denops-vim": {
       "flake": false,
       "locked": {
@@ -1568,6 +1744,22 @@
         "type": "github"
       }
     },
+    "qfheight-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671258382,
+        "narHash": "sha256-1Pb2sGjnnW44yjQm6v7n+Lb06LJExtx3F8zPrNIqLFA=",
+        "owner": "delphinus",
+        "repo": "qfheight.nvim",
+        "rev": "b2045515b5a46fc264e68205bb907f5242acfdbe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "delphinus",
+        "repo": "qfheight.nvim",
+        "type": "github"
+      }
+    },
     "quick-scope": {
       "flake": false,
       "locked": {
@@ -1647,6 +1839,17 @@
         "comfortable-motion-vim": "comfortable-motion-vim",
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "confirm-quit-nvim": "confirm-quit-nvim",
+        "ddc-buffer": "ddc-buffer",
+        "ddc-fuzzy": "ddc-fuzzy",
+        "ddc-matcher_head": "ddc-matcher_head",
+        "ddc-path": "ddc-path",
+        "ddc-sorter_rank": "ddc-sorter_rank",
+        "ddc-source-around": "ddc-source-around",
+        "ddc-source-cmdline": "ddc-source-cmdline",
+        "ddc-source-file": "ddc-source-file",
+        "ddc-source-line": "ddc-source-line",
+        "ddc-source-nextword": "ddc-source-nextword",
+        "ddc-vim": "ddc-vim",
         "denops-vim": "denops-vim",
         "diffview-nvim": "diffview-nvim",
         "dps-dial-vim": "dps-dial-vim",
@@ -1716,6 +1919,7 @@
         "plenary-nvim": "plenary-nvim",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "project-nvim": "project-nvim",
+        "qfheight-nvim": "qfheight-nvim",
         "quick-scope": "quick-scope",
         "range-highlight-nvim": "range-highlight-nvim",
         "registers-nvim": "registers-nvim",
