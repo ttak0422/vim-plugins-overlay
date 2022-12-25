@@ -7,7 +7,7 @@
       url = "github:Shougo/ddc-converter_remove_overlap";
       flake = false;
     };
-    pub-vim = {
+    pum-vim = {
       url = "github:Shougo/pum.vim";
       flake = false;
     };
