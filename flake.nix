@@ -3,6 +3,62 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    telescope-undo-nvim = {
+      url = "github:debugloop/telescope-undo.nvim";
+      flake = false;
+    };
+    haskell-tools-nvim = {
+      url = "github:MrcJkb/haskell-tools.nvim";
+      flake = false;
+    };
+    ddc-vim = {
+      url = "github:Shougo/ddc.vim";
+      flake = false;
+    };
+    ddc-source-around = {
+      url = "github:Shougo/ddc-source-around";
+      flake = false;
+    };
+    ddc-source-nextword = {
+      url = "github:Shougo/ddc-source-nextword";
+      flake = false;
+    };
+    ddc-source-line = {
+      url = "github:Shougo/ddc-source-line";
+      flake = false;
+    };
+    ddc-source-cmdline = {
+      url = "github:Shougo/ddc-source-cmdline";
+      flake = false;
+    };
+    ddc-source-file = {
+      url = "github:LumaKernel/ddc-source-file";
+      flake = false;
+    };
+    ddc-buffer = {
+      url = "github:matsui54/ddc-buffer";
+      flake = false;
+    };
+    ddc-path = {
+      url = "github:tani/ddc-path";
+      flake = false;
+    };
+    ddc-matcher_head = {
+      url = "github:Shougo/ddc-matcher_head";
+      flake = false;
+    };
+    ddc-sorter_rank = {
+      url = "github:Shougo/ddc-sorter_rank";
+      flake = false;
+    };
+    ddc-fuzzy = {
+      url = "github:tani/ddc-fuzzy";
+      flake = false;
+    };
+    qfheight-nvim = {
+      url = "github:delphinus/qfheight.nvim";
+      flake = false;
+    };
     bigfile-nvim = {
       url = "github:LunarVim/bigfile.nvim";
       flake = false;
