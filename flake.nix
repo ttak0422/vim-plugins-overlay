@@ -43,6 +43,10 @@
       url = "github:Shougo/ddc-source-cmdline";
       flake = false;
     };
+    ddc-source-cmdline-history = {
+      url = "github:Shougo/ddc-source-cmdline-history";
+      flake = false;
+    };
     ddc-source-file = {
       url = "github:LumaKernel/ddc-source-file";
       flake = false;
