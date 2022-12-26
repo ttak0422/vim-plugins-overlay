@@ -1248,6 +1248,22 @@
         "type": "github"
       }
     },
+    "neco-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669265028,
+        "narHash": "sha256-WMa949J5p419ZZLL8Zirc7i9pTI05x7ucjp6cbTmg6A=",
+        "owner": "Shougo",
+        "repo": "neco-vim",
+        "rev": "7fb5b63881a25c3d5a8321f8dae21737a1b01634",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "neco-vim",
+        "type": "github"
+      }
+    },
     "neofsharp-vim": {
       "flake": false,
       "locked": {
@@ -2016,6 +2032,7 @@
         "luasnip": "luasnip",
         "mdeval-nvim": "mdeval-nvim",
         "mkdir-nvim": "mkdir-nvim",
+        "neco-vim": "neco-vim",
         "neofsharp-vim": "neofsharp-vim",
         "neogen": "neogen",
         "neogit": "neogit",
