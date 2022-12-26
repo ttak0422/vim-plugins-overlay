@@ -592,6 +592,22 @@
         "type": "github"
       }
     },
+    "ddc-source-cmdline-history": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669265154,
+        "narHash": "sha256-DgD93Qvi3PS9fsmG1A4/mXcap23ydGZgD9KH79C68SQ=",
+        "owner": "Shougo",
+        "repo": "ddc-source-cmdline-history",
+        "rev": "82c1f1aa195247e24b656ad4ece64a3d0e514b70",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-cmdline-history",
+        "type": "github"
+      }
+    },
     "ddc-source-file": {
       "flake": false,
       "locked": {
@@ -1959,6 +1975,7 @@
         "ddc-sorter_rank": "ddc-sorter_rank",
         "ddc-source-around": "ddc-source-around",
         "ddc-source-cmdline": "ddc-source-cmdline",
+        "ddc-source-cmdline-history": "ddc-source-cmdline-history",
         "ddc-source-file": "ddc-source-file",
         "ddc-source-line": "ddc-source-line",
         "ddc-source-nextword": "ddc-source-nextword",
