@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    neco-vim = {
+      url = "github:Shougo/neco-vim";
+      flake = false;
+    };
     ddc-ui-pum = {
       url = "github:Shougo/ddc-ui-pum";
       flake = false;
