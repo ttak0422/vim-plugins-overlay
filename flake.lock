@@ -2080,6 +2080,7 @@
         "vim-sonictemplate": "vim-sonictemplate",
         "vim-translator": "vim-translator",
         "vim-vsnip": "vim-vsnip",
+        "vim-vsnip-integ": "vim-vsnip-integ",
         "vimdoc-ja": "vimdoc-ja",
         "virtual-types-nvim": "virtual-types-nvim",
         "which-key-nvim": "which-key-nvim",
@@ -2695,6 +2696,22 @@
       "original": {
         "owner": "hrsh7th",
         "repo": "vim-vsnip",
+        "type": "github"
+      }
+    },
+    "vim-vsnip-integ": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667959948,
+        "narHash": "sha256-5C4srw/D6AfZxvexybACPCQXkt+Kme2FK9Y62libRQE=",
+        "owner": "hrsh7th",
+        "repo": "vim-vsnip-integ",
+        "rev": "1cf89903f12777b90dd79eb4b3d7fbc0b9a254a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hrsh7th",
+        "repo": "vim-vsnip-integ",
         "type": "github"
       }
     },
