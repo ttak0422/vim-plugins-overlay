@@ -372,6 +372,10 @@
       url = "github:hrsh7th/vim-vsnip";
       flake = false;
     };
+    vim-vsnip-integ = {
+      url = "github:hrsh7th/vim-vsnip-integ";
+      flake = false;
+    };
     nvim-autopairs = {
       url = "github:windwp/nvim-autopairs";
       flake = false;
