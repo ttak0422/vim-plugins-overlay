@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-ui-native = {
+      url = "github:Shougo/ddc-ui-native";
+      flake = false;
+    };
     neco-vim = {
       url = "github:Shougo/neco-vim";
       flake = false;
