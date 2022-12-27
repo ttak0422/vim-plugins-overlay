@@ -672,6 +672,22 @@
         "type": "github"
       }
     },
+    "ddc-ui-native": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669438573,
+        "narHash": "sha256-kIDqdp3g5tbEbWK7998pKCUkxTbnC3Jny9Xj+VNQX1M=",
+        "owner": "Shougo",
+        "repo": "ddc-ui-native",
+        "rev": "5596deff1993969b0af43ff8b31da8ff08d4c47a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-ui-native",
+        "type": "github"
+      }
+    },
     "ddc-ui-pum": {
       "flake": false,
       "locked": {
@@ -1996,6 +2012,7 @@
         "ddc-source-line": "ddc-source-line",
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
+        "ddc-ui-native": "ddc-ui-native",
         "ddc-ui-pum": "ddc-ui-pum",
         "ddc-vim": "ddc-vim",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
