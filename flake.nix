@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    lexima-vim = {
+      url = "github:cohama/lexima.vim";
+      flake = false;
+    };
     ddc-ui-native = {
       url = "github:Shougo/ddc-ui-native";
       flake = false;
