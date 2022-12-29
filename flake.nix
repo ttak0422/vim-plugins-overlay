@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-asterisk = {
+      url = "github:haya14busa/vim-asterisk";
+      flake = false;
+    };
     lexima-vim = {
       url = "github:cohama/lexima.vim";
       flake = false;
