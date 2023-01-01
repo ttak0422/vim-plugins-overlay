@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    telescope-smart-history-nvim = {
+      url = "github:nvim-telescope/telescope-smart-history.nvim";
+      flake = false;
+    };
+    telescope-dap-nvim = {
+      url = "github:nvim-telescope/telescope-dap.nvim";
+      flake = false;
+    };
     nvim-dap-go = {
       url = "github:leoluz/nvim-dap-go";
       flake = false;
