@@ -1840,6 +1840,22 @@
         "type": "github"
       }
     },
+    "onedarkpro-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1672587109,
+        "narHash": "sha256-D8GEXZAKyoZVBFPPdWDGYw8EYIydElFcg6OmrPG37XY=",
+        "owner": "olimorris",
+        "repo": "onedarkpro.nvim",
+        "rev": "e3369ba112e6d9dd0dc99bc006e76c33bf035522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "olimorris",
+        "repo": "onedarkpro.nvim",
+        "type": "github"
+      }
+    },
     "org-bullets-nvim": {
       "flake": false,
       "locked": {
@@ -1869,6 +1885,22 @@
       "original": {
         "owner": "nvim-orgmode",
         "repo": "orgmode",
+        "type": "github"
+      }
+    },
+    "persisted-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1671737597,
+        "narHash": "sha256-Wlf/aLFDyz5HLyYALqtPpM3l3BTo4fOHlE88dG+3zdg=",
+        "owner": "olimorris",
+        "repo": "persisted.nvim",
+        "rev": "558fc4b9f48e16008782240521cb72455d93b835",
+        "type": "github"
+      },
+      "original": {
+        "owner": "olimorris",
+        "repo": "persisted.nvim",
         "type": "github"
       }
     },
@@ -2117,8 +2149,10 @@
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-web-devicons": "nvim-web-devicons",
         "nvim_context_vt": "nvim_context_vt",
+        "onedarkpro-nvim": "onedarkpro-nvim",
         "org-bullets-nvim": "org-bullets-nvim",
         "orgmode": "orgmode",
+        "persisted-nvim": "persisted-nvim",
         "plenary-nvim": "plenary-nvim",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "project-nvim": "project-nvim",
