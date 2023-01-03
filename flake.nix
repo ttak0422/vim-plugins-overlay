@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    persisted-nvim = {
+      url = "github:olimorris/persisted.nvim";
+      flake = false;
+    };
+    onedarkpro-nvim = {
+      url = "github:olimorris/onedarkpro.nvim";
+      flake = false;
+    };
     telescope-smart-history-nvim = {
       url = "github:nvim-telescope/telescope-smart-history.nvim";
       flake = false;
