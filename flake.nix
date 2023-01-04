@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-tmux = {
+      url = "github:delphinus/ddc-tmux";
+      flake = false;
+    };
     persisted-nvim = {
       url = "github:olimorris/persisted.nvim";
       flake = false;
