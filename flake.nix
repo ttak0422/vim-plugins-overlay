@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-converter_truncate = {
+      url = "github:matsui54/ddc-converter_truncate";
+      flake = false;
+    };
     ddc-tmux = {
       url = "github:delphinus/ddc-tmux";
       flake = false;
