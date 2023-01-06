@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    github-nvim-theme = {
+      url = "github:projekt0n/github-nvim-theme";
+      flake = false;
+    };
     themer-lua = {
       url = "github:ThemerCorp/themer.lua";
       flake = false;
