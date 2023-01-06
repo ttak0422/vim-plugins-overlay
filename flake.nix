@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    themer-lua = {
+      url = "github:ThemerCorp/themer.lua";
+      flake = false;
+    };
     ddc-converter_truncate = {
       url = "github:matsui54/ddc-converter_truncate";
       flake = false;
