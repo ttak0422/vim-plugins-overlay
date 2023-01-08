@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-startuptime = {
+      url = "github:dstein64/vim-startuptime";
+      flake = false;
+    };
+    startuptime-vim = {
+      url = "github:tweekmonster/startuptime.vim";
+      flake = false;
+    };
     github-nvim-theme = {
       url = "github:projekt0n/github-nvim-theme";
       flake = false;
