@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    Ionide-vim = {
+      url = "github:Ionide-vim";
+      flake = false;
+    };
     nvim-scrollbar = {
       url = "github:petertriho/nvim-scrollbar";
       flake = false;
