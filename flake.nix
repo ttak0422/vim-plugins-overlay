@@ -700,6 +700,10 @@
       url = "github:troydm/zoomwintab.vim";
       flake = false;
     };
+    nvim-treesitter = {
+      url = "github:nvim-treesitter/nvim-treesitter";
+      flake = false;
+    };
     gitsigns-nvim = {
       url = "github:lewis6991/gitsigns.nvim";
       flake = false;
