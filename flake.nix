@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-treesitter = {
+      url = "github:delphinus/ddc-treesitter";
+      flake = false;
+    };
+    ddc-matcher_length = {
+      url = "github:Shougo/ddc-matcher_length";
+      flake = false;
+    };
     hover-nvim = {
       url = "github:lewis6991/hover.nvim";
       flake = false;
