@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-sorter_itemsize = {
+      url = "github:ttak0422/ddc-sorter_itemsize";
+      flake = false;
+    };
     ddc-treesitter = {
       url = "github:delphinus/ddc-treesitter";
       flake = false;
