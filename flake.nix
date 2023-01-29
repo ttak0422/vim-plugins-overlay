@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    winbarbar-nvim = {
+      url = "github:mrjones2014/winbarbar.nvim";
+      flake = false;
+    };
     ddc-sorter_itemsize = {
       url = "github:ttak0422/ddc-sorter_itemsize";
       flake = false;
