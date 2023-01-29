@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-buffer-history = {
+      url = "github:dhruvasagar/vim-buffer-history";
+      flake = false;
+    };
     winbarbar-nvim = {
       url = "github:mrjones2014/winbarbar.nvim";
       flake = false;
