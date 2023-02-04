@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    SmoothCursor-nvim = {
+      url = "github:gen740/SmoothCursor.nvim";
+      flake = false;
+    };
     statuscol-nvim = {
       url = "github:luukvbaal/statuscol.nvim";
       flake = false;
