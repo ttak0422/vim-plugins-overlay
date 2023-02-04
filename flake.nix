@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    promise-async = {
+      url = "github:kevinhwang91/promise-async";
+      flake = false;
+    };
     NeoZoom-lua = {
       url = "github:nyngwang/NeoZoom.lua";
       flake = false;
