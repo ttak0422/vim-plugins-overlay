@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    statuscol-nvim = {
+      url = "github:luukvbaal/statuscol.nvim";
+      flake = false;
+    };
     promise-async = {
       url = "github:kevinhwang91/promise-async";
       flake = false;
