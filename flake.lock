@@ -80,6 +80,22 @@
         "type": "github"
       }
     },
+    "SmoothCursor-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1674569180,
+        "narHash": "sha256-5WQUqgG23tXBJKYYID+WFoXT9vhOjE8tlyyZqkAbTLk=",
+        "owner": "gen740",
+        "repo": "SmoothCursor.nvim",
+        "rev": "79f02173317a76ab406d182ac89b20b59f5e34fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gen740",
+        "repo": "SmoothCursor.nvim",
+        "type": "github"
+      }
+    },
     "actions-preview-nvim": {
       "flake": false,
       "locked": {
@@ -2407,6 +2423,7 @@
         "Ionide-vim": "Ionide-vim",
         "NeoZoom-lua": "NeoZoom-lua",
         "Shade-nvim": "Shade-nvim",
+        "SmoothCursor-nvim": "SmoothCursor-nvim",
         "actions-preview-nvim": "actions-preview-nvim",
         "aerial-nvim": "aerial-nvim",
         "alpha-nvim": "alpha-nvim",
