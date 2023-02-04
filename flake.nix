@@ -3,6 +3,62 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    NeoZoom-lua = {
+      url = "github:nyngwang/NeoZoom.lua";
+      flake = false;
+    };
+    rest-nvim = {
+      url = "github:rest-nvim/rest.nvim";
+      flake = false;
+    };
+    marks-nvim = {
+      url = "github:chentoast/marks.nvim";
+      flake = false;
+    };
+    open-nvim = {
+      url = "github:ofirgall/open.nvim";
+      flake = false;
+    };
+    clipboard-image-nvim = {
+      url = "github:ekickx/clipboard-image.nvim";
+      flake = false;
+    };
+    image_preview-nvim = {
+      url = "github:adelarsq/image_preview.nvim";
+      flake = false;
+    };
+    cybu-nvim = {
+      url = "github:ghillb/cybu.nvim";
+      flake = false;
+    };
+    flit-nvim = {
+      url = "github:ggandor/flit.nvim";
+      flake = false;
+    };
+    leap-ast-nvim = {
+      url = "github:ggandor/leap-ast.nvim";
+      flake = false;
+    };
+    leap-spooky-nvim = {
+      url = "github:ggandor/leap-spooky.nvim";
+      flake = false;
+    };
+    leap-nvim = {
+      url = "github:ggandor/leap.nvim";
+      flake = false;
+    };
+    tabout-nvim = {
+      url = "github:abecodes/tabout.nvim";
+      flake = false;
+    };
+    nomodoro = {
+      url = "github:dbinagi/nomodoro";
+      flake = false;
+    };
+    nvim-ufo = {
+      url = "github:nyngwang/nvim-ufo";
+      flake = false;
+    };
     vim-buffer-history = {
       url = "github:dhruvasagar/vim-buffer-history";
       flake = false;
