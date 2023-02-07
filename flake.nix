@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    winbar-nvim = {
+      url = "github:fgheng/winbar.nvim";
+      flake = false;
+    };
     noice-nvim = {
       url = "github:folke/noice.nvim";
       flake = false;
