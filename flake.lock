@@ -1680,6 +1680,22 @@
         "type": "github"
       }
     },
+    "noice-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675803750,
+        "narHash": "sha256-mLOoYjlJawgkNGhkXYc/otpLXkjKHpLbMsYu4j0qwFQ=",
+        "owner": "folke",
+        "repo": "noice.nvim",
+        "rev": "d8a1f3056ad713b5d471048f8d029264828e22c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "noice.nvim",
+        "type": "github"
+      }
+    },
     "nomodoro": {
       "flake": false,
       "locked": {
@@ -2523,6 +2539,7 @@
         "neoscroll-nvim": "neoscroll-nvim",
         "nightfox-nvim": "nightfox-nvim",
         "nixpkgs": "nixpkgs",
+        "noice-nvim": "noice-nvim",
         "nomodoro": "nomodoro",
         "nui-nvim": "nui-nvim",
         "null-ls-nvim": "null-ls-nvim",
@@ -2621,6 +2638,7 @@
         "virtual-types-nvim": "virtual-types-nvim",
         "which-key-nvim": "which-key-nvim",
         "wilder-nvim": "wilder-nvim",
+        "winbar-nvim": "winbar-nvim",
         "winbarbar-nvim": "winbarbar-nvim",
         "windline-nvim": "windline-nvim",
         "winresizer": "winresizer",
@@ -3457,6 +3475,22 @@
       "original": {
         "owner": "gelguy",
         "repo": "wilder.nvim",
+        "type": "github"
+      }
+    },
+    "winbar-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675787078,
+        "narHash": "sha256-6EpZbrNhaunRRK8zZHTOBXQlnTeu2MOwgYfq8FbU1WY=",
+        "owner": "ttak0422",
+        "repo": "winbar.nvim",
+        "rev": "71d4cf221261a07d180438575955f3aa82642c54",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ttak0422",
+        "repo": "winbar.nvim",
         "type": "github"
       }
     },
