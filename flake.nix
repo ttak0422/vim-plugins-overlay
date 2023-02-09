@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    colortils-nvim = {
+      url = "github:nvim-colortils/colortils.nvim";
+      flake = false;
+    };
     winbar-nvim = {
       url = "github:ttak0422/winbar.nvim";
       flake = false;
