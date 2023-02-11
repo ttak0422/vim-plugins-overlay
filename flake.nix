@@ -4,8 +4,10 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     obsidian-nvim = {
-      url = "github:epwalsh/obsidian.nvim";
+      url = "https://github.com/epwalsh/obsidian.nvim";
       flake = false;
+      type = "git";
+      submodules = true;
     };
     colortils-nvim = {
       url = "github:nvim-colortils/colortils.nvim";
