@@ -480,6 +480,22 @@
         "type": "github"
       }
     },
+    "colortils-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673288147,
+        "narHash": "sha256-kh0k/AayHlfbwnzVrh5knPMU6TH62/rucF5i9TaSo+Q=",
+        "owner": "nvim-colortils",
+        "repo": "colortils.nvim",
+        "rev": "4f4d89ccaac8e544c18ab7101e718604a5cdd6b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-colortils",
+        "repo": "colortils.nvim",
+        "type": "github"
+      }
+    },
     "comfortable-motion-vim": {
       "flake": false,
       "locked": {
@@ -2192,6 +2208,24 @@
         "type": "github"
       }
     },
+    "obsidian-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675820412,
+        "narHash": "sha256-/R43rWDXdwofLpAdqMHmscSt3bLm0fWKAjRF5pmwJ1k=",
+        "ref": "refs/heads/main",
+        "rev": "59ade59899dd6bee1e7340fbfc01dc814be16c36",
+        "revCount": 155,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/epwalsh/obsidian.nvim"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/epwalsh/obsidian.nvim"
+      }
+    },
     "onedarkpro-nvim": {
       "flake": false,
       "locked": {
@@ -2464,6 +2498,7 @@
         "cmp-vsnip": "cmp-vsnip",
         "cmp_luasnip": "cmp_luasnip",
         "colorful-winsep-nvim": "colorful-winsep-nvim",
+        "colortils-nvim": "colortils-nvim",
         "comfortable-motion-vim": "comfortable-motion-vim",
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "confirm-quit-nvim": "confirm-quit-nvim",
@@ -2571,6 +2606,7 @@
         "nvim-ufo": "nvim-ufo",
         "nvim-web-devicons": "nvim-web-devicons",
         "nvim_context_vt": "nvim_context_vt",
+        "obsidian-nvim": "obsidian-nvim",
         "onedarkpro-nvim": "onedarkpro-nvim",
         "open-nvim": "open-nvim",
         "org-bullets-nvim": "org-bullets-nvim",
