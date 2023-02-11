@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    hologram-nvim = {
+      url = "github:edluffy/hologram.nvim";
+      flake = false;
+    };
     obsidian-nvim = {
       url = "https://github.com/epwalsh/obsidian.nvim";
       flake = false;
