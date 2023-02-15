@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    tmux-nvim = {
+      url = "github:aserowy/tmux.nvim";
+      flake = false;
+    };
     hologram-nvim = {
       url = "github:edluffy/hologram.nvim";
       flake = false;
