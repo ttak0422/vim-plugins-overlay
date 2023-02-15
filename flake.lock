@@ -1280,6 +1280,22 @@
         "type": "github"
       }
     },
+    "hologram-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1665354654,
+        "narHash": "sha256-+96p95cVwN6x3Ww7yDMZDRlIfuhpKoYaPi7WXYOIFU4=",
+        "owner": "edluffy",
+        "repo": "hologram.nvim",
+        "rev": "f5194f71ec1578d91b2e3119ff08e574e2eab542",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edluffy",
+        "repo": "hologram.nvim",
+        "type": "github"
+      }
+    },
     "hop-nvim": {
       "flake": false,
       "locked": {
@@ -2548,6 +2564,7 @@
         "goto-preview": "goto-preview",
         "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",
+        "hologram-nvim": "hologram-nvim",
         "hop-nvim": "hop-nvim",
         "hover-nvim": "hover-nvim",
         "image_preview-nvim": "image_preview-nvim",
@@ -2648,6 +2665,7 @@
         "themer-lua": "themer-lua",
         "tig-explorer-vim": "tig-explorer-vim",
         "tint-nvim": "tint-nvim",
+        "tmux-nvim": "tmux-nvim",
         "todo-comments-nvim": "todo-comments-nvim",
         "toggleterm-nvim": "toggleterm-nvim",
         "toolwindow-nvim": "toolwindow-nvim",
@@ -3095,6 +3113,22 @@
       "original": {
         "owner": "levouh",
         "repo": "tint.nvim",
+        "type": "github"
+      }
+    },
+    "tmux-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675408095,
+        "narHash": "sha256-3INipQwfV5ohDR7zAKmaRMwzww9sVYt0MfpN8vTIa44=",
+        "owner": "aserowy",
+        "repo": "tmux.nvim",
+        "rev": "feafcf8f48c49c720ee64e745648d69d42cb9c5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aserowy",
+        "repo": "tmux.nvim",
         "type": "github"
       }
     },
