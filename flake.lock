@@ -816,6 +816,22 @@
         "type": "github"
       }
     },
+    "ddc-source-nvim-obsidian": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1676788886,
+        "narHash": "sha256-iCqTb+mHBmd1ibNlQ8/hNXWrqTkPGVUkmx7JnTlDwAI=",
+        "owner": "ttak0422",
+        "repo": "ddc-source-nvim-obsidian",
+        "rev": "5c3b9cce877123acca85ed5619b98c7f23a9cce2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ttak0422",
+        "repo": "ddc-source-nvim-obsidian",
+        "type": "github"
+      }
+    },
     "ddc-tmux": {
       "flake": false,
       "locked": {
@@ -2535,6 +2551,7 @@
         "ddc-source-line": "ddc-source-line",
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
+        "ddc-source-nvim-obsidian": "ddc-source-nvim-obsidian",
         "ddc-tmux": "ddc-tmux",
         "ddc-treesitter": "ddc-treesitter",
         "ddc-ui-native": "ddc-ui-native",
