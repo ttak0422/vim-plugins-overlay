@@ -675,11 +675,11 @@
     "ddc-sorter_itemsize": {
       "flake": false,
       "locked": {
-        "lastModified": 1674916678,
-        "narHash": "sha256-SpXIcRPGaOyTgishlMHdcnlXehmAHHydF+3WzhGYLFw=",
+        "lastModified": 1676908696,
+        "narHash": "sha256-nyhQX8qHPM1hacTgLuvN3cGwIDS3QBwQ8xuqQcsdJrw=",
         "owner": "ttak0422",
         "repo": "ddc-sorter_itemsize",
-        "rev": "a43e133ffce74bc3657561f6a67a74fca2637a44",
+        "rev": "b9c5100bfda79eacc48da5823c43a459935ef2e9",
         "type": "github"
       },
       "original": {
