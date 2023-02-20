@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-table-mode = {
+      url = "github:dhruvasagar/vim-table-mode";
+      flake = false;
+    };
     ddc-source-nvim-obsidian = {
       url = "github:ttak0422/ddc-source-nvim-obsidian";
       flake = false;
