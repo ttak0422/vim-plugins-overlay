@@ -3,6 +3,46 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-vim = {
+      url = "github:Shougo/ddu.vim";
+      flake = false;
+    };
+    ddu-ui-ff = {
+      url = "github:Shougo/ddu-ui-ff";
+      flake = false;
+    };
+    ddu-ui-filer = {
+      url = "github:Shougo/ddu-ui-filer";
+      flake = false;
+    };
+    ddu-source-rg = {
+      url = "github:shun/ddu-source-rg";
+      flake = false;
+    };
+    ddu-commands-vim = {
+      url = "github:Shougo/ddu-commands.vim";
+      flake = false;
+    };
+    ddu-kind-file = {
+      url = "github:Shougo/ddu-kind-file";
+      flake = false;
+    };
+    ddu-source-file_rec = {
+      url = "github:Shougo/ddu-source-file_rec";
+      flake = false;
+    };
+    ddu-source-buffer = {
+      url = "github:shun/ddu-source-buffer";
+      flake = false;
+    };
+    ddu-vim-ui-select = {
+      url = "github:matsui54/ddu-vim-ui-select";
+      flake = false;
+    };
+    ddu-source-file = {
+      url = "github:Shougo/ddu-source-file";
+      flake = false;
+    };
     vim-table-mode = {
       url = "github:dhruvasagar/vim-table-mode";
       flake = false;
