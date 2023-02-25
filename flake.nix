@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    typescript-vim = {
+      url = "github:leafgarland/typescript-vim";
+      flake = false;
+    };
+    vim-html-template-literals = {
+      url = "github:jonsmithers/vim-html-template-literals";
+      flake = false;
+    };
     ddu-vim = {
       url = "github:Shougo/ddu.vim";
       flake = false;
