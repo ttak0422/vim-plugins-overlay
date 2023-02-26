@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-column-filename = {
+      url = "github:Shougo/ddu-column-filename";
+      flake = false;
+    };
     ddu-filter-kensaku = {
       url = "github:Milly/ddu-filter-kensaku";
       flake = false;
