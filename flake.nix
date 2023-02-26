@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-fontzoom = {
+      url = "github:thinca/vim-fontzoom";
+      flake = false;
+    };
     typescript-vim = {
       url = "github:leafgarland/typescript-vim";
       flake = false;
