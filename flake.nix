@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     vim-fontzoom = {
-      url = "github:thinca/vim-fontzoom";
+      url = "github:ttak0422/vim-fontzoom";
       flake = false;
     };
     typescript-vim = {
