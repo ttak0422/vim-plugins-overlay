@@ -3,6 +3,22 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-filter-kensaku = {
+      url = "github:Milly/ddu-filter-kensaku";
+      flake = false;
+    };
+    ddu-filter-matcher_substring = {
+      url = "github:Shougo/ddu-filter-matcher_substring";
+      flake = false;
+    };
+    ddu-filter-fzf = {
+      url = "github:yuki-yano/ddu-filter-fzf";
+      flake = false;
+    };
+    ddu-filter-merge = {
+      url = "github:Milly/ddu-filter-merge";
+      flake = false;
+    };
     vim-fontzoom = {
       url = "github:ttak0422/vim-fontzoom";
       flake = false;
