@@ -2865,6 +2865,7 @@
         "vim-asterisk": "vim-asterisk",
         "vim-better-whitespace": "vim-better-whitespace",
         "vim-buffer-history": "vim-buffer-history",
+        "vim-fontzoom": "vim-fontzoom",
         "vim-html-template-literals": "vim-html-template-literals",
         "vim-illuminate": "vim-illuminate",
         "vim-matchup": "vim-matchup",
@@ -3511,6 +3512,22 @@
       "original": {
         "owner": "dhruvasagar",
         "repo": "vim-buffer-history",
+        "type": "github"
+      }
+    },
+    "vim-fontzoom": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1362237216,
+        "narHash": "sha256-HgeQK4mwc+g398odxHBnxJe5UPRa4T1Ch5GNvnbbFzE=",
+        "owner": "thinca",
+        "repo": "vim-fontzoom",
+        "rev": "b411334b6abaaf07380521d8446a59553fc7f57f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thinca",
+        "repo": "vim-fontzoom",
         "type": "github"
       }
     },
