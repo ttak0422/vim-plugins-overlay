@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    anyline-nvim = {
+      url = "github:huy-hng/anyline.nvim";
+      flake = false;
+    };
     ddu-column-filename = {
       url = "github:Shougo/ddu-column-filename";
       flake = false;
