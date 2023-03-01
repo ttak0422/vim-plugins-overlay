@@ -144,6 +144,22 @@
         "type": "github"
       }
     },
+    "anyline-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677593917,
+        "narHash": "sha256-x70QhkTlZk8cqn/5qxmy4KgwFpgRwYI8Mkt4W6NZ9GQ=",
+        "owner": "huy-hng",
+        "repo": "anyline.nvim",
+        "rev": "96a243cefddc2076621c6cea8f98f12bb438143d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "huy-hng",
+        "repo": "anyline.nvim",
+        "type": "github"
+      }
+    },
     "bclose-vim": {
       "flake": false,
       "locked": {
@@ -2749,6 +2765,7 @@
         "actions-preview-nvim": "actions-preview-nvim",
         "aerial-nvim": "aerial-nvim",
         "alpha-nvim": "alpha-nvim",
+        "anyline-nvim": "anyline-nvim",
         "bclose-vim": "bclose-vim",
         "bigfile-nvim": "bigfile-nvim",
         "bufferline-nvim": "bufferline-nvim",
