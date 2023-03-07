@@ -1424,22 +1424,6 @@
         "type": "github"
       }
     },
-    "gin-vim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1676868681,
-        "narHash": "sha256-zwoqqdQfZeJ/HRbhdg+w/MwEbERdDee16yuHbGacr+A=",
-        "owner": "lambdalisue",
-        "repo": "gin.vim",
-        "rev": "d142d20b1b78a4198a0f1d6914947d909b49f16f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "lambdalisue",
-        "repo": "gin.vim",
-        "type": "github"
-      }
-    },
     "git-conflict-nvim": {
       "flake": false,
       "locked": {
@@ -2893,7 +2877,6 @@
         "formatter-nvim": "formatter-nvim",
         "friendly-snippets": "friendly-snippets",
         "fzy-lua-native": "fzy-lua-native",
-        "gin-vim": "gin-vim",
         "git-conflict-nvim": "git-conflict-nvim",
         "github-nvim-theme": "github-nvim-theme",
         "gitsigns-nvim": "gitsigns-nvim",
