@@ -11,10 +11,10 @@
       url = "github:lambdalisue/kensaku.vim";
       flake = false;
     };
-    # gin-vim = {
-    #   url = "github:lambdalisue/gin.vim";
-    #   flake = false;
-    # };
+    gin-vim = {
+      url = "github:lambdalisue/gin.vim";
+      flake = false;
+    };
     anyline-nvim = {
       url = "github:huy-hng/anyline.nvim";
       flake = false;
