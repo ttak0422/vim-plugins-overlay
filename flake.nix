@@ -960,7 +960,7 @@
     let
       inherit (builtins) getAttr filter attrNames listToAttrs elem;
 
-      nonVimPlugins = [ "self" "nixpkgs" ];
+      nonVimPlugins = [ "self" "nixpkgs" "gin-vim" ];
       plugins = filter (name: !(elem name nonVimPlugins)) (attrNames inputs);
       eachSystem = nixpkgs.lib.genAttrs [
         "x86_64-linux"
@@ -969,15 +969,33 @@
       ];
     in {
       packages = eachSystem (system:
-        let pkgs = import nixpkgs { inherit system; };
+        let
+          pkgs = import nixpkgs { inherit system; };
+          inherit (pkgs) coreutils;
+          inherit (pkgs.vimUtils) buildVimPluginFrom2Nix;
+          version = "latest";
         in listToAttrs (map (name: {
           inherit name;
-          value = pkgs.vimUtils.buildVimPluginFrom2Nix {
+          value = buildVimPluginFrom2Nix {
+            inherit version;
             pname = name;
-            version = "latest";
             src = getAttr name inputs;
           };
-        }) plugins));
+        }) plugins) // {
+          gin-vim = buildVimPluginFrom2Nix {
+            inherit version;
+            pname = "gin-vim";
+            src = inputs.gin-vim;
+            dontPatchShebangs = true;
+            postInstall = ''
+              substituteInPlace \
+                  $out/denops/gin/proxy/editor.ts \
+                  $out/denops/gin/proxy/askpass.ts \
+                  --replace "/usr/bin/env" "${coreutils}/bin/env"
+            '';
+
+          };
+        });
       overlay = final: prev: {
         vimPlugins = prev.vimPlugins // self.packages.${prev.system};
       };
