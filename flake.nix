@@ -971,7 +971,6 @@
       packages = eachSystem (system:
         let
           pkgs = import nixpkgs { inherit system; };
-          inherit (pkgs) coreutils;
           inherit (pkgs.vimUtils) buildVimPluginFrom2Nix;
           version = "latest";
         in listToAttrs (map (name: {
@@ -991,7 +990,7 @@
               substituteInPlace \
                   $out/denops/gin/proxy/editor.ts \
                   $out/denops/gin/proxy/askpass.ts \
-                  --replace "/usr/bin/env" "${coreutils}/bin/env"
+                  --replace "/usr/bin/env -S deno" "${pkgs.deno}/bin/deno"
             '';
 
           };
