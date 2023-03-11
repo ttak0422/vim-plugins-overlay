@@ -3,6 +3,22 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    rust-rools-nvim = {
+      url = "github:simrat39/rust-tools.nvim";
+      flake = false;
+    };
+    numb-nvim = {
+      url = "github:nacro90/numb.nvim";
+      flake = false;
+    };
+    splitjoin-vim = {
+      url = "github:AndrewRadev/splitjoin.vim";
+      flake = false;
+    };
+    arctic-nvim = {
+      url = "github:rockyzhang24/arctic.nvim";
+      flake = false;
+    };
     guise-vim = {
       url = "github:lambdalisue/guise.vim";
       flake = false;
