@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    lush-nvim = {
+      url = "github:rktjmp/lush.nvim";
+      flake = false;
+    };
     rust-rools-nvim = {
       url = "github:simrat39/rust-tools.nvim";
       flake = false;
