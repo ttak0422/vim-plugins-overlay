@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    kanagawa-nvim = {
+      url = "github:rebelot/kanagawa.nvim";
+      flake = false;
+    };
     lush-nvim = {
       url = "github:rktjmp/lush.nvim";
       flake = false;
