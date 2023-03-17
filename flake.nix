@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ChatGPT-nvim = {
+      url = "github:jackMort/ChatGPT.nvim";
+      flake = false;
+    };
+    pommodoro-clock = {
+      url = "github:jackMort/pommodoro-clock.nvim";
+      flake = false;
+    };
     kanagawa-nvim = {
       url = "github:rebelot/kanagawa.nvim";
       flake = false;
