@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    treesj = {
+      url = "github:Wansmer/treesj";
+      flake = false;
+    };
     ChatGPT-nvim = {
       url = "github:jackMort/ChatGPT.nvim";
       flake = false;
