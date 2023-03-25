@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "ChatGPT-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679466557,
+        "narHash": "sha256-4o+XJ+RMDTZZeMbS9gvCAcire8MAriIpumx51jkEQls=",
+        "owner": "jackMort",
+        "repo": "ChatGPT.nvim",
+        "rev": "8797871b5d11d256834b1c474ca9016dd0137dcb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jackMort",
+        "repo": "ChatGPT.nvim",
+        "type": "github"
+      }
+    },
     "Comment-nvim": {
       "flake": false,
       "locked": {
@@ -1696,6 +1712,22 @@
         "type": "github"
       }
     },
+    "kanagawa-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679582197,
+        "narHash": "sha256-hIyRWdhyg6GUdJ9lbu1T1stFDVHMAwd7FwJ1BjKme6A=",
+        "owner": "rebelot",
+        "repo": "kanagawa.nvim",
+        "rev": "0133b85255d476afda403f3e9cd0310fe5af3f57",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rebelot",
+        "repo": "kanagawa.nvim",
+        "type": "github"
+      }
+    },
     "kensaku-vim": {
       "flake": false,
       "locked": {
@@ -1885,6 +1917,22 @@
       "original": {
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
+        "type": "github"
+      }
+    },
+    "lush-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679276909,
+        "narHash": "sha256-vsctVmTpLiFYbsHWzAuJ+Wd581NNz1rhddSYG45ZXME=",
+        "owner": "rktjmp",
+        "repo": "lush.nvim",
+        "rev": "a9eefbdc97d1b3f8f38d11700553d0fea2ad8f5b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rktjmp",
+        "repo": "lush.nvim",
         "type": "github"
       }
     },
@@ -2690,6 +2738,22 @@
         "type": "github"
       }
     },
+    "pommodoro-clock": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1674464526,
+        "narHash": "sha256-4AGs/gFItFINUArJ/iuj02jaVYSOuGH+yy/+pESs2W4=",
+        "owner": "jackMort",
+        "repo": "pommodoro-clock.nvim",
+        "rev": "eb7a59109c82917ba1c386f730ecdb9ef778b8a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jackMort",
+        "repo": "pommodoro-clock.nvim",
+        "type": "github"
+      }
+    },
     "pretty-fold-nvim": {
       "flake": false,
       "locked": {
@@ -2837,6 +2901,7 @@
     "root": {
       "inputs": {
         "AbbrevMan-nvim": "AbbrevMan-nvim",
+        "ChatGPT-nvim": "ChatGPT-nvim",
         "Comment-nvim": "Comment-nvim",
         "Ionide-vim": "Ionide-vim",
         "NeoZoom-lua": "NeoZoom-lua",
@@ -2942,6 +3007,7 @@
         "image_preview-nvim": "image_preview-nvim",
         "incline-nvim": "incline-nvim",
         "indent-blankline-nvim": "indent-blankline-nvim",
+        "kanagawa-nvim": "kanagawa-nvim",
         "kensaku-vim": "kensaku-vim",
         "leap-ast-nvim": "leap-ast-nvim",
         "leap-nvim": "leap-nvim",
@@ -2954,6 +3020,7 @@
         "lspsaga-nvim": "lspsaga-nvim",
         "lualine-nvim": "lualine-nvim",
         "luasnip": "luasnip",
+        "lush-nvim": "lush-nvim",
         "marks-nvim": "marks-nvim",
         "mdeval-nvim": "mdeval-nvim",
         "mkdir-nvim": "mkdir-nvim",
@@ -3004,6 +3071,7 @@
         "orgmode": "orgmode",
         "persisted-nvim": "persisted-nvim",
         "plenary-nvim": "plenary-nvim",
+        "pommodoro-clock": "pommodoro-clock",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "project-nvim": "project-nvim",
         "promise-async": "promise-async",
@@ -3044,7 +3112,9 @@
         "tmux-nvim": "tmux-nvim",
         "todo-comments-nvim": "todo-comments-nvim",
         "toggleterm-nvim": "toggleterm-nvim",
+        "tokyonight-nvim": "tokyonight-nvim",
         "toolwindow-nvim": "toolwindow-nvim",
+        "treesj": "treesj",
         "trouble-nvim": "trouble-nvim",
         "true-zen": "true-zen",
         "twilight-nvim": "twilight-nvim",
@@ -3576,6 +3646,22 @@
         "type": "github"
       }
     },
+    "tokyonight-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679554571,
+        "narHash": "sha256-M1fX5o8w6MbDX46HiN1Nw9xjG4Z79zraPKi0VUpyyVU=",
+        "owner": "folke",
+        "repo": "tokyonight.nvim",
+        "rev": "1b0c88094548a62641ece1e668fa9a234e1c539e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "tokyonight.nvim",
+        "type": "github"
+      }
+    },
     "toolwindow-nvim": {
       "flake": false,
       "locked": {
@@ -3589,6 +3675,22 @@
       "original": {
         "owner": "EthanJWright",
         "repo": "toolwindow.nvim",
+        "type": "github"
+      }
+    },
+    "treesj": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679676190,
+        "narHash": "sha256-CzGyPIIn+mZ1fsQ5MEe1gGAzjidPkQz5tUz0RpeNaIU=",
+        "owner": "Wansmer",
+        "repo": "treesj",
+        "rev": "29aac56d24bf9870f2ea337817c5542b56e21f16",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Wansmer",
+        "repo": "treesj",
         "type": "github"
       }
     },
