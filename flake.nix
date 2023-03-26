@@ -3,6 +3,34 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    circles-nvim = {
+      url = "github:projekt0n/circles.nvim";
+      flake = false;
+    };
+    term-edit-nvim = {
+      url = "github:chomosuke/term-edit.nvim";
+      flake = false;
+    };
+    bookmarks-nvim = {
+      url = "github:crusj/bookmarks.nvim";
+      flake = false;
+    };
+    nvim-FeMaco-lua = {
+      url = "github:AckslD/nvim-FeMaco.lua";
+      flake = false;
+    };
+    styler-nvim = {
+      url = "github:folke/styler.nvim";
+      flake = false;
+    };
+    glance-nvim = {
+      url = "github:DNLHC/glance.nvim";
+      flake = false;
+    };
+    JABS-nvim = {
+      url = "github:matbme/JABS.nvim";
+      flake = false;
+    };
     tokyonight-nvim = {
       url = "github:folke/tokyonight.nvim";
       flake = false;
