@@ -230,7 +230,7 @@
       flake = false;
     };
     nvim-ufo = {
-      url = "github:nyngwang/nvim-ufo";
+      url = "github:kevinhwang91/nvim-ufo";
       flake = false;
     };
     vim-buffer-history = {
