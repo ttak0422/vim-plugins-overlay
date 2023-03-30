@@ -3,6 +3,18 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    heirline-nvim = {
+      url = "github:rebelot/heirline.nvim";
+      flake = false;
+    };
+    nxvim = {
+      url = "github:/tenxsoydev/nxvim";
+      flake = false;
+    };
+    indent-o-matic = {
+      url = "github:Darazaki/indent-o-matic";
+      flake = false;
+    };
     circles-nvim = {
       url = "github:projekt0n/circles.nvim";
       flake = false;
