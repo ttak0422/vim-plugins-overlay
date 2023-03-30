@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-repeat = {
+      url = "github:/tpope/vim-repeat";
+      flake = false;
+    };
     qfopen-vim = {
       url = "github:skanehira/qfopen.vim";
       flake = false;
