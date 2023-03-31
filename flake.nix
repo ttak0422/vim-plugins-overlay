@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    close-buffers-nvim = {
+      url = "github:kazhala/close-buffers.nvim";
+      flake = false;
+    };
     vim-repeat = {
       url = "github:/tpope/vim-repeat";
       flake = false;
