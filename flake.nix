@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    minimap-vim = {
+      url = "github:wfxr/minimap.vim";
+      flake = false;
+    };
+    waitevent-nvim = {
+      url = "github:notomo/waitevent.nvim";
+      flake = false;
+    };
     close-buffers-nvim = {
       url = "github:kazhala/close-buffers.nvim";
       flake = false;
