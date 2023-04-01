@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-fundo = {
+      url = "github:kevinhwang91/nvim-fundo";
+      flake = false;
+    };
+    qf-nvim = {
+      url = "github:ten3roberts/qf.nvim";
+      flake = false;
+    };
     nvim-navbuddy = {
       url = "github:SmiteshP/nvim-navbuddy";
       flake = false;
