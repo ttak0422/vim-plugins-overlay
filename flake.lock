@@ -2560,6 +2560,22 @@
         "type": "github"
       }
     },
+    "nvim-navbuddy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680284304,
+        "narHash": "sha256-9zkAB6ZyOPHI/uSmBg/i7vZ5RtlHKNd4U3g9X5wLInU=",
+        "owner": "SmiteshP",
+        "repo": "nvim-navbuddy",
+        "rev": "83c79880814acf88134f8566b6ed7724cec13a73",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SmiteshP",
+        "repo": "nvim-navbuddy",
+        "type": "github"
+      }
+    },
     "nvim-notify": {
       "flake": false,
       "locked": {
@@ -3236,6 +3252,7 @@
         "nvim-jdtls": "nvim-jdtls",
         "nvim-lint": "nvim-lint",
         "nvim-lspconfig": "nvim-lspconfig",
+        "nvim-navbuddy": "nvim-navbuddy",
         "nvim-notify": "nvim-notify",
         "nvim-scrollbar": "nvim-scrollbar",
         "nvim-scrollview": "nvim-scrollview",

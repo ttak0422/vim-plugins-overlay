@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-navbuddy = {
+      url = "github:SmiteshP/nvim-navbuddy";
+      flake = false;
+    };
     minimap-vim = {
       url = "github:wfxr/minimap.vim";
       flake = false;
