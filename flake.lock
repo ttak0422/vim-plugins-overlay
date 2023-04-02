@@ -3326,6 +3326,7 @@
         "sidebar-nvim": "sidebar-nvim",
         "skkeleton": "skkeleton",
         "skkeleton_indicator-nvim": "skkeleton_indicator-nvim",
+        "smart-splits-nvim": "smart-splits-nvim",
         "spaceless-nvim": "spaceless-nvim",
         "splitjoin-vim": "splitjoin-vim",
         "stabilize-nvim": "stabilize-nvim",
@@ -3501,6 +3502,22 @@
       "original": {
         "owner": "delphinus",
         "repo": "skkeleton_indicator.nvim",
+        "type": "github"
+      }
+    },
+    "smart-splits-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680268708,
+        "narHash": "sha256-Ern46zl8gouOD+SQfLxB1Gu9Sqt4SyIawhggBThSvfM=",
+        "owner": "mrjones2014",
+        "repo": "smart-splits.nvim",
+        "rev": "0abf0348aa56025ef31d6eed9e1b3c1fee84421e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mrjones2014",
+        "repo": "smart-splits.nvim",
         "type": "github"
       }
     },

@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    smart-splits-nvim = {
+      url = "github:mrjones2014/smart-splits.nvim";
+      flake = false;
+    };
     nvim-fundo = {
       url = "github:kevinhwang91/nvim-fundo";
       flake = false;
