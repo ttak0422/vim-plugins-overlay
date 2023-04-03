@@ -1392,6 +1392,22 @@
         "type": "github"
       }
     },
+    "error-lens-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680516239,
+        "narHash": "sha256-X9dZCIrb4NlMR+4QgVjIzSmlrHd9w0XqgaAqug6GAPs=",
+        "owner": "chikko80",
+        "repo": "error-lens.nvim",
+        "rev": "bf85136683d5842ea2fb811b990e6ccbe93426db",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chikko80",
+        "repo": "error-lens.nvim",
+        "type": "github"
+      }
+    },
     "fidget-nvim": {
       "flake": false,
       "locked": {
@@ -2512,6 +2528,22 @@
         "type": "github"
       }
     },
+    "nvim-early-retirement": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680426550,
+        "narHash": "sha256-oWJcAghu+neUQwyx3F41ue/3Yo1LbDHpAXGhrO5JLmw=",
+        "owner": "chrisgrieser",
+        "repo": "nvim-early-retirement",
+        "rev": "d2a7c0d7394eb716ce9f14825768aa8a27a91e09",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrisgrieser",
+        "repo": "nvim-early-retirement",
+        "type": "github"
+      }
+    },
     "nvim-fundo": {
       "flake": false,
       "locked": {
@@ -3227,6 +3259,7 @@
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
         "editorconfig-nvim": "editorconfig-nvim",
+        "error-lens-nvim": "error-lens-nvim",
         "fidget-nvim": "fidget-nvim",
         "filetype-nvim": "filetype-nvim",
         "fine-cmdline-nvim": "fine-cmdline-nvim",
@@ -3297,6 +3330,7 @@
         "nvim-dap-ui": "nvim-dap-ui",
         "nvim-dap-virtual-text": "nvim-dap-virtual-text",
         "nvim-docs-view": "nvim-docs-view",
+        "nvim-early-retirement": "nvim-early-retirement",
         "nvim-fundo": "nvim-fundo",
         "nvim-hlslens": "nvim-hlslens",
         "nvim-jdtls": "nvim-jdtls",

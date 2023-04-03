@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    error-lens-nvim = {
+      url = "github:chikko80/error-lens.nvim";
+      flake = false;
+    };
     nvim-early-retirement = {
       url = "github:chrisgrieser/nvim-early-retirement";
       flake = false;
