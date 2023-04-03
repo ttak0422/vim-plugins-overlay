@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-early-retirement = {
+      url = "github:chrisgrieser/nvim-early-retirement";
+      flake = false;
+    };
     bufresize-nvim = {
       url = "github:kwkarlwang/bufresize.nvim";
       flake = false;
