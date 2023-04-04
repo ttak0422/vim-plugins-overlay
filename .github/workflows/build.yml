@@ -7,7 +7,7 @@ jobs:
   build-darwin:
     strategy:
       matrix:
-        os: [ macos-latest ]
+        os: [ macos-12 ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
