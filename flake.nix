@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    coman-nvim = {
+      url = "github:glepnir/coman.nvim";
+      flake = false;
+    };
     vim-markdown = {
       url = "github:preservim/vim-markdown";
       flake = false;

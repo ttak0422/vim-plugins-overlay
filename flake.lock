@@ -624,6 +624,22 @@
         "type": "github"
       }
     },
+    "coman-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667388540,
+        "narHash": "sha256-uaa4VHvSGYz24msTkce+6T/BDJY4jVvxX05HxCAHcnI=",
+        "owner": "glepnir",
+        "repo": "coman.nvim",
+        "rev": "8ff02ca8bd91403430c141b6e9ad86dee1a2c427",
+        "type": "github"
+      },
+      "original": {
+        "owner": "glepnir",
+        "repo": "coman.nvim",
+        "type": "github"
+      }
+    },
     "comfortable-motion-vim": {
       "flake": false,
       "locked": {
@@ -3227,6 +3243,7 @@
         "cmp_luasnip": "cmp_luasnip",
         "colorful-winsep-nvim": "colorful-winsep-nvim",
         "colortils-nvim": "colortils-nvim",
+        "coman-nvim": "coman-nvim",
         "comfortable-motion-vim": "comfortable-motion-vim",
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "confirm-quit-nvim": "confirm-quit-nvim",
