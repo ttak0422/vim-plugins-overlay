@@ -3,6 +3,18 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-markdown = {
+      url = "github:preservim/vim-markdown";
+      flake = false;
+    };
+    nvim-genghis = {
+      url = "github:chrisgrieser/nvim-genghis";
+      flake = false;
+    };
+    satellite-nvim = {
+      url = "github:lewis6991/satellite.nvim";
+      flake = false;
+    };
     error-lens-nvim = {
       url = "github:chikko80/error-lens.nvim";
       flake = false;
