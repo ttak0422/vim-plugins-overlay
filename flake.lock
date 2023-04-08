@@ -1200,6 +1200,22 @@
         "type": "github"
       }
     },
+    "ddu-source-file_fd": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669721982,
+        "narHash": "sha256-cCCTNUCEg1ozS9otD/u5pm9pop6oxD+BUqiBwPXEOvU=",
+        "owner": "nabezokodaikon",
+        "repo": "ddu-source-file_fd",
+        "rev": "18593668deb47e5c70724227ebd5baa47d0a9974",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nabezokodaikon",
+        "repo": "ddu-source-file_fd",
+        "type": "github"
+      }
+    },
     "ddu-source-file_rec": {
       "flake": false,
       "locked": {
@@ -3311,6 +3327,7 @@
         "ddu-kind-file": "ddu-kind-file",
         "ddu-source-buffer": "ddu-source-buffer",
         "ddu-source-file": "ddu-source-file",
+        "ddu-source-file_fd": "ddu-source-file_fd",
         "ddu-source-file_rec": "ddu-source-file_rec",
         "ddu-source-rg": "ddu-source-rg",
         "ddu-ui-ff": "ddu-ui-ff",

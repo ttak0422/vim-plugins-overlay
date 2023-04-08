@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-source-file_fd = {
+      url = "github:nabezokodaikon/ddu-source-file_fd";
+      flake = false;
+    };
     nvim-spider = {
       url = "github:chrisgrieser/nvim-spider";
       flake = false;
