@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-filter-converter_display_word = {
+      url = "github:Shougo/ddu-filter-converter_display_word";
+      flake = false;
+    };
     ddu-source-file_external = {
       url = "github:matsui54/ddu-source-file_external";
       flake = false;
