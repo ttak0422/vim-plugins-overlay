@@ -1200,6 +1200,22 @@
         "type": "github"
       }
     },
+    "ddu-source-file_external": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679905766,
+        "narHash": "sha256-S8B1LirFX4EsLrV2Co0E83LfjqcV66Up3XeBp15I+gQ=",
+        "owner": "matsui54",
+        "repo": "ddu-source-file_external",
+        "rev": "a6be5dea1d82ba3d9c2f8131ba5dd8210c65bd93",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matsui54",
+        "repo": "ddu-source-file_external",
+        "type": "github"
+      }
+    },
     "ddu-source-file_fd": {
       "flake": false,
       "locked": {
@@ -3327,6 +3343,7 @@
         "ddu-kind-file": "ddu-kind-file",
         "ddu-source-buffer": "ddu-source-buffer",
         "ddu-source-file": "ddu-source-file",
+        "ddu-source-file_external": "ddu-source-file_external",
         "ddu-source-file_fd": "ddu-source-file_fd",
         "ddu-source-file_rec": "ddu-source-file_rec",
         "ddu-source-rg": "ddu-source-rg",
