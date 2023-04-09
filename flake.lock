@@ -912,6 +912,22 @@
         "type": "github"
       }
     },
+    "ddc-source-input": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673950953,
+        "narHash": "sha256-TPeRsCdEybMyJ5Ia+ErxWzU+Y2WMWuu71g7t6Lg1264=",
+        "owner": "Shougo",
+        "repo": "ddc-source-input",
+        "rev": "12600a5371dcef2c8d5e227abc041743dbd7224b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-input",
+        "type": "github"
+      }
+    },
     "ddc-source-line": {
       "flake": false,
       "locked": {
@@ -3341,6 +3357,7 @@
         "ddc-source-cmdline": "ddc-source-cmdline",
         "ddc-source-cmdline-history": "ddc-source-cmdline-history",
         "ddc-source-file": "ddc-source-file",
+        "ddc-source-input": "ddc-source-input",
         "ddc-source-line": "ddc-source-line",
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
