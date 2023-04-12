@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    modicator-nvim = {
+      url = "github:mawkler/modicator.nvim";
+      flake = false;
+    };
     ddc-source-input = {
       url = "github:Shougo/ddc-source-input";
       flake = false;

@@ -2224,6 +2224,22 @@
         "type": "github"
       }
     },
+    "modicator-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678794826,
+        "narHash": "sha256-tzcmm6aZx9KKCRsfAgkknbc73/6/1SusWXIkeOIkOH0=",
+        "owner": "mawkler",
+        "repo": "modicator.nvim",
+        "rev": "28042ea94db52e19d02eb97cfc7f792d8f61f37a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mawkler",
+        "repo": "modicator.nvim",
+        "type": "github"
+      }
+    },
     "neco-vim": {
       "flake": false,
       "locked": {
@@ -3439,6 +3455,7 @@
         "mdeval-nvim": "mdeval-nvim",
         "minimap-vim": "minimap-vim",
         "mkdir-nvim": "mkdir-nvim",
+        "modicator-nvim": "modicator-nvim",
         "neco-vim": "neco-vim",
         "neofsharp-vim": "neofsharp-vim",
         "neogen": "neogen",
