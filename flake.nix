@@ -3,6 +3,26 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    safe-close-window-nvim = {
+      url = "github:ttak0422/safe-close-window-nvim";
+      flake = false;
+    };
+    nvim-trevJ-lua = {
+      url = "github:AckslD/nvim-trevJ.lua";
+      flake = false;
+    };
+    Codewindow-nvim = {
+      url = "github:gorbit99/codewindow.nvim";
+      flake = false;
+    };
+    pretty_hover = {
+      url = "github:Fildo7525/pretty_hover";
+      flake = false;
+    };
+    nvim-regexplainer = {
+      url = "github:bennypowers/nvim-regexplainer";
+      flake = false;
+    };
     pets-nvim = {
       url = "github:giusgad/pets.nvim";
       flake = false;
