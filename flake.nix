@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    pets-nvim = {
+      url = "github:giusgad/pets.nvim";
+      flake = false;
+    };
+    nvim-treesitter-context = {
+      url = "github:nvim-treesitter/nvim-treesitter-context";
+      flake = false;
+    };
     modicator-nvim = {
       url = "github:mawkler/modicator.nvim";
       flake = false;
