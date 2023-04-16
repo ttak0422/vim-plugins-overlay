@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    reacher-nvim = {
+      url = "github:notomo/reacher.nvim";
+      flake = false;
+    };
+    debugprint-nvim = {
+      url = "github:andrewferrier/debugprint.nvim";
+      flake = false;
+    };
     safe-close-window-nvim = {
       url = "github:ttak0422/safe-close-window-nvim";
       flake = false;

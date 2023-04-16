@@ -1376,6 +1376,22 @@
         "type": "github"
       }
     },
+    "debugprint-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681399000,
+        "narHash": "sha256-4QMm9V8CygBhV8ElphFj7gvastydETPgkXmRjcJXOyI=",
+        "owner": "andrewferrier",
+        "repo": "debugprint.nvim",
+        "rev": "0538c5de96a1b1cea4462c81d0075635febd7dcb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andrewferrier",
+        "repo": "debugprint.nvim",
+        "type": "github"
+      }
+    },
     "denops-popup-preview-vim": {
       "flake": false,
       "locked": {
@@ -3378,6 +3394,22 @@
         "type": "github"
       }
     },
+    "reacher-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679824789,
+        "narHash": "sha256-ozUd2KVbKuZpH6QWdCUiYRgG2+hu/p1/axbYgnYOloY=",
+        "owner": "notomo",
+        "repo": "reacher.nvim",
+        "rev": "d827fe662dbd1cbccdaab577e46214cab5b0dac4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "notomo",
+        "repo": "reacher.nvim",
+        "type": "github"
+      }
+    },
     "registers-nvim": {
       "flake": false,
       "locked": {
@@ -3498,6 +3530,7 @@
         "ddu-ui-filer": "ddu-ui-filer",
         "ddu-vim": "ddu-vim",
         "ddu-vim-ui-select": "ddu-vim-ui-select",
+        "debugprint-nvim": "debugprint-nvim",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
         "denops-vim": "denops-vim",
@@ -3623,6 +3656,7 @@
         "qfopen-vim": "qfopen-vim",
         "quick-scope": "quick-scope",
         "range-highlight-nvim": "range-highlight-nvim",
+        "reacher-nvim": "reacher-nvim",
         "registers-nvim": "registers-nvim",
         "rest-nvim": "rest-nvim",
         "rust-rools-nvim": "rust-rools-nvim",
