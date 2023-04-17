@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-treesitter-refactor = {
+      url = "github:nvim-treesitter/nvim-treesitter-refactor";
+      flake = false;
+    };
+    nvim-treesitter-textobjects = {
+      url = "github:nvim-treesitter/nvim-treesitter-textobjects";
+      flake = false;
+    };
     reacher-nvim = {
       url = "github:notomo/reacher.nvim";
       flake = false;
