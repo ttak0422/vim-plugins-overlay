@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-ts-rainbow2 = {
+      url = "github:HiPhish/nvim-ts-rainbow2";
+      flake = false;
+    };
     nvim-treesitter-refactor = {
       url = "github:nvim-treesitter/nvim-treesitter-refactor";
       flake = false;
