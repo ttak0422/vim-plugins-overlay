@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-dd = {
+      url = "gitlab:yorickpeterse/nvim-dd";
+      flake = false;
+    };
     typescript-nvim = {
       url = "github:jose-elias-alvarez/typescript.nvim";
       flake = false;

@@ -2656,6 +2656,22 @@
         "type": "github"
       }
     },
+    "nvim-dd": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1639427557,
+        "narHash": "sha256-R8QQx/EIkBHt3p4MDh7GXj0bU5vPfG8lb752MrpOuVU=",
+        "owner": "yorickpeterse",
+        "repo": "nvim-dd",
+        "rev": "4ab78f8c9759db3416ad155d5859c91e7bf3f427",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "yorickpeterse",
+        "repo": "nvim-dd",
+        "type": "gitlab"
+      }
+    },
     "nvim-docs-view": {
       "flake": false,
       "locked": {
@@ -3674,6 +3690,7 @@
         "nvim-dap-go": "nvim-dap-go",
         "nvim-dap-ui": "nvim-dap-ui",
         "nvim-dap-virtual-text": "nvim-dap-virtual-text",
+        "nvim-dd": "nvim-dd",
         "nvim-docs-view": "nvim-docs-view",
         "nvim-early-retirement": "nvim-early-retirement",
         "nvim-fundo": "nvim-fundo",
