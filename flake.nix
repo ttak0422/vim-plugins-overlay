@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     nvim-dd = {
-      url = "gitlab:yorickpeterse/nvim-dd";
+      url = "github:yorickpeterse/nvim-dd";
       flake = false;
     };
     typescript-nvim = {

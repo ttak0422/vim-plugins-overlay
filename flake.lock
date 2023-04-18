@@ -2664,12 +2664,12 @@
         "owner": "yorickpeterse",
         "repo": "nvim-dd",
         "rev": "4ab78f8c9759db3416ad155d5859c91e7bf3f427",
-        "type": "gitlab"
+        "type": "github"
       },
       "original": {
         "owner": "yorickpeterse",
         "repo": "nvim-dd",
-        "type": "gitlab"
+        "type": "github"
       }
     },
     "nvim-docs-view": {
