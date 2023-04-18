@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    typescript-nvim = {
+      url = "github:jose-elias-alvarez/typescript.nvim";
+      flake = false;
+    };
+    deno-nvim = {
+      url = "github:sigmaSd/deno-nvim";
+      flake = false;
+    };
     nvim-ts-rainbow2 = {
       url = "github:HiPhish/nvim-ts-rainbow2";
       flake = false;

@@ -1392,6 +1392,22 @@
         "type": "github"
       }
     },
+    "deno-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681663053,
+        "narHash": "sha256-B6aF3Zswuxe2/Cbyr2EaeG/LGSn5EeXixcyW0KA4r/o=",
+        "owner": "sigmaSd",
+        "repo": "deno-nvim",
+        "rev": "5de56a6d75e475e2e9106b80a490002e800eeb42",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sigmaSd",
+        "repo": "deno-nvim",
+        "type": "github"
+      }
+    },
     "denops-popup-preview-vim": {
       "flake": false,
       "locked": {
@@ -3579,6 +3595,7 @@
         "ddu-vim": "ddu-vim",
         "ddu-vim-ui-select": "ddu-vim-ui-select",
         "debugprint-nvim": "debugprint-nvim",
+        "deno-nvim": "deno-nvim",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
         "denops-vim": "denops-vim",
@@ -3752,6 +3769,7 @@
         "trouble-nvim": "trouble-nvim",
         "true-zen": "true-zen",
         "twilight-nvim": "twilight-nvim",
+        "typescript-nvim": "typescript-nvim",
         "typescript-vim": "typescript-vim",
         "venn-nvim": "venn-nvim",
         "vim-altercmd": "vim-altercmd",
@@ -4456,6 +4474,22 @@
       "original": {
         "owner": "folke",
         "repo": "twilight.nvim",
+        "type": "github"
+      }
+    },
+    "typescript-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1672710615,
+        "narHash": "sha256-PHVY5NJbOGvY9p0F0QNSfMKmAWdqjw1RB0Vspq88qMI=",
+        "owner": "jose-elias-alvarez",
+        "repo": "typescript.nvim",
+        "rev": "f66d4472606cb24615dfb7dbc6557e779d177624",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jose-elias-alvarez",
+        "repo": "typescript.nvim",
         "type": "github"
       }
     },
