@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-yati = {
+      url = "github:yioneko/nvim-yati";
+      flake = false;
+    };
+    nvim-window = {
+      url = "github:yorickpeterse/nvim-window";
+      flake = false;
+    };
     nvim-dd = {
       url = "github:yorickpeterse/nvim-dd";
       flake = false;
