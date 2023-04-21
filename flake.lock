@@ -224,6 +224,22 @@
         "type": "github"
       }
     },
+    "autolist-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681970839,
+        "narHash": "sha256-/MDKSJPZpko49OEdLd7LSUzcCmcRKnqMWi/6I83+Hs4=",
+        "owner": "gaoDean",
+        "repo": "autolist.nvim",
+        "rev": "0936e384b10315f65b8ef3bf1be938314d23a528",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gaoDean",
+        "repo": "autolist.nvim",
+        "type": "github"
+      }
+    },
     "bclose-vim": {
       "flake": false,
       "locked": {
@@ -3570,6 +3586,7 @@
         "alpha-nvim": "alpha-nvim",
         "anyline-nvim": "anyline-nvim",
         "arctic-nvim": "arctic-nvim",
+        "autolist-nvim": "autolist-nvim",
         "bclose-vim": "bclose-vim",
         "bigfile-nvim": "bigfile-nvim",
         "bookmarks-nvim": "bookmarks-nvim",

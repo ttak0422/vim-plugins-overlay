@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    autolist-nvim = {
+      url = "github:gaoDean/autolist.nvim";
+      flake = false;
+    };
     nvim-yati = {
       url = "github:yioneko/nvim-yati";
       flake = false;
