@@ -272,6 +272,22 @@
         "type": "github"
       }
     },
+    "backseat-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681489323,
+        "narHash": "sha256-OdKcNxxD51hbhJ8U0GcD6Eo9jTGv+fErhwJJ+OAlSjU=",
+        "owner": "james1236",
+        "repo": "backseat.nvim",
+        "rev": "3bb2781cdbf9b26c60e9ba45bfb22625e235c142",
+        "type": "github"
+      },
+      "original": {
+        "owner": "james1236",
+        "repo": "backseat.nvim",
+        "type": "github"
+      }
+    },
     "bclose-vim": {
       "flake": false,
       "locked": {
@@ -3088,22 +3104,6 @@
         "type": "github"
       }
     },
-    "nvim-treesitter": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1681986805,
-        "narHash": "sha256-9DQwD08LHiLn1HT0UAAwqkMubThm7OWETg202EP+bLg=",
-        "owner": "nvim-treesitter",
-        "repo": "nvim-treesitter",
-        "rev": "b0338a056525e83d88aaa76e8cf396af07410bed",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nvim-treesitter",
-        "repo": "nvim-treesitter",
-        "type": "github"
-      }
-    },
     "nvim-treesitter-context": {
       "flake": false,
       "locked": {
@@ -3733,6 +3733,7 @@
         "anyline-nvim": "anyline-nvim",
         "arctic-nvim": "arctic-nvim",
         "autolist-nvim": "autolist-nvim",
+        "backseat-nvim": "backseat-nvim",
         "bclose-vim": "bclose-vim",
         "better-escape-nvim": "better-escape-nvim",
         "bigfile-nvim": "bigfile-nvim",
@@ -3909,7 +3910,6 @@
         "nvim-surround": "nvim-surround",
         "nvim-transparent": "nvim-transparent",
         "nvim-tree-lua": "nvim-tree-lua",
-        "nvim-treesitter": "nvim-treesitter",
         "nvim-treesitter-context": "nvim-treesitter-context",
         "nvim-treesitter-refactor": "nvim-treesitter-refactor",
         "nvim-treesitter-textobjects": "nvim-treesitter-textobjects",
