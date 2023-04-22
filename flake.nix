@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-neorg = {
+      url = "github:nvim-neorg/neorg";
+      flake = false;
+    };
     backseat-nvim = {
       url = "github:james1236/backseat.nvim";
       flake = false;
