@@ -3,6 +3,50 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    better-escape-nvim = {
+      url = "github:max397574/better-escape.nvim";
+      flake = false;
+    };
+    winshift-nvim = {
+      url = "github:sindrets/winshift.nvim";
+      flake = false;
+    };
+    animation-nvim = {
+      url = "github:anuvyklack/animation.nvim";
+      flake = false;
+    };
+    middle-class = {
+      url = "github:anuvyklack/middleclass";
+      flake = false;
+    };
+    windows-nvim = {
+      url = "github:anuvyklack/windows.nvim";
+      flake = false;
+    };
+    monokai-pro-nvim = {
+      url = "github:loctvl842/monokai-pro.nvim";
+      flake = false;
+    };
+    advanced-git-search-nvim = {
+      url = "github:aaronhallaert/advanced-git-search.nvim";
+      flake = false;
+    };
+    poimandres-nvim = {
+      url = "github:olivercederborg/poimandres.nvim";
+      flake = false;
+    };
+    nvim-dap-vscode-js = {
+      url = "github:mxsdev/nvim-dap-vscode-js";
+      flake = false;
+    };
+    grapple-nvim = {
+      url = "github:cbochs/grapple.nvim";
+      flake = false;
+    };
+    pantran-nvim = {
+      url = "github:potamides/pantran.nvim";
+      flake = false;
+    };
     autolist-nvim = {
       url = "github:gaoDean/autolist.nvim";
       flake = false;
