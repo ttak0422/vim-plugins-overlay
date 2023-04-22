@@ -2320,7 +2320,7 @@
         "type": "github"
       }
     },
-    "middle-class": {
+    "middleclass": {
       "flake": false,
       "locked": {
         "lastModified": 1663692601,
@@ -3861,7 +3861,7 @@
         "lush-nvim": "lush-nvim",
         "marks-nvim": "marks-nvim",
         "mdeval-nvim": "mdeval-nvim",
-        "middle-class": "middle-class",
+        "middleclass": "middleclass",
         "minimap-vim": "minimap-vim",
         "mkdir-nvim": "mkdir-nvim",
         "modicator-nvim": "modicator-nvim",

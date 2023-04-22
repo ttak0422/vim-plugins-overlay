@@ -15,7 +15,7 @@
       url = "github:anuvyklack/animation.nvim";
       flake = false;
     };
-    middle-class = {
+    middleclass = {
       url = "github:anuvyklack/middleclass";
       flake = false;
     };
