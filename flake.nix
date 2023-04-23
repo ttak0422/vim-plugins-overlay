@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    nvim-neorg = {
+    neorg = {
       url = "github:nvim-neorg/neorg";
       flake = false;
     };
