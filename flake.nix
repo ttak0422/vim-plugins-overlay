@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-jukit = {
+      url = "github:luk400/vim-jukit";
+      flake = false;
+    };
     neorg = {
       url = "github:nvim-neorg/neorg";
       flake = false;

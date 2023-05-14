@@ -2480,6 +2480,22 @@
         "type": "github"
       }
     },
+    "neorg": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683914453,
+        "narHash": "sha256-P/Vt09+CSwDFXKrj9/kaReJjMXdrJwrpoFUStjPZpxE=",
+        "owner": "nvim-neorg",
+        "repo": "neorg",
+        "rev": "4f5448c88f1a09bd7a4dddcfef3b2148619e7280",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorg",
+        "repo": "neorg",
+        "type": "github"
+      }
+    },
     "neoscroll-nvim": {
       "flake": false,
       "locked": {
@@ -2957,22 +2973,6 @@
       "original": {
         "owner": "SmiteshP",
         "repo": "nvim-navbuddy",
-        "type": "github"
-      }
-    },
-    "nvim-neorg": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1682173858,
-        "narHash": "sha256-h7If9/R74rDDhprVy2r6cgOIF9G/VtYSrtfoGOt+4hc=",
-        "owner": "nvim-neorg",
-        "repo": "neorg",
-        "rev": "d61c4d1dd9442ec34d57e4a296b35a1117e65dbb",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nvim-neorg",
-        "repo": "neorg",
         "type": "github"
       }
     },
@@ -3903,6 +3903,7 @@
         "neofsharp-vim": "neofsharp-vim",
         "neogen": "neogen",
         "neogit": "neogit",
+        "neorg": "neorg",
         "neoscroll-nvim": "neoscroll-nvim",
         "nightfox-nvim": "nightfox-nvim",
         "nixpkgs": "nixpkgs",
@@ -3933,7 +3934,6 @@
         "nvim-lint": "nvim-lint",
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-navbuddy": "nvim-navbuddy",
-        "nvim-neorg": "nvim-neorg",
         "nvim-notify": "nvim-notify",
         "nvim-regexplainer": "nvim-regexplainer",
         "nvim-scrollbar": "nvim-scrollbar",
@@ -4034,6 +4034,7 @@
         "vim-fontzoom": "vim-fontzoom",
         "vim-html-template-literals": "vim-html-template-literals",
         "vim-illuminate": "vim-illuminate",
+        "vim-jukit": "vim-jukit",
         "vim-markdown": "vim-markdown",
         "vim-matchup": "vim-matchup",
         "vim-nix": "vim-nix",
@@ -4891,6 +4892,22 @@
       "original": {
         "owner": "RRethy",
         "repo": "vim-illuminate",
+        "type": "github"
+      }
+    },
+    "vim-jukit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683746589,
+        "narHash": "sha256-l9/8RPBcjprKNDXQzxDO+v7qDsHMiTRqdqTeeu0JwVI=",
+        "owner": "luk400",
+        "repo": "vim-jukit",
+        "rev": "ae1629464f84f32a589467f9d1e3c9bc4b3bc90c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luk400",
+        "repo": "vim-jukit",
         "type": "github"
       }
     },
