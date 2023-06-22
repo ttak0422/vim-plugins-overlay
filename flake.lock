@@ -1632,6 +1632,22 @@
         "type": "github"
       }
     },
+    "everforest": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684479955,
+        "narHash": "sha256-2OFCT2YE4Ugoo7ptXbaJFXluQ/CKpQMY2ieQ/f4f5Uk=",
+        "owner": "sainnhe",
+        "repo": "everforest",
+        "rev": "1db527e770deb8cbb3b5b60d8921f80bd2a4c12c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sainnhe",
+        "repo": "everforest",
+        "type": "github"
+      }
+    },
     "fidget-nvim": {
       "flake": false,
       "locked": {
@@ -3930,6 +3946,7 @@
         "dressing-nvim": "dressing-nvim",
         "editorconfig-nvim": "editorconfig-nvim",
         "error-lens-nvim": "error-lens-nvim",
+        "everforest": "everforest",
         "fidget-nvim": "fidget-nvim",
         "filetype-nvim": "filetype-nvim",
         "fine-cmdline-nvim": "fine-cmdline-nvim",

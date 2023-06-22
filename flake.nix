@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    everforest = {
+      url = "github:sainnhe/everforest";
+      flake = false;
+    };
     ssr-nvim = {
       url = "github:cshuaimin/ssr.nvim";
       flake = false;
