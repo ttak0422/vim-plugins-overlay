@@ -3,6 +3,34 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ssr-nvim = {
+      url = "github:cshuaimin/ssr.nvim";
+      flake = false;
+    };
+    nap-nvim = {
+      url = "github:liangxianzhe/nap.nvim";
+      flake = false;
+    };
+    flash-nvim = {
+      url = "github:folke/flash.nvim";
+      flake = false;
+    };
+    LspUI-nvim = {
+      url = "github:jinzhongjia/LspUI.nvim";
+      flake = false;
+    };
+    lsp-lens-nvim = {
+      url = "github:VidocqH/lsp-lens.nvim";
+      flake = false;
+    };
+    sentiment-nvim = {
+      url = "github:utilyre/sentiment.nvim";
+      flake = false;
+    };
+    github-colors = {
+      url = "github:lourenci/github-colors";
+      flake = false;
+    };
     vim-jukit = {
       url = "github:luk400/vim-jukit";
       flake = false;
