@@ -3,6 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    wildfire-vim = {
+      url = "github:gcmt/wildfire.vim";
+      flake = false;
+    };
+    typescript-tool-nvim = {
+      url = "github:pmizio/typescript-tools.nvim";
+      flake = false;
+    };
     everforest = {
       url = "github:sainnhe/everforest";
       flake = false;

@@ -4129,6 +4129,7 @@
         "true-zen": "true-zen",
         "twilight-nvim": "twilight-nvim",
         "typescript-nvim": "typescript-nvim",
+        "typescript-tool-nvim": "typescript-tool-nvim",
         "typescript-vim": "typescript-vim",
         "venn-nvim": "venn-nvim",
         "vim-altercmd": "vim-altercmd",
@@ -4157,6 +4158,7 @@
         "waitevent-nvim": "waitevent-nvim",
         "which-key-nvim": "which-key-nvim",
         "wilder-nvim": "wilder-nvim",
+        "wildfire-vim": "wildfire-vim",
         "winbar-nvim": "winbar-nvim",
         "winbarbar-nvim": "winbarbar-nvim",
         "windline-nvim": "windline-nvim",
@@ -4887,6 +4889,22 @@
         "type": "github"
       }
     },
+    "typescript-tool-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687570409,
+        "narHash": "sha256-oPnUrzgygorAHY7iXCSAuT5ze/xVrzp1txKR+sw0ArQ=",
+        "owner": "pmizio",
+        "repo": "typescript-tools.nvim",
+        "rev": "9e6e50212e6a694e349523188686cdca96f8e93e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pmizio",
+        "repo": "typescript-tools.nvim",
+        "type": "github"
+      }
+    },
     "typescript-vim": {
       "flake": false,
       "locked": {
@@ -5332,6 +5350,22 @@
       "original": {
         "owner": "gelguy",
         "repo": "wilder.nvim",
+        "type": "github"
+      }
+    },
+    "wildfire-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651738481,
+        "narHash": "sha256-t3gdt4BnHevwM3cQ8A/BEmHL9W8KbQfUVyggMAYI+1I=",
+        "owner": "gcmt",
+        "repo": "wildfire.vim",
+        "rev": "b371e2b1d938ae0e164146136051de164ecb9aa5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gcmt",
+        "repo": "wildfire.vim",
         "type": "github"
       }
     },
