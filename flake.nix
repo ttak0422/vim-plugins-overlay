@@ -3,9 +3,13 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    copilot-lua = {
+      url = "github:zbirenbaum/copilot.lua";
+      flake = false;
+    };
     copilot-vim = {
       url = "github:github/copilot.vim";
-      flake=  false;
+      flake = false;
     };
     wildfire-vim = {
       url = "github:gcmt/wildfire.vim";

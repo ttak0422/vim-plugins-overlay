@@ -800,6 +800,22 @@
         "type": "github"
       }
     },
+    "copilot-lua": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687582763,
+        "narHash": "sha256-7dpjwP086FrtzywUsI+pbUXexaW4HCrWT3MPfhCzPuU=",
+        "owner": "zbirenbaum",
+        "repo": "copilot.lua",
+        "rev": "33aa9419da8f9bf9b6a992e6c9c7b7f9e36dac06",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zbirenbaum",
+        "repo": "copilot.lua",
+        "type": "github"
+      }
+    },
     "copilot-vim": {
       "flake": false,
       "locked": {
@@ -3910,6 +3926,7 @@
         "comfortable-motion-vim": "comfortable-motion-vim",
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "confirm-quit-nvim": "confirm-quit-nvim",
+        "copilot-lua": "copilot-lua",
         "copilot-vim": "copilot-vim",
         "cybu-nvim": "cybu-nvim",
         "ddc-buffer": "ddc-buffer",
