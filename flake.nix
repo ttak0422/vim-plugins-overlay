@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    dropbar-nvim = {
+      url = "github:Bekaboo/dropbar.nvim";
+      flake = false;
+    };
     copilot-lua = {
       url = "github:zbirenbaum/copilot.lua";
       flake = false;

@@ -1632,6 +1632,22 @@
         "type": "github"
       }
     },
+    "dropbar-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687677994,
+        "narHash": "sha256-xzm54zp3IkaSLNjyY5DbIwZse+h7NFUGvkp/T7aw8Iw=",
+        "owner": "Bekaboo",
+        "repo": "dropbar.nvim",
+        "rev": "2cc0381cd7ef1d69d289a36715a3ea817bee2691",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Bekaboo",
+        "repo": "dropbar.nvim",
+        "type": "github"
+      }
+    },
     "editorconfig-nvim": {
       "flake": false,
       "locked": {
@@ -3978,6 +3994,7 @@
         "diffview-nvim": "diffview-nvim",
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
+        "dropbar-nvim": "dropbar-nvim",
         "editorconfig-nvim": "editorconfig-nvim",
         "error-lens-nvim": "error-lens-nvim",
         "everforest": "everforest",
