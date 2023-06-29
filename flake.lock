@@ -2080,6 +2080,22 @@
         "type": "github"
       }
     },
+    "hlchunk-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1686965084,
+        "narHash": "sha256-YvB4nfDUfRdOS27kyIkL6Bd62xSV6wZ2+p4ZylIddcM=",
+        "owner": "shellRaining",
+        "repo": "hlchunk.nvim",
+        "rev": "604596e7f6068b1b8af880f673af265924753c47",
+        "type": "github"
+      },
+      "original": {
+        "owner": "shellRaining",
+        "repo": "hlchunk.nvim",
+        "type": "github"
+      }
+    },
     "hologram-nvim": {
       "flake": false,
       "locked": {
@@ -4022,6 +4038,7 @@
         "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",
         "heirline-nvim": "heirline-nvim",
+        "hlchunk-nvim": "hlchunk-nvim",
         "hologram-nvim": "hologram-nvim",
         "hop-nvim": "hop-nvim",
         "hover-nvim": "hover-nvim",

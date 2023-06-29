@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    hlchunk-nvim = {
+      url = "github:shellRaining/hlchunk.nvim";
+      flake = false;
+    };
     dropbar-nvim = {
       url = "github:Bekaboo/dropbar.nvim";
       flake = false;
