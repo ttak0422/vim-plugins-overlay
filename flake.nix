@@ -3,6 +3,18 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    edgy-nvim = {
+      url = "github:folke/edgy.nvim";
+      flake = false;
+    };
+    nvim-various-textobjs = {
+      url = "github:chrisgrieser/nvim-various-textobjs";
+      flake = false;
+    };
+    codewindow-nvim = {
+      url = "github:gorbit99/codewindow.nvim";
+      flake = false;
+    };
     hlchunk-nvim = {
       url = "github:shellRaining/hlchunk.nvim";
       flake = false;
@@ -869,7 +881,6 @@
       url = "github:kevinhwang91/nvim-hlslens";
       flake = false;
     };
-
     lualine-nvim = {
       url = "github:nvim-lualine/lualine.nvim";
       flake = false;

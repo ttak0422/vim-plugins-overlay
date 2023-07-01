@@ -704,6 +704,22 @@
         "type": "github"
       }
     },
+    "codewindow-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1686581763,
+        "narHash": "sha256-PtT8tnnKQgd9tVGZq2nXjOyzNx0tgEHVYtJwhsVxNxs=",
+        "owner": "gorbit99",
+        "repo": "codewindow.nvim",
+        "rev": "c6bb650673f0026d6dca3f3bf31b93e486f23b4c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gorbit99",
+        "repo": "codewindow.nvim",
+        "type": "github"
+      }
+    },
     "colorful-winsep-nvim": {
       "flake": false,
       "locked": {
@@ -1645,6 +1661,22 @@
       "original": {
         "owner": "Bekaboo",
         "repo": "dropbar.nvim",
+        "type": "github"
+      }
+    },
+    "edgy-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1688110980,
+        "narHash": "sha256-mxcB7I7LvFvsghVWGz3A857YwH63hcAlFRV4QgHKzIA=",
+        "owner": "folke",
+        "repo": "edgy.nvim",
+        "rev": "422dbda0f3a074475947b2338f06889da6606e32",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "edgy.nvim",
         "type": "github"
       }
     },
@@ -3424,6 +3456,22 @@
         "type": "github"
       }
     },
+    "nvim-various-textobjs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687873954,
+        "narHash": "sha256-dyYHRwQfHMSJftisH8q1YcCLR+diF0ecAO/UvXZO298=",
+        "owner": "chrisgrieser",
+        "repo": "nvim-various-textobjs",
+        "rev": "6dd4d07bd0065abbf8c4c0e141c26e4ad07a7c1b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrisgrieser",
+        "repo": "nvim-various-textobjs",
+        "type": "github"
+      }
+    },
     "nvim-web-devicons": {
       "flake": false,
       "locked": {
@@ -3952,6 +4000,7 @@
         "cmp-treesitter": "cmp-treesitter",
         "cmp-vsnip": "cmp-vsnip",
         "cmp_luasnip": "cmp_luasnip",
+        "codewindow-nvim": "codewindow-nvim",
         "colorful-winsep-nvim": "colorful-winsep-nvim",
         "colortils-nvim": "colortils-nvim",
         "coman-nvim": "coman-nvim",
@@ -4011,6 +4060,7 @@
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
         "dropbar-nvim": "dropbar-nvim",
+        "edgy-nvim": "edgy-nvim",
         "editorconfig-nvim": "editorconfig-nvim",
         "error-lens-nvim": "error-lens-nvim",
         "everforest": "everforest",
@@ -4122,6 +4172,7 @@
         "nvim-ts-rainbow": "nvim-ts-rainbow",
         "nvim-ts-rainbow2": "nvim-ts-rainbow2",
         "nvim-ufo": "nvim-ufo",
+        "nvim-various-textobjs": "nvim-various-textobjs",
         "nvim-web-devicons": "nvim-web-devicons",
         "nvim-window": "nvim-window",
         "nvim-yati": "nvim-yati",
