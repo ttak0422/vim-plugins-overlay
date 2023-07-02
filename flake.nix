@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    telescope-repo-nvim = {
+      url = "github:cljoly/telescope-repo.nvim";
+      flake = false;
+    };
     edgy-nvim = {
       url = "github:folke/edgy.nvim";
       flake = false;

@@ -4230,6 +4230,7 @@
         "telescope-frecency-nvim": "telescope-frecency-nvim",
         "telescope-live-grep-args-nvim": "telescope-live-grep-args-nvim",
         "telescope-nvim": "telescope-nvim",
+        "telescope-repo-nvim": "telescope-repo-nvim",
         "telescope-smart-history-nvim": "telescope-smart-history-nvim",
         "telescope-sonictemplate-nvim": "telescope-sonictemplate-nvim",
         "telescope-ui-select-nvim": "telescope-ui-select-nvim",
@@ -4717,6 +4718,22 @@
       "original": {
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
+        "type": "github"
+      }
+    },
+    "telescope-repo-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679091846,
+        "narHash": "sha256-VBVOlR45bqh44udr4UurQ86tsfubcdXGXef7XGznYuA=",
+        "owner": "cljoly",
+        "repo": "telescope-repo.nvim",
+        "rev": "d069994f0571366ca2a80f0fb464bb80fd63569d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cljoly",
+        "repo": "telescope-repo.nvim",
         "type": "github"
       }
     },
