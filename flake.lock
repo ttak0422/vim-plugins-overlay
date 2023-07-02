@@ -4211,6 +4211,7 @@
         "sentiment-nvim": "sentiment-nvim",
         "serenade": "serenade",
         "sidebar-nvim": "sidebar-nvim",
+        "skk-vconv-vim": "skk-vconv-vim",
         "skkeleton": "skkeleton",
         "skkeleton_indicator-nvim": "skkeleton_indicator-nvim",
         "smart-splits-nvim": "smart-splits-nvim",
@@ -4414,6 +4415,22 @@
       "original": {
         "owner": "sidebar-nvim",
         "repo": "sidebar.nvim",
+        "type": "github"
+      }
+    },
+    "skk-vconv-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659333605,
+        "narHash": "sha256-frvnsoDNxgBNV3A0wC5sBTYmyQGmx6xTYd3smsiYIUY=",
+        "owner": "Matts966",
+        "repo": "skk-vconv.vim",
+        "rev": "06f297b5a6f7ff4ec0965a77d971580dcb8644a7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Matts966",
+        "repo": "skk-vconv.vim",
         "type": "github"
       }
     },
