@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    modes-nvim = {
+      url = "github:mvllow/modes.nvim";
+      flake = false;
+    };
     skk-vconv-vim = {
       url = "github:Matts966/skk-vconv.vim";
       flake = false;
