@@ -4283,6 +4283,7 @@
         "vim-nix": "vim-nix",
         "vim-oscyank": "vim-oscyank",
         "vim-poslist": "vim-poslist",
+        "vim-qf": "vim-qf",
         "vim-repeat": "vim-repeat",
         "vim-sensible": "vim-sensible",
         "vim-sonictemplate": "vim-sonictemplate",
@@ -5312,6 +5313,22 @@
       "original": {
         "owner": "thinca",
         "repo": "vim-poslist",
+        "type": "github"
+      }
+    },
+    "vim-qf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683623072,
+        "narHash": "sha256-1Xv9C1Z8Yit9nAKahw1wJJ4bjDLt5n3Bk89Sd5/FMHA=",
+        "owner": "romainl",
+        "repo": "vim-qf",
+        "rev": "7e65325651ff5a0b06af8df3980d2ee54cf10e14",
+        "type": "github"
+      },
+      "original": {
+        "owner": "romainl",
+        "repo": "vim-qf",
         "type": "github"
       }
     },
