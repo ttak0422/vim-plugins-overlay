@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    auto-session = {
+      url = "github:rmagatti/auto-session";
+      flake = false;
+    };
     nordic-nvim = {
       url = "github:AlexvZyl/nordic.nvim";
       flake = false;
