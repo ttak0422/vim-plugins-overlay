@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    diagflow-nvim = {
+      url = "github:dgagn/diagflow.nvim";
+      flake = false;
+    };
     auto-session = {
       url = "github:rmagatti/auto-session";
       flake = false;

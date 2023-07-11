@@ -1616,6 +1616,22 @@
         "type": "github"
       }
     },
+    "diagflow-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689033620,
+        "narHash": "sha256-7AFNsSwKQm2nFuaSvLWVJscq21nb+QRvwpGougm3uiY=",
+        "owner": "dgagn",
+        "repo": "diagflow.nvim",
+        "rev": "bd98269c95527db4ca8a824afd46958c6eb75c7c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dgagn",
+        "repo": "diagflow.nvim",
+        "type": "github"
+      }
+    },
     "diffview-nvim": {
       "flake": false,
       "locked": {
@@ -4105,6 +4121,7 @@
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
         "denops-vim": "denops-vim",
+        "diagflow-nvim": "diagflow-nvim",
         "diffview-nvim": "diffview-nvim",
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
