@@ -4322,6 +4322,7 @@
         "typescript-vim": "typescript-vim",
         "venn-nvim": "venn-nvim",
         "vim-altercmd": "vim-altercmd",
+        "vim-ambiwidth": "vim-ambiwidth",
         "vim-asterisk": "vim-asterisk",
         "vim-better-whitespace": "vim-better-whitespace",
         "vim-buffer-history": "vim-buffer-history",
@@ -5172,6 +5173,22 @@
       "original": {
         "owner": "tyru",
         "repo": "vim-altercmd",
+        "type": "github"
+      }
+    },
+    "vim-ambiwidth": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1661097173,
+        "narHash": "sha256-frqNRrQU3PQfLIqJMrm8m3mvMVewTnyP6E2zQn16RfE=",
+        "owner": "rbtnn",
+        "repo": "vim-ambiwidth",
+        "rev": "023c43aad6629c9b2fc7bda26f7a63891df0f44d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rbtnn",
+        "repo": "vim-ambiwidth",
         "type": "github"
       }
     },

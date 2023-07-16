@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-ambiwidth = {
+      url = "github:rbtnn/vim-ambiwidth";
+      flake = false;
+    };
     diagflow-nvim = {
       url = "github:dgagn/diagflow.nvim";
       flake = false;
