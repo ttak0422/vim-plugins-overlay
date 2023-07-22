@@ -1,7 +1,7 @@
 name: Update
 on:
   schedule:
-    - "0 0 * * *" # UTC
+    - cron: "0 0 * * *" # UTC
   workflow_dispatch:
 jobs:
   update-flake:
