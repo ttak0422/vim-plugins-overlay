@@ -1,15 +1,11 @@
-name: Build
+name: Check
 on:
-  workflow_run:
-    workflows:
-      - Check
-    branches:
-      - main
-    types:
-      - completed
+  push:
+    branches: [ main ]
+  pull_request:
   workflow_dispatch:
 jobs:
-  build-flake:
+  check-flake:
     strategy:
       matrix:
         os: [ ubuntu-latest macos-12 ]
@@ -30,8 +26,6 @@ jobs:
           name: ttak0422-vim-plugins-overlay
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
-      - name: Push inputs
+      - name: Check flake
         run: |
-          nix flake archive --json \
-          | jq -r '.path,(.inputs|to_entries[].value.path)' \
-          | cachix push ttak0422-vim-plugins-overlay
+          nix flake check
