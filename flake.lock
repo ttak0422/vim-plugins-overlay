@@ -112,6 +112,22 @@
         "type": "github"
       }
     },
+    "LuaSnip": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689694230,
+        "narHash": "sha256-bgQMU9hjqymzoIg+Ov+Ks18WrJPhwMIVCL3nDQkIdkM=",
+        "owner": "L3MON4D3",
+        "repo": "LuaSnip",
+        "rev": "0b4950a237ce441a6a3a947d501622453f6860ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L3MON4D3",
+        "repo": "LuaSnip",
+        "type": "github"
+      }
+    },
     "NeoZoom-lua": {
       "flake": false,
       "locked": {
@@ -4027,6 +4043,7 @@
         "Ionide-vim": "Ionide-vim",
         "JABS-nvim": "JABS-nvim",
         "LspUI-nvim": "LspUI-nvim",
+        "LuaSnip": "LuaSnip",
         "NeoZoom-lua": "NeoZoom-lua",
         "Shade-nvim": "Shade-nvim",
         "SmoothCursor-nvim": "SmoothCursor-nvim",

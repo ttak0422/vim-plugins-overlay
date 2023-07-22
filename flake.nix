@@ -1,7 +1,7 @@
 {
   description = "vim-plugins-overlay";
 
-  inputs = {
+  inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     vim-ambiwidth = {
       url = "github:rbtnn/vim-ambiwidth";
@@ -1037,6 +1037,7 @@
       url = "github:L3MON4D3/LuaSnip";
       flake = false;
     };
+    LuaSnip = luasnip;
     friendly-snippets = {
       url = "github:rafamadriz/friendly-snippets";
       flake = false;
