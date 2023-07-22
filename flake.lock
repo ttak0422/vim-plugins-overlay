@@ -116,16 +116,18 @@
       "flake": false,
       "locked": {
         "lastModified": 1689694230,
-        "narHash": "sha256-bgQMU9hjqymzoIg+Ov+Ks18WrJPhwMIVCL3nDQkIdkM=",
-        "owner": "L3MON4D3",
-        "repo": "LuaSnip",
+        "narHash": "sha256-gPp729Lk9tuGJxfGZSlYz+enaJjmInpQFIq5yYRyTBg=",
+        "ref": "refs/heads/master",
         "rev": "0b4950a237ce441a6a3a947d501622453f6860ea",
-        "type": "github"
+        "revCount": 1963,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/L3MON4D3/LuaSnip"
       },
       "original": {
-        "owner": "L3MON4D3",
-        "repo": "LuaSnip",
-        "type": "github"
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/L3MON4D3/LuaSnip"
       }
     },
     "NeoZoom-lua": {
@@ -2500,16 +2502,18 @@
       "flake": false,
       "locked": {
         "lastModified": 1689694230,
-        "narHash": "sha256-bgQMU9hjqymzoIg+Ov+Ks18WrJPhwMIVCL3nDQkIdkM=",
-        "owner": "L3MON4D3",
-        "repo": "LuaSnip",
+        "narHash": "sha256-gPp729Lk9tuGJxfGZSlYz+enaJjmInpQFIq5yYRyTBg=",
+        "ref": "refs/heads/master",
         "rev": "0b4950a237ce441a6a3a947d501622453f6860ea",
-        "type": "github"
+        "revCount": 1963,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/L3MON4D3/LuaSnip"
       },
       "original": {
-        "owner": "L3MON4D3",
-        "repo": "LuaSnip",
-        "type": "github"
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/L3MON4D3/LuaSnip"
       }
     },
     "lush-nvim": {

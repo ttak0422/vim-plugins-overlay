@@ -1034,8 +1034,10 @@
       flake = false;
     };
     luasnip = {
-      url = "github:L3MON4D3/LuaSnip";
+      url = "https://github.com/L3MON4D3/LuaSnip";
       flake = false;
+      type = "git";
+      submodules = true;
     };
     LuaSnip = luasnip;
     friendly-snippets = {
