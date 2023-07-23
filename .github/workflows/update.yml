@@ -27,6 +27,3 @@ jobs:
 
       - name: Update flake
         uses: DeterminateSystems/update-flake-lock@v3
-
-      - name: Approve PR
-        run: gh pr review ${{github.event.pull_request.html_url}} --approve
