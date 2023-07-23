@@ -1,0 +1,25 @@
+name: UpdateMerge
+on:
+  workflow_run:
+    workflows:
+      - Check
+    branches:
+      - update_flake_lock_action
+    types:
+      - completed
+  workflow_dispatch:
+jobs:
+  update-flake:
+    strategy:
+      matrix:
+        os: [ ubuntu-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-url }} --merge
+

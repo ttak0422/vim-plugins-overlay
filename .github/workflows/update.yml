@@ -7,7 +7,7 @@ jobs:
   update-flake:
     strategy:
       matrix:
-        os: [ ubuntu-latest, macos-12 ]
+        os: [ ubuntu-latest ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
