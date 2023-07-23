@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-tundra = {
+      url = "github:sam4llis/nvim-tundra";
+      flake = false;
+    };
+    vim-esearch = {
+      url = "github:eugen0329/vim-esearch";
+      flake = false;
+    };
+    nvim-nonicons = {
+      url = "github:yamatsum/nvim-nonicons";
+      flake = false;
+    };
     vim-ambiwidth = {
       url = "github:rbtnn/vim-ambiwidth";
       flake = false;
