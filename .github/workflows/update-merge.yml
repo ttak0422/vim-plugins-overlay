@@ -14,12 +14,14 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
     runs-on: ${{ matrix.os }}
+    if: ${{ github.actor == 'github-actions[bot]' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: main
 
       - name: Merge PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge --merge --auto ${{ steps.cpr.outputs.pull-request-url }}
-
