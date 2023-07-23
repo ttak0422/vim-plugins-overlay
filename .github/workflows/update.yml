@@ -28,7 +28,5 @@ jobs:
       - name: Update flake
         uses: DeterminateSystems/update-flake-lock@v3
 
-      - name: Merge PR
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge ${{ steps.cpr.outputs.pull-request-url }} --merge
+      - name: Approve PR
+        run: gh pr review ${{github.event.pull_request.html_url}} --approve
