@@ -3,6 +3,30 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    open-handlers-nvim = {
+      url = "github:mrshmllow/open-handlers.nvim";
+      flake = false;
+    };
+    guard-nvim = {
+      url = "github:nvimdev/guard.nvim";
+      flake = false;
+    };
+    NotebookNavigator-nvim = {
+      url = "github:GCBallesteros/NotebookNavigator.nvim";
+      flake = false;
+    };
+    dap-utils-nvim = {
+      url = "github:niuiic/dap-utils.nvim";
+      flake = false;
+    };
+    core-nvim = {
+      url = "github:niuiic/core.nvim";
+      flake = false;
+    };
+    qfview-nvim = {
+      url = "github:ashfinal/qfview.nvim";
+      flake = false;
+    };
     vim-bufmru = {
       url = "github:mildred/vim-bufmru";
       flake = false;
