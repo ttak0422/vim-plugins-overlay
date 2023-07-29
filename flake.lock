@@ -2836,6 +2836,22 @@
         "type": "github"
       }
     },
+    "neotree-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690343409,
+        "narHash": "sha256-cJvpfD/LhAw8lPOVsHkBdsr75kwnIPmOHlVR1YAHy78=",
+        "owner": "nvim-neo-tree",
+        "repo": "neo-tree.nvim",
+        "rev": "93fcf0a3056c60829c0a210fe35523cda7ef0369",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neo-tree",
+        "repo": "neo-tree.nvim",
+        "type": "github"
+      }
+    },
     "nightfox-nvim": {
       "flake": false,
       "locked": {
@@ -4345,6 +4361,7 @@
         "neogit": "neogit",
         "neorg": "neorg",
         "neoscroll-nvim": "neoscroll-nvim",
+        "neotree-nvim": "neotree-nvim",
         "nightfox-nvim": "nightfox-nvim",
         "nixpkgs": "nixpkgs",
         "noice-nvim": "noice-nvim",

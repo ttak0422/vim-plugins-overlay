@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    neotree-nvim = {
+      url = "github:nvim-neo-tree/neo-tree.nvim";
+      flake = false;
+    };
     open-handlers-nvim = {
       url = "github:mrshmllow/open-handlers.nvim";
       flake = false;
