@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    tsnip-nvim = {
+      url = "github:yuki-yano/tsnip.nvim";
+      flake = false;
+    };
+    fuzzy-motion-vim = {
+      url = "github:yuki-yano/fuzzy-motion.vim";
+      flake = false;
+    };
     neotree-nvim = {
       url = "github:nvim-neo-tree/neo-tree.nvim";
       flake = false;
