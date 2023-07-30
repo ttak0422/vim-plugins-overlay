@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-source-vsnip = {
+      url = "github:uga-rosa/ddc-source-vsnip";
+      flake = false;
+    };
+    neoconf-nvim = {
+      url = "github:/folke/neoconf.nvim";
+      flake = false;
+    };
     tsnip-nvim = {
       url = "github:yuki-yano/tsnip.nvim";
       flake = false;

@@ -1234,6 +1234,22 @@
         "type": "github"
       }
     },
+    "ddc-source-vsnip": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1688484177,
+        "narHash": "sha256-7uPjsWQWj0l2DAyv53dwletroM/7Kv6+Q2OdzoCmEZ4=",
+        "owner": "uga-rosa",
+        "repo": "ddc-source-vsnip",
+        "rev": "d3c429fd91f432ab5478cc343f9b61bacac74f8e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "uga-rosa",
+        "repo": "ddc-source-vsnip",
+        "type": "github"
+      }
+    },
     "ddc-tmux": {
       "flake": false,
       "locked": {
@@ -2772,6 +2788,22 @@
         "type": "github"
       }
     },
+    "neoconf-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1688002240,
+        "narHash": "sha256-e/VlxOqRBAzarrRoAcfTaC4spbiQNo1Nbe6DKuZNK+M=",
+        "owner": "folke",
+        "repo": "neoconf.nvim",
+        "rev": "08f146d53e075055500dca35e93281faff95716b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "neoconf.nvim",
+        "type": "github"
+      }
+    },
     "neofsharp-vim": {
       "flake": false,
       "locked": {
@@ -4277,6 +4309,7 @@
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
         "ddc-source-nvim-obsidian": "ddc-source-nvim-obsidian",
+        "ddc-source-vsnip": "ddc-source-vsnip",
         "ddc-tmux": "ddc-tmux",
         "ddc-treesitter": "ddc-treesitter",
         "ddc-ui-native": "ddc-ui-native",
@@ -4373,6 +4406,7 @@
         "monokai-pro-nvim": "monokai-pro-nvim",
         "nap-nvim": "nap-nvim",
         "neco-vim": "neco-vim",
+        "neoconf-nvim": "neoconf-nvim",
         "neofsharp-vim": "neofsharp-vim",
         "neogen": "neogen",
         "neogit": "neogit",
