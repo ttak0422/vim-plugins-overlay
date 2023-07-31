@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    dda-vim = {
+      url = "github:Shougo/dda.vim";
+      flake = false;
+    };
     ddc-source-vsnip = {
       url = "github:uga-rosa/ddc-source-vsnip";
       flake = false;
