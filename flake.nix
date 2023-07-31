@@ -885,10 +885,10 @@
       url = "github:nvim-zh/colorful-winsep.nvim";
       flake = false;
     };
-    AbbrevMan-nvim = {
-      url = "github:Pocco81/AbbrevMan.nvim";
-      flake = false;
-    };
+    # AbbrevMan-nvim = {
+    #   url = "github:Pocco81/AbbrevMan.nvim";
+    #   flake = false;
+    # };
     true-zen = {
       url = "github:Pocco81/true-zen.nvim";
       flake = false;
