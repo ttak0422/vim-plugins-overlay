@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-sorter_reverse = {
+      url = "github:ttak0422/ddc-sorter_reverse";
+      flake = false;
+    };
     dda-vim = {
       url = "github:Shougo/dda.vim";
       flake = false;

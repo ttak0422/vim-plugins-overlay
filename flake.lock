@@ -1090,6 +1090,22 @@
         "type": "github"
       }
     },
+    "ddc-sorter_reverse": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690992851,
+        "narHash": "sha256-OyhUokpHJjWsi1ywgCjXijpsv50DrINqNUp2dWl2uv8=",
+        "owner": "ttak0422",
+        "repo": "ddc-sorter_reverse",
+        "rev": "5219f774843efe9b21585fcd8fc85505b5978630",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ttak0422",
+        "repo": "ddc-sorter_reverse",
+        "type": "github"
+      }
+    },
     "ddc-source-around": {
       "flake": false,
       "locked": {
@@ -4300,6 +4316,7 @@
         "ddc-path": "ddc-path",
         "ddc-sorter_itemsize": "ddc-sorter_itemsize",
         "ddc-sorter_rank": "ddc-sorter_rank",
+        "ddc-sorter_reverse": "ddc-sorter_reverse",
         "ddc-source-around": "ddc-source-around",
         "ddc-source-cmdline": "ddc-source-cmdline",
         "ddc-source-cmdline-history": "ddc-source-cmdline-history",
