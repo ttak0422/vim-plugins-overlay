@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-nvim-lsp-setup = {
+      url = "github:uga-rosa/ddc-nvim-lsp-setup";
+      flake = false;
+    };
     ddc-sorter_reverse = {
       url = "github:ttak0422/ddc-sorter_reverse";
       flake = false;

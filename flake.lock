@@ -1042,6 +1042,22 @@
         "type": "github"
       }
     },
+    "ddc-nvim-lsp-setup": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1691097458,
+        "narHash": "sha256-gQn8UDYVB+N0YfvNGLgbWI7GDEWl0VuG+XCCQWvosPY=",
+        "owner": "uga-rosa",
+        "repo": "ddc-nvim-lsp-setup",
+        "rev": "087fd72d0a1284edcbc263e3f1a0b462fa60845d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "uga-rosa",
+        "repo": "ddc-nvim-lsp-setup",
+        "type": "github"
+      }
+    },
     "ddc-path": {
       "flake": false,
       "locked": {
@@ -4313,6 +4329,7 @@
         "ddc-fuzzy": "ddc-fuzzy",
         "ddc-matcher_head": "ddc-matcher_head",
         "ddc-matcher_length": "ddc-matcher_length",
+        "ddc-nvim-lsp-setup": "ddc-nvim-lsp-setup",
         "ddc-path": "ddc-path",
         "ddc-sorter_itemsize": "ddc-sorter_itemsize",
         "ddc-sorter_rank": "ddc-sorter_rank",
