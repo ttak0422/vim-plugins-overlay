@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-filter-matcher_head = {
+      url = "github:Shougo/ddc-filter-matcher_head";
+      flake = false;
+    };
     ddc-nvim-lsp-setup = {
       url = "github:uga-rosa/ddc-nvim-lsp-setup";
       flake = false;

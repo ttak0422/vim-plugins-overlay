@@ -994,6 +994,22 @@
         "type": "github"
       }
     },
+    "ddc-filter-matcher_head": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684643289,
+        "narHash": "sha256-T01O3Z9kd3uHcMxXqTH+GcTqoWLsy4L1oHrOJ/f42ow=",
+        "owner": "Shougo",
+        "repo": "ddc-filter-matcher_head",
+        "rev": "16727bb785c7fdbd4c5ed7a5f3da8d2f7355f8fd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-filter-matcher_head",
+        "type": "github"
+      }
+    },
     "ddc-fuzzy": {
       "flake": false,
       "locked": {
@@ -4326,6 +4342,7 @@
         "ddc-buffer": "ddc-buffer",
         "ddc-converter_remove_overlap": "ddc-converter_remove_overlap",
         "ddc-converter_truncate": "ddc-converter_truncate",
+        "ddc-filter-matcher_head": "ddc-filter-matcher_head",
         "ddc-fuzzy": "ddc-fuzzy",
         "ddc-matcher_head": "ddc-matcher_head",
         "ddc-matcher_length": "ddc-matcher_length",
