@@ -1,10 +1,10 @@
-name: Check
+name: PR Check
 on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
 jobs:
-  check-flake:
+  pr-check-flake:
     strategy:
       matrix:
         os: [ ubuntu-latest ]
