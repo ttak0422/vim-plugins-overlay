@@ -1,8 +1,7 @@
 name: Check
 on:
   push:
-    branches: [ main, update_flake_lock_action ]
-  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   check-flake:
