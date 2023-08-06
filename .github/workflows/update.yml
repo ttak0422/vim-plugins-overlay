@@ -29,4 +29,6 @@ jobs:
         uses: DeterminateSystems/update-flake-lock@v3
 
       - name: Setup merge
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: gh pr merge --auto --delete-branch --squash "update_flake_lock_action"
