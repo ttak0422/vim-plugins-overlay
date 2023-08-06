@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-window-picker = {
+      url = "github:s1n7ax/nvim-window-picker";
+      flake = false;
+    };
     ddc-filter-matcher_head = {
       url = "github:Shougo/ddc-filter-matcher_head";
       flake = false;
