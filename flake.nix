@@ -43,6 +43,10 @@
       url = "github:nvim-neo-tree/neo-tree.nvim";
       flake = false;
     };
+    neotree-nvim-3 = {
+      url = "github:nvim-neo-tree/neo-tree.nvim/v3.x";
+      flake = false;
+    };
     open-handlers-nvim = {
       url = "github:mrshmllow/open-handlers.nvim";
       flake = false;
