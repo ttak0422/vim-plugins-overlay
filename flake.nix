@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    trim-nvim = {
+      url = "github:cappyzawa/trim.nvim";
+      flake = false;
+    };
     nvim-window-picker = {
       url = "github:s1n7ax/nvim-window-picker";
       flake = false;
