@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-typo = {
+      url = "github:tani/vim-typo";
+      flake = false;
+    };
     trim-nvim = {
       url = "github:cappyzawa/trim.nvim";
       flake = false;
