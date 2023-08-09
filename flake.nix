@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-bufsurf = {
+      url = "github:ton/vim-bufsurf";
+      flake = false;
+    };
     vim-typo = {
       url = "github:tani/vim-typo";
       flake = false;
