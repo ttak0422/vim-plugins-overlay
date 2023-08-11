@@ -27,8 +27,10 @@ jobs:
 
       - name: Update flake
         uses: DeterminateSystems/update-flake-lock@v3
+        with:
+          token: ${{ secrets.GH_CUSTOM_TOKEN }}
 
       - name: Setup merge
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.GH_CUSTOM_TOKEN }}
         run: gh pr merge --auto --delete-branch --squash "update_flake_lock_action"
