@@ -17,7 +17,7 @@ jobs:
         uses: cachix/install-nix-action@v22
         with:
           extra_nix_config: |
-            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+            access-tokens = github.com=${{ secrets.GH_CUSTOM_TOKEN }}
 
       - name: Setup Cachix
         uses: cachix/cachix-action@v12
@@ -32,5 +32,5 @@ jobs:
 
       - name: Setup merge
         env:
-          GH_TOKEN: ${{ github.GH_CUSTOM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_CUSTOM_TOKEN }}
         run: gh pr merge --auto --delete-branch --squash "update_flake_lock_action"
