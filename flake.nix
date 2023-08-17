@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    wildfire-nvim = {
+      url = "github:SUSTech-data/wildfire.nvim";
+      flake = false;
+    };
     ddc-previewer-floating = {
       url = "github:uga-rosa/ddc-previewer-floating";
       flake = false;

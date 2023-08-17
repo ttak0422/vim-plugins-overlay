@@ -4683,6 +4683,7 @@
         "waitevent-nvim": "waitevent-nvim",
         "which-key-nvim": "which-key-nvim",
         "wilder-nvim": "wilder-nvim",
+        "wildfire-nvim": "wildfire-nvim",
         "wildfire-vim": "wildfire-vim",
         "winbar-nvim": "winbar-nvim",
         "winbarbar-nvim": "winbarbar-nvim",
@@ -6035,6 +6036,22 @@
       "original": {
         "owner": "gelguy",
         "repo": "wilder.nvim",
+        "type": "github"
+      }
+    },
+    "wildfire-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692107302,
+        "narHash": "sha256-CUr1DqWjZYhihR5xhnlukQyAIWiXWLdPNF2FWMiZf5E=",
+        "owner": "SUSTech-data",
+        "repo": "wildfire.nvim",
+        "rev": "213b6a7a4a59ebebaef92445ce325a216e5eb156",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SUSTech-data",
+        "repo": "wildfire.nvim",
         "type": "github"
       }
     },
