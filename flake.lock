@@ -1090,6 +1090,22 @@
         "type": "github"
       }
     },
+    "ddc-previewer-floating": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692092613,
+        "narHash": "sha256-nGMW5N7arQfeJHZnvEmZM5D8I2daVz8a1AyMdWofPbk=",
+        "owner": "uga-rosa",
+        "repo": "ddc-previewer-floating",
+        "rev": "daa833f67446373339e5965d6a2ec3c1a9b32a52",
+        "type": "github"
+      },
+      "original": {
+        "owner": "uga-rosa",
+        "repo": "ddc-previewer-floating",
+        "type": "github"
+      }
+    },
     "ddc-sorter_itemsize": {
       "flake": false,
       "locked": {
@@ -4381,6 +4397,7 @@
         "ddc-matcher_length": "ddc-matcher_length",
         "ddc-nvim-lsp-setup": "ddc-nvim-lsp-setup",
         "ddc-path": "ddc-path",
+        "ddc-previewer-floating": "ddc-previewer-floating",
         "ddc-sorter_itemsize": "ddc-sorter_itemsize",
         "ddc-sorter_rank": "ddc-sorter_rank",
         "ddc-sorter_reverse": "ddc-sorter_reverse",

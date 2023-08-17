@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-previewer-floating = {
+      url = "github:uga-rosa/ddc-previewer-floating";
+      flake = false;
+    };
     vim-bufsurf = {
       url = "github:ton/vim-bufsurf";
       flake = false;
