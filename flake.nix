@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    abbreinder-nvim = {
+      url = "github:0styx0/abbreinder.nvim";
+      flake = false;
+    };
     wildfire-nvim = {
       url = "github:SUSTech-data/wildfire.nvim";
       flake = false;

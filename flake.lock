@@ -178,6 +178,22 @@
         "type": "github"
       }
     },
+    "abbreinder-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651105390,
+        "narHash": "sha256-OCn1KVNWr4H3l1t/YLrnmnFkuVCLiqhIQnZppKel+TI=",
+        "owner": "0styx0",
+        "repo": "abbreinder.nvim",
+        "rev": "5b2b5ff08a9ada42238d733aeebc6d3d96314d77",
+        "type": "github"
+      },
+      "original": {
+        "owner": "0styx0",
+        "repo": "abbreinder.nvim",
+        "type": "github"
+      }
+    },
     "actions-preview-nvim": {
       "flake": false,
       "locked": {
@@ -4340,6 +4356,7 @@
         "NotebookNavigator-nvim": "NotebookNavigator-nvim",
         "Shade-nvim": "Shade-nvim",
         "SmoothCursor-nvim": "SmoothCursor-nvim",
+        "abbreinder-nvim": "abbreinder-nvim",
         "actions-preview-nvim": "actions-preview-nvim",
         "advanced-git-search-nvim": "advanced-git-search-nvim",
         "aerial-nvim": "aerial-nvim",
