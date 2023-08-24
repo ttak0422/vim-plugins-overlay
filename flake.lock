@@ -242,6 +242,22 @@
         "type": "github"
       }
     },
+    "align-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668387361,
+        "narHash": "sha256-FqexLsG6PAslo2XeVLpFfThtNCrvwcytOEAaQcnJ/PQ=",
+        "owner": "Vonr",
+        "repo": "align.nvim",
+        "rev": "2004d263bb1b1ec28e55cf56c35944ec4ea23f8b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Vonr",
+        "repo": "align.nvim",
+        "type": "github"
+      }
+    },
     "alpha-nvim": {
       "flake": false,
       "locked": {
@@ -1125,11 +1141,11 @@
     "ddc-sorter_itemsize": {
       "flake": false,
       "locked": {
-        "lastModified": 1676908696,
-        "narHash": "sha256-nyhQX8qHPM1hacTgLuvN3cGwIDS3QBwQ8xuqQcsdJrw=",
+        "lastModified": 1692891728,
+        "narHash": "sha256-JbPXxoBBr2Fm2cjPhT8B0KDq/CTTO85Ksg7/JTUHWcE=",
         "owner": "ttak0422",
         "repo": "ddc-sorter_itemsize",
-        "rev": "b9c5100bfda79eacc48da5823c43a459935ef2e9",
+        "rev": "903f28943fe985e13a1b29a3278733636b3345b5",
         "type": "github"
       },
       "original": {
@@ -2351,6 +2367,22 @@
       "original": {
         "owner": "shellRaining",
         "repo": "hlchunk.nvim",
+        "type": "github"
+      }
+    },
+    "hmts-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692743873,
+        "narHash": "sha256-lfqJVj1HbFJ5H4mo6rKYrexaosqSh17+PQ9BWpcuxZI=",
+        "owner": "calops",
+        "repo": "hmts.nvim",
+        "rev": "34b825bd1c9ec1b6e2952c111753e2eb286c9e07",
+        "type": "github"
+      },
+      "original": {
+        "owner": "calops",
+        "repo": "hmts.nvim",
         "type": "github"
       }
     },
@@ -4007,6 +4039,22 @@
         "type": "github"
       }
     },
+    "overseer-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692812838,
+        "narHash": "sha256-iRLHbCjGqfcRApFNMFAbQ27asDjC2SpagEJZdDCvkTI=",
+        "owner": "stevearc",
+        "repo": "overseer.nvim",
+        "rev": "2f4b05b553867259bfcf19d8631af4d9318a561f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stevearc",
+        "repo": "overseer.nvim",
+        "type": "github"
+      }
+    },
     "pantran-nvim": {
       "flake": false,
       "locked": {
@@ -4360,6 +4408,7 @@
         "actions-preview-nvim": "actions-preview-nvim",
         "advanced-git-search-nvim": "advanced-git-search-nvim",
         "aerial-nvim": "aerial-nvim",
+        "align-nvim": "align-nvim",
         "alpha-nvim": "alpha-nvim",
         "animation-nvim": "animation-nvim",
         "anyline-nvim": "anyline-nvim",
@@ -4492,6 +4541,7 @@
         "headlines-nvim": "headlines-nvim",
         "heirline-nvim": "heirline-nvim",
         "hlchunk-nvim": "hlchunk-nvim",
+        "hmts-nvim": "hmts-nvim",
         "hologram-nvim": "hologram-nvim",
         "hop-nvim": "hop-nvim",
         "hover-nvim": "hover-nvim",
@@ -4595,6 +4645,7 @@
         "open-nvim": "open-nvim",
         "org-bullets-nvim": "org-bullets-nvim",
         "orgmode": "orgmode",
+        "overseer-nvim": "overseer-nvim",
         "pantran-nvim": "pantran-nvim",
         "peek-nvim": "peek-nvim",
         "persisted-nvim": "persisted-nvim",
@@ -4687,6 +4738,7 @@
         "vim-poslist": "vim-poslist",
         "vim-qf": "vim-qf",
         "vim-repeat": "vim-repeat",
+        "vim-searchx": "vim-searchx",
         "vim-sensible": "vim-sensible",
         "vim-sonictemplate": "vim-sonictemplate",
         "vim-startuptime": "vim-startuptime",
@@ -5845,6 +5897,22 @@
       "original": {
         "owner": "tpope",
         "repo": "vim-repeat",
+        "type": "github"
+      }
+    },
+    "vim-searchx": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680707587,
+        "narHash": "sha256-2SImszBc1QX8ezcxR1DvnyWfopbpM9fVusujSXu24Yo=",
+        "owner": "hrsh7th",
+        "repo": "vim-searchx",
+        "rev": "4e22e05cb2d487d9191d3d6480342f02cb9a37e8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hrsh7th",
+        "repo": "vim-searchx",
         "type": "github"
       }
     },

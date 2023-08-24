@@ -3,6 +3,22 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    hmts-nvim = {
+      url = "github:calops/hmts.nvim";
+      flake = false;
+    };
+    align-nvim = {
+      url = "github:Vonr/align.nvim";
+      flake = false;
+    };
+    vim-searchx = {
+      url = "github:hrsh7th/vim-searchx";
+      flake = false;
+    };
+    overseer-nvim = {
+      url = "github:stevearc/overseer.nvim";
+      flake = false;
+    };
     abbreinder-nvim = {
       url = "github:0styx0/abbreinder.nvim";
       flake = false;
