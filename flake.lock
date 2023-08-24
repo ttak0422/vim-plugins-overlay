@@ -2690,6 +2690,22 @@
         "type": "github"
       }
     },
+    "lspstatus-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659485921,
+        "narHash": "sha256-gmLeVnDyL8Zf5ZG92tP3mb/LAt438BxFtAi/Xax2zLI=",
+        "owner": "nvim-lua",
+        "repo": "lsp-status.nvim",
+        "rev": "54f48eb5017632d81d0fd40112065f1d062d0629",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-lua",
+        "repo": "lsp-status.nvim",
+        "type": "github"
+      }
+    },
     "lualine-nvim": {
       "flake": false,
       "locked": {
@@ -4561,6 +4577,7 @@
         "lsp-lens-nvim": "lsp-lens-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "lspsaga-nvim": "lspsaga-nvim",
+        "lspstatus-nvim": "lspstatus-nvim",
         "lualine-nvim": "lualine-nvim",
         "luasnip": "luasnip",
         "lush-nvim": "lush-nvim",

@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    lspstatus-nvim = {
+      url = "github:nvim-lua/lsp-status.nvim";
+      flake = false;
+    };
     hmts-nvim = {
       url = "github:calops/hmts.nvim";
       flake = false;
