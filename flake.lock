@@ -4183,6 +4183,22 @@
         "type": "github"
       }
     },
+    "pomodoro-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644537597,
+        "narHash": "sha256-UuPJvGuXSOBM4MAG5PCCRsOGCSMnXz/ZHhBRpcOSasI=",
+        "owner": "wthollingsworth",
+        "repo": "pomodoro.nvim",
+        "rev": "8fa4b98f25fe6ff12a452bbbeab1da7c07224fb3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wthollingsworth",
+        "repo": "pomodoro.nvim",
+        "type": "github"
+      }
+    },
     "pretty-fold-nvim": {
       "flake": false,
       "locked": {
@@ -4670,6 +4686,7 @@
         "plenary-nvim": "plenary-nvim",
         "poimandres-nvim": "poimandres-nvim",
         "pommodoro-clock": "pommodoro-clock",
+        "pomodoro-nvim": "pomodoro-nvim",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "pretty_hover": "pretty_hover",
         "project-nvim": "project-nvim",

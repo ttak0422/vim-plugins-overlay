@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    pomodoro-nvim = {
+      url = "github:wthollingsworth/pomodoro.nvim";
+      flake = false;
+    };
     lspstatus-nvim = {
       url = "github:nvim-lua/lsp-status.nvim";
       flake = false;
