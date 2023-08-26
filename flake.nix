@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    deno-silicon = {
+      url = "github:skanehira/deno-silicon";
+      flake = false;
+    };
     hydra-nvim = {
       url = "github:anuvyklack/hydra.nvim";
       flake = false;

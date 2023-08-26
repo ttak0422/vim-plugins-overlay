@@ -1746,6 +1746,22 @@
         "type": "github"
       }
     },
+    "deno-silicon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692921929,
+        "narHash": "sha256-m4U9XN5xtaiEJKzjI+gpaMwWba8iFtqKU/vRfEFsQVY=",
+        "owner": "skanehira",
+        "repo": "deno-silicon",
+        "rev": "d1dc8d7960d632fa97ee055cfc007fcca321d435",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skanehira",
+        "repo": "deno-silicon",
+        "type": "github"
+      }
+    },
     "denops-popup-preview-vim": {
       "flake": false,
       "locked": {
@@ -4550,6 +4566,7 @@
         "ddu-vim-ui-select": "ddu-vim-ui-select",
         "debugprint-nvim": "debugprint-nvim",
         "deno-nvim": "deno-nvim",
+        "deno-silicon": "deno-silicon",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
         "denops-vim": "denops-vim",
