@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    hydra-nvim = {
+      url = "github:anuvyklack/hydra.nvim";
+      flake = false;
+    };
     pomodoro-nvim = {
       url = "github:wthollingsworth/pomodoro.nvim";
       flake = false;
