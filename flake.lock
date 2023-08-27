@@ -4506,11 +4506,11 @@
     "piccolo-pomodoro-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1693129390,
-        "narHash": "sha256-6P7VDkOTUDiKq+ZciEmlfm2A6Pw2st4SrtKsiQdJmMo=",
+        "lastModified": 1693146309,
+        "narHash": "sha256-JGnmIIfoBW8yfQu+eoIzr89Avj0rbCbkg8gQU574guw=",
         "owner": "ttak0422",
         "repo": "piccolo-pomodoro.nvim",
-        "rev": "db785b5d6ee41d46cda135b60571efa8153fc8bf",
+        "rev": "c338aa5632ac58b181f710bbdb3947346eebf0ed",
         "type": "github"
       },
       "original": {
