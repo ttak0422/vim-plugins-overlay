@@ -47,7 +47,7 @@
       url = "github:olimorris/neotest-phpunit";
       flake = false;
     };
-    neotest-testhat = {
+    neotest-testthat = {
       url = "github:shunsambongi/neotest-testthat";
       flake = false;
     };

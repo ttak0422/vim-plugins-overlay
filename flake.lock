@@ -3332,7 +3332,7 @@
         "type": "github"
       }
     },
-    "neotest-testhat": {
+    "neotest-testthat": {
       "flake": false,
       "locked": {
         "lastModified": 1656918571,
@@ -5017,7 +5017,7 @@
         "neotest-rspec": "neotest-rspec",
         "neotest-rust": "neotest-rust",
         "neotest-scala": "neotest-scala",
-        "neotest-testhat": "neotest-testhat",
+        "neotest-testthat": "neotest-testthat",
         "neotest-vim-test": "neotest-vim-test",
         "neotest-vitest": "neotest-vitest",
         "neotree-nvim": "neotree-nvim",
