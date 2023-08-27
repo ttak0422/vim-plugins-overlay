@@ -4170,11 +4170,11 @@
     "piccolo-pomodoro-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1693124073,
-        "narHash": "sha256-4aAj4u7l956oiAJl7LrpAgdIRvqs/ZDcMYIHgyQaWng=",
+        "lastModified": 1693129390,
+        "narHash": "sha256-6P7VDkOTUDiKq+ZciEmlfm2A6Pw2st4SrtKsiQdJmMo=",
         "owner": "ttak0422",
         "repo": "piccolo-pomodoro.nvim",
-        "rev": "f5cbf4371c1b21f08e4b3e7ad1eeba40d724a47c",
+        "rev": "db785b5d6ee41d46cda135b60571efa8153fc8bf",
         "type": "github"
       },
       "original": {
