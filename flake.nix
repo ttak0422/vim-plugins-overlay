@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    piccolo-pomodoro-nvim = {
+      url = "github:ttak0422/piccolo-pomodoro.nvim";
+      flake = false;
+    };
     deno-silicon = {
       url = "github:skanehira/deno-silicon";
       flake = false;

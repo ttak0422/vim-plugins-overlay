@@ -4167,6 +4167,22 @@
         "type": "github"
       }
     },
+    "piccolo-pomodoro-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693124073,
+        "narHash": "sha256-4aAj4u7l956oiAJl7LrpAgdIRvqs/ZDcMYIHgyQaWng=",
+        "owner": "ttak0422",
+        "repo": "piccolo-pomodoro.nvim",
+        "rev": "f5cbf4371c1b21f08e4b3e7ad1eeba40d724a47c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ttak0422",
+        "repo": "piccolo-pomodoro.nvim",
+        "type": "github"
+      }
+    },
     "plenary-nvim": {
       "flake": false,
       "locked": {
@@ -4717,6 +4733,7 @@
         "peek-nvim": "peek-nvim",
         "persisted-nvim": "persisted-nvim",
         "pets-nvim": "pets-nvim",
+        "piccolo-pomodoro-nvim": "piccolo-pomodoro-nvim",
         "plenary-nvim": "plenary-nvim",
         "poimandres-nvim": "poimandres-nvim",
         "pommodoro-clock": "pommodoro-clock",
