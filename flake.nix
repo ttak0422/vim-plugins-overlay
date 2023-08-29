@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-vtsls = {
+      url = "github:yioneko/nvim-vtsls";
+      flake = false;
+    };
     neodev-nvim = {
       url = "github:folke/neodev.nvim";
       flake = false;

@@ -4229,6 +4229,22 @@
         "type": "github"
       }
     },
+    "nvim-vtsls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689929290,
+        "narHash": "sha256-3bbrhIuroJ6CvqnLaIWE39qNAOAx5wUJaCDLPBm/3nI=",
+        "owner": "yioneko",
+        "repo": "nvim-vtsls",
+        "rev": "f5bf34a53eba97e08b5ae25bddf88820e81ef03c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yioneko",
+        "repo": "nvim-vtsls",
+        "type": "github"
+      }
+    },
     "nvim-web-devicons": {
       "flake": false,
       "locked": {
@@ -5073,6 +5089,7 @@
         "nvim-tundra": "nvim-tundra",
         "nvim-ufo": "nvim-ufo",
         "nvim-various-textobjs": "nvim-various-textobjs",
+        "nvim-vtsls": "nvim-vtsls",
         "nvim-web-devicons": "nvim-web-devicons",
         "nvim-window": "nvim-window",
         "nvim-window-picker": "nvim-window-picker",
