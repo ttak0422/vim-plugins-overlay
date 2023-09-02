@@ -1842,6 +1842,22 @@
         "type": "github"
       }
     },
+    "direnv-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687816989,
+        "narHash": "sha256-0PpU/lA54VAEa4w/xON39u9H8d5MxSTqVwiV09NAEz0=",
+        "owner": "direnv",
+        "repo": "direnv.vim",
+        "rev": "165031fa2c8dbb1e78dfd7054fe064ea926384cb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "direnv",
+        "repo": "direnv.vim",
+        "type": "github"
+      }
+    },
     "dps-dial-vim": {
       "flake": false,
       "locked": {
@@ -4940,6 +4956,7 @@
         "denops-vim": "denops-vim",
         "diagflow-nvim": "diagflow-nvim",
         "diffview-nvim": "diffview-nvim",
+        "direnv-vim": "direnv-vim",
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
         "dropbar-nvim": "dropbar-nvim",
