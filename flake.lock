@@ -1893,11 +1893,11 @@
     "dropbar-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1693836733,
-        "narHash": "sha256-U9TNFfygbVYcjhf0uZhUKK9rxzZhKoADkBpb10SZzKU=",
+        "lastModified": 1693957679,
+        "narHash": "sha256-jnejPe69BMUd5h4iTo3mLr8yDt4N+/kBjUfeQ2kh6C4=",
         "owner": "Bekaboo",
         "repo": "dropbar.nvim",
-        "rev": "1b132069a455e95a664fd4e342cabfce564c40fc",
+        "rev": "d9e2b240e9d4fe42fc74c9e40127f3217f00e14b",
         "type": "github"
       },
       "original": {
@@ -2341,11 +2341,11 @@
     "haskell-tools-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1693860591,
-        "narHash": "sha256-J1JAyzfHUu1dXRhWjYt+aGDV0LlUxEZEWT6FgBZWrLQ=",
+        "lastModified": 1693946729,
+        "narHash": "sha256-YZkzHtJ2qXcVfxXLugJtJv0MMjbUHouFI+Zv/n4SSh0=",
         "owner": "MrcJkb",
         "repo": "haskell-tools.nvim",
-        "rev": "ddeb56eabac60bf9d10bad6be5f7d599f83799b4",
+        "rev": "4259cb16e5612d9f5860655a2ab37c7439f70555",
         "type": "github"
       },
       "original": {
