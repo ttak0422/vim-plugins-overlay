@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    other-nvim = {
+      url = "github:rgroli/other.nvim";
+      flake = false;
+    };
     direnv-vim = {
       url = "github:direnv/direnv.vim";
       flake = false;
