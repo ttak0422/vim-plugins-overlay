@@ -3031,11 +3031,11 @@
     "neogit": {
       "flake": false,
       "locked": {
-        "lastModified": 1694376721,
-        "narHash": "sha256-CE7WcfJsUpD9Aerj3FCWJ5ntqGW+EkI4MtS8k/c+MEk=",
+        "lastModified": 1694465012,
+        "narHash": "sha256-ju7RbbKVzanmNGCJ2HfQL8d4xx1cAjMS5d5hmsjDXKE=",
         "owner": "TimUntersberger",
         "repo": "neogit",
-        "rev": "6673cafc173ad20a8517bd555325ca5b314d6fe1",
+        "rev": "1b2f888e504dc7911fa43e30c5aa7affcec6f6c7",
         "type": "github"
       },
       "original": {
@@ -3592,11 +3592,11 @@
     "nvim-bqf": {
       "flake": false,
       "locked": {
-        "lastModified": 1691315952,
-        "narHash": "sha256-w7H+EppkvnVfsVq/gMc1eTmH0ks9lMWOJvvMzEDE/1Q=",
+        "lastModified": 1694468980,
+        "narHash": "sha256-ncnWq4zeMPsVqQTBHyArFPG3N4EmUJssXxVWrjn+d0s=",
         "owner": "kevinhwang91",
         "repo": "nvim-bqf",
-        "rev": "c920a55c6153766bd909e474b7feffa9739f07e8",
+        "rev": "77022a3539e76268802397d42e11c100b72d582c",
         "type": "github"
       },
       "original": {
@@ -4360,11 +4360,11 @@
     "obsidian-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1694192259,
-        "narHash": "sha256-u6C4KStgrg9hECAzua6PVzF9t1WNAS2gho80XLMCf48=",
+        "lastModified": 1694459172,
+        "narHash": "sha256-4PFLHI6wnOAgCTZZv3UrVyS6xXe0H8q/wmwX/mxtvIA=",
         "ref": "refs/heads/main",
-        "rev": "d7c3b8361630e57dfd0b72a43811273ad7d7fde3",
-        "revCount": 273,
+        "rev": "256ca787b975923ff781bfbcb581ec685791477e",
+        "revCount": 276,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/epwalsh/obsidian.nvim"
@@ -4474,11 +4474,11 @@
     "overseer-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1694408344,
-        "narHash": "sha256-a92RiUOJD6ihYjXka68AhzPjugUfYvG8PEOkBGZPJPM=",
+        "lastModified": 1694462953,
+        "narHash": "sha256-KtrwRlpQywcaRmwifGWAz2PnU1ZycxZxVaS7FnmBrXE=",
         "owner": "stevearc",
         "repo": "overseer.nvim",
-        "rev": "61a616037afd38451c02285e6b1a6193cfe059ca",
+        "rev": "ed67e917b9dbb431b435d7380f0c4c94e767b229",
         "type": "github"
       },
       "original": {
