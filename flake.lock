@@ -5195,6 +5195,7 @@
         "telescope-undo-nvim": "telescope-undo-nvim",
         "term-edit-nvim": "term-edit-nvim",
         "themer-lua": "themer-lua",
+        "themery-nvim": "themery-nvim",
         "tig-explorer-vim": "tig-explorer-vim",
         "tint-nvim": "tint-nvim",
         "tmux-nvim": "tmux-nvim",
@@ -5815,6 +5816,22 @@
       "original": {
         "owner": "ThemerCorp",
         "repo": "themer.lua",
+        "type": "github"
+      }
+    },
+    "themery-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689325323,
+        "narHash": "sha256-x6NQigSbOUIHTQMrcpe+opubL91oiYcEeFb/kjQ0hD0=",
+        "owner": "zaldih",
+        "repo": "themery.nvim",
+        "rev": "c629a596370508680e4c6fb0b2791b6a55b412c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zaldih",
+        "repo": "themery.nvim",
         "type": "github"
       }
     },
