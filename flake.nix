@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    rainbow-delimiters-nvim = {
+      url = "github:HiPhish/rainbow-delimiters.nvim";
+      flake = false;
+    };
     themery-nvim = {
       url = "github:zaldih/themery.nvim";
       flake = false;

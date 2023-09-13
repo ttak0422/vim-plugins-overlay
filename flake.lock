@@ -4791,6 +4791,22 @@
         "type": "github"
       }
     },
+    "rainbow-delimiters-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693079405,
+        "narHash": "sha256-4aH2UhG1alE9F1jOMZUSSnvHmWYR6QSC4HwH3oOv5GM=",
+        "owner": "HiPhish",
+        "repo": "rainbow-delimiters.nvim",
+        "rev": "9cbd3dc409af1f5531778ccd1ea6bce668241f39",
+        "type": "github"
+      },
+      "original": {
+        "owner": "HiPhish",
+        "repo": "rainbow-delimiters.nvim",
+        "type": "github"
+      }
+    },
     "range-highlight-nvim": {
       "flake": false,
       "locked": {
@@ -5156,6 +5172,7 @@
         "qfopen-vim": "qfopen-vim",
         "qfview-nvim": "qfview-nvim",
         "quick-scope": "quick-scope",
+        "rainbow-delimiters-nvim": "rainbow-delimiters-nvim",
         "range-highlight-nvim": "range-highlight-nvim",
         "reacher-nvim": "reacher-nvim",
         "registers-nvim": "registers-nvim",
