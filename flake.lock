@@ -5197,6 +5197,7 @@
         "statuscol-nvim": "statuscol-nvim",
         "stickybuf-nvim": "stickybuf-nvim",
         "styler-nvim": "styler-nvim",
+        "swap-nvim": "swap-nvim",
         "symbols-outline-nvim": "symbols-outline-nvim",
         "tabout-nvim": "tabout-nvim",
         "telescope-command-palette-nvim": "telescope-command-palette-nvim",
@@ -5593,6 +5594,22 @@
       "original": {
         "owner": "folke",
         "repo": "styler.nvim",
+        "type": "github"
+      }
+    },
+    "swap-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694466768,
+        "narHash": "sha256-yjQOBX5sKMTTpCCht66b0Kh0KEhZaNDrnLInZPZPpvQ=",
+        "owner": "mizlan",
+        "repo": "iswap.nvim",
+        "rev": "623f46106731d4a981b83f11cc567985fa94f516",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mizlan",
+        "repo": "iswap.nvim",
         "type": "github"
       }
     },
