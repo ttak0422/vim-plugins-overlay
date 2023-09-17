@@ -930,6 +930,22 @@
         "type": "github"
       }
     },
+    "crates-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694474403,
+        "narHash": "sha256-zBp7hOLJUsZ889qHZZSDSu5txO40kCexJgSAA5R7zQI=",
+        "owner": "Saecki",
+        "repo": "crates.nvim",
+        "rev": "db629b5cfb2aa8de9e44efb795657297ee95ca91",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Saecki",
+        "repo": "crates.nvim",
+        "type": "github"
+      }
+    },
     "cybu-nvim": {
       "flake": false,
       "locked": {
@@ -4931,6 +4947,7 @@
         "copilot-lua": "copilot-lua",
         "copilot-vim": "copilot-vim",
         "core-nvim": "core-nvim",
+        "crates-nvim": "crates-nvim",
         "cybu-nvim": "cybu-nvim",
         "dap-utils-nvim": "dap-utils-nvim",
         "dda-vim": "dda-vim",

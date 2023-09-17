@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    crates-nvim = {
+      url = "github:Saecki/crates.nvim";
+      flake = false;
+    };
     swap-nvim = {
       url = "github:mizlan/iswap.nvim";
       flake = false;
