@@ -3,11 +3,51 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    conform-nvim = {
+      url = "github:stevearc/conform.nvim";
+      flake = false;
+    };
+    kitty-scrollback-nvim = {
+      url = "github:mikesmithgh/kitty-scrollback.nvim";
+      flake = false;
+    };
+    symbol-usage-nvim = {
+      url = "github:Wansmer/symbol-usage.nvim";
+      flake = false;
+    };
+    haskell-scope-highlighting-nvim = {
+      url = "github:kiyoon/haskell-scope-highlighting.nvim";
+      flake = false;
+    };
+    nvim-dap-rr = {
+      url = "github:jonboh/nvim-dap-rr";
+      flake = false;
+    };
+    caret-nvim = {
+      url = "github:projekt0n/caret.nvim";
+      flake = false;
+    };
+    confirm-nvim = {
+      url = "github:stevearc/conform.nvim";
+      flake = false;
+    };
+    navigator-lua = {
+      url = "github:ray-x/navigator.lua";
+      flake = false;
+    };
+    lsp_signature-nvim = {
+      url = "github:ray-x/lsp_signature.nvim";
+      flake = false;
+    };
+    go-nvim = {
+      url = "github:ray-x/go.nvim";
+      flake = false;
+    };
     crates-nvim = {
       url = "github:Saecki/crates.nvim";
       flake = false;
     };
-    swap-nvim = {
+    iswap-nvim = {
       url = "github:mizlan/iswap.nvim";
       flake = false;
     };
@@ -1637,7 +1677,7 @@
           version = "latest";
         in listToAttrs (map (name: {
           inherit name;
-          value = buildVimPlugin{
+          value = buildVimPlugin {
             inherit version;
             pname = name;
             src = getAttr name inputs;
