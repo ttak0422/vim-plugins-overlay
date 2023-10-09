@@ -1633,17 +1633,17 @@
       packages = eachSystem (system:
         let
           pkgs = import nixpkgs { inherit system; };
-          inherit (pkgs.vimUtils) buildVimPluginFrom2Nix;
+          inherit (pkgs.vimUtils) buildVimPlugin;
           version = "latest";
         in listToAttrs (map (name: {
           inherit name;
-          value = buildVimPluginFrom2Nix {
+          value = buildVimPlugin{
             inherit version;
             pname = name;
             src = getAttr name inputs;
           };
         }) plugins) // {
-          gin-vim = buildVimPluginFrom2Nix {
+          gin-vim = buildVimPlugin {
             inherit version;
             pname = "gin-vim";
             src = inputs.gin-vim;
