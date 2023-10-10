@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    guihua-lua = {
+      url = "github:ray-x/guihua.lua";
+      flake = false;
+    };
     conform-nvim = {
       url = "github:stevearc/conform.nvim";
       flake = false;

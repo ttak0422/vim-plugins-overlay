@@ -2402,6 +2402,22 @@
         "type": "github"
       }
     },
+    "guihua-lua": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692085661,
+        "narHash": "sha256-MF30YevxZUreW88RX/Tn9i/5GpqXqKcmH1tbDmsnoZY=",
+        "owner": "ray-x",
+        "repo": "guihua.lua",
+        "rev": "5ad8dba19ce9b9fd8965598984dfdc9c119f97e4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "guihua.lua",
+        "type": "github"
+      }
+    },
     "guise-vim": {
       "flake": false,
       "locked": {
@@ -5199,6 +5215,7 @@
         "goto-preview": "goto-preview",
         "grapple-nvim": "grapple-nvim",
         "guard-nvim": "guard-nvim",
+        "guihua-lua": "guihua-lua",
         "guise-vim": "guise-vim",
         "haskell-scope-highlighting-nvim": "haskell-scope-highlighting-nvim",
         "haskell-tools-nvim": "haskell-tools-nvim",
