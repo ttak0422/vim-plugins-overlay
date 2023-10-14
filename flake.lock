@@ -2434,6 +2434,22 @@
         "type": "github"
       }
     },
+    "harpoon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696945578,
+        "narHash": "sha256-pSnFx5fg1llNlpTCV4hoo3Pf1KWnAJDRVSe+88N4HXM=",
+        "owner": "ThePrimeagen",
+        "repo": "harpoon",
+        "rev": "c1aebbad9e3d13f20bedb8f2ce8b3a94e39e424a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThePrimeagen",
+        "repo": "harpoon",
+        "type": "github"
+      }
+    },
     "haskell-scope-highlighting-nvim": {
       "flake": false,
       "locked": {
@@ -5217,6 +5233,7 @@
         "guard-nvim": "guard-nvim",
         "guihua-lua": "guihua-lua",
         "guise-vim": "guise-vim",
+        "harpoon": "harpoon",
         "haskell-scope-highlighting-nvim": "haskell-scope-highlighting-nvim",
         "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",

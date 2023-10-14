@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    harpoon = {
+      url = "github:ThePrimeagen/harpoon";
+      flake = false;
+    };
     guihua-lua = {
       url = "github:ray-x/guihua.lua";
       flake = false;
