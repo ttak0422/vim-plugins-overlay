@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    melange-nvim = {
+      url = "github:savq/melange-nvim";
+      flake = false;
+    };
+    monokai-nightasty-nvim = {
+      url = "github:polirritmico/monokai-nightasty.nvim";
+      flake = false;
+    };
     harpoon = {
       url = "github:ThePrimeagen/harpoon";
       flake = false;
