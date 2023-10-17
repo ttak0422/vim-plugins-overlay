@@ -3,6 +3,66 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-source-command_history = {
+      url = "github:matsui54/ddu-source-command_history";
+      flake = false;
+    };
+    ddu-filter-converter_devicon = {
+      url = "github:uga-rosa/ddu-filter-converter_devicon";
+      flake = false;
+    };
+    ddu-source-git_log = {
+      url = "github:kyoh86/ddu-source-git_log";
+      flake = false;
+    };
+    ddu-source-vim = {
+      url = "github:Shougo/ddu-source-vim";
+      flake = false;
+    };
+    ddu-source-action = {
+      url = "github:Shougo/ddu-source-action";
+      flake = false;
+    };
+    ddu-source-git_status = {
+      url = "github:kuuote/ddu-source-git_status";
+      flake = false;
+    };
+    ddu-source-ghq = {
+      url = "github:4513ECHO/ddu-source-ghq";
+      flake = false;
+    };
+    ddu-filter-zf = {
+      url = "github:hasundue/ddu-filter-zf";
+      flake = false;
+    };
+    ddu-source-custom-list = {
+      url = "github:liquidz/ddu-source-custom-list";
+      flake = false;
+    };
+    ddu-source-register = {
+      url = "github:Shougo/ddu-source-register";
+      flake = false;
+    };
+    ddu-source-file_old = {
+      url = "github:Shougo/ddu-source-file_old";
+      flake = false;
+    };
+    ddu-column-icon_filename = {
+      url = "github:ryota2357/ddu-column-icon_filename";
+      flake = false;
+    };
+    ddu-source-line = {
+      url = "github:Shougo/ddu-source-line";
+      flake = false;
+    };
+    ddu-source-lsp = {
+      url = "github:uga-rosa/ddu-source-lsp";
+      flake = false;
+    };
+    ddu-filter-matcher_hidden = {
+      url = "github:Shougo/ddu-filter-matcher_hidden";
+      flake = false;
+    };
     melange-nvim = {
       url = "github:savq/melange-nvim";
       flake = false;
