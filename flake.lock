@@ -1586,6 +1586,22 @@
         "type": "github"
       }
     },
+    "ddu-filter-converter_hl_dir": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696171735,
+        "narHash": "sha256-NFW5EgH0xTVlLeGwjd9Zp76DRp04y4+AHF2sS9OdMsQ=",
+        "owner": "kyoh86",
+        "repo": "ddu-filter-converter_hl_dir",
+        "rev": "a93bc675a846424392f8f085eb82ab34fc609b09",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kyoh86",
+        "repo": "ddu-filter-converter_hl_dir",
+        "type": "github"
+      }
+    },
     "ddu-filter-fzf": {
       "flake": false,
       "locked": {
@@ -5516,6 +5532,7 @@
         "ddu-commands-vim": "ddu-commands-vim",
         "ddu-filter-converter_devicon": "ddu-filter-converter_devicon",
         "ddu-filter-converter_display_word": "ddu-filter-converter_display_word",
+        "ddu-filter-converter_hl_dir": "ddu-filter-converter_hl_dir",
         "ddu-filter-fzf": "ddu-filter-fzf",
         "ddu-filter-kensaku": "ddu-filter-kensaku",
         "ddu-filter-matcher_hidden": "ddu-filter-matcher_hidden",

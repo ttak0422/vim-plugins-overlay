@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-filter-converter_hl_dir = {
+      url = "github:kyoh86/ddu-filter-converter_hl_dir";
+      flake = false;
+    };
     ddu-filter-sorter_reversed = {
       url = "github:Shougo/ddu-filter-sorter_reversed";
       flake = false;
