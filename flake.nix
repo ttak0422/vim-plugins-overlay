@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-filter-sorter_reversed = {
+      url = "github:Shougo/ddu-filter-sorter_reversed";
+      flake = false;
+    };
+    ddu-filter-sorter_alpha = {
+      url = "github:Shougo/ddu-filter-sorter_alpha";
+      flake = false;
+    };
     none-ls-nvim = {
       url = "github:nvimtools/none-ls.nvim";
       flake = false;

@@ -1666,6 +1666,38 @@
         "type": "github"
       }
     },
+    "ddu-filter-sorter_alpha": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692073183,
+        "narHash": "sha256-tAhI9J6REe55cQLZoLV6KrEeE3+uwUzy0PwtOXnmWE0=",
+        "owner": "Shougo",
+        "repo": "ddu-filter-sorter_alpha",
+        "rev": "728f0b4e54be1617e5ace548d4d28175026792fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddu-filter-sorter_alpha",
+        "type": "github"
+      }
+    },
+    "ddu-filter-sorter_reversed": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692063420,
+        "narHash": "sha256-dpcO/7mNjsN5+aLRde5DEnSuOHi2mQQ6NbMjlX+gIzI=",
+        "owner": "Shougo",
+        "repo": "ddu-filter-sorter_reversed",
+        "rev": "7deeacf8f3fa2bf218f72da887b1eb36c27c948b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddu-filter-sorter_reversed",
+        "type": "github"
+      }
+    },
     "ddu-filter-zf": {
       "flake": false,
       "locked": {
@@ -5489,6 +5521,8 @@
         "ddu-filter-matcher_hidden": "ddu-filter-matcher_hidden",
         "ddu-filter-matcher_substring": "ddu-filter-matcher_substring",
         "ddu-filter-merge": "ddu-filter-merge",
+        "ddu-filter-sorter_alpha": "ddu-filter-sorter_alpha",
+        "ddu-filter-sorter_reversed": "ddu-filter-sorter_reversed",
         "ddu-filter-zf": "ddu-filter-zf",
         "ddu-kind-file": "ddu-kind-file",
         "ddu-source-action": "ddu-source-action",
