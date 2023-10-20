@@ -546,6 +546,22 @@
         "type": "github"
       }
     },
+    "clear-action-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697642936,
+        "narHash": "sha256-DTqVN+iDWLSaSJDzKh2csyCABr4bSMnUVLxlUWeOjkQ=",
+        "owner": "luckasRanarison",
+        "repo": "clear-action.nvim",
+        "rev": "b2a3be3774d39c61ec06742f931be597782ce6b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luckasRanarison",
+        "repo": "clear-action.nvim",
+        "type": "github"
+      }
+    },
     "clipboard-image-nvim": {
       "flake": false,
       "locked": {
@@ -3106,6 +3122,22 @@
         "type": "github"
       }
     },
+    "lsp-timeout-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697733273,
+        "narHash": "sha256-mZCUrcRU/enYoP5A0fyTf/IANH/fZ4+xc3pDoXjYwpg=",
+        "owner": "hinell",
+        "repo": "lsp-timeout.nvim",
+        "rev": "9a28c3fe10a5db856f5e5ac505afcfe79b49934e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hinell",
+        "repo": "lsp-timeout.nvim",
+        "type": "github"
+      }
+    },
     "lsp_signature-nvim": {
       "flake": false,
       "locked": {
@@ -3954,6 +3986,22 @@
       "original": {
         "owner": "dbinagi",
         "repo": "nomodoro",
+        "type": "github"
+      }
+    },
+    "none-ls-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697600654,
+        "narHash": "sha256-dDMZEgT5uG31bEsLiX9r6MJlOJUdQyeTPJAeRcY2z7s=",
+        "owner": "nvimtools",
+        "repo": "none-ls.nvim",
+        "rev": "dc9b7e28f5573a1a2225ffb33893d23d3e052ed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvimtools",
+        "repo": "none-ls.nvim",
         "type": "github"
       }
     },
@@ -5371,6 +5419,7 @@
         "catppuccin": "catppuccin",
         "chowcho-nvim": "chowcho-nvim",
         "circles-nvim": "circles-nvim",
+        "clear-action-nvim": "clear-action-nvim",
         "clipboard-image-nvim": "clipboard-image-nvim",
         "close-buffers-nvim": "close-buffers-nvim",
         "cmd-parser-nvim": "cmd-parser-nvim",
@@ -5531,6 +5580,7 @@
         "lsp-colors-nvim": "lsp-colors-nvim",
         "lsp-inlayhints-nvim": "lsp-inlayhints-nvim",
         "lsp-lens-nvim": "lsp-lens-nvim",
+        "lsp-timeout-nvim": "lsp-timeout-nvim",
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
         "lspsaga-nvim": "lspsaga-nvim",
@@ -5584,6 +5634,7 @@
         "nixpkgs": "nixpkgs",
         "noice-nvim": "noice-nvim",
         "nomodoro": "nomodoro",
+        "none-ls-nvim": "none-ls-nvim",
         "nordic-nvim": "nordic-nvim",
         "nui-nvim": "nui-nvim",
         "null-ls-nvim": "null-ls-nvim",
@@ -5671,6 +5722,7 @@
         "registers-nvim": "registers-nvim",
         "rest-nvim": "rest-nvim",
         "rust-rools-nvim": "rust-rools-nvim",
+        "sad-nvim": "sad-nvim",
         "safe-close-window-nvim": "safe-close-window-nvim",
         "satellite-nvim": "satellite-nvim",
         "scope-nvim": "scope-nvim",
@@ -5728,6 +5780,7 @@
         "vim-ambiwidth": "vim-ambiwidth",
         "vim-asterisk": "vim-asterisk",
         "vim-better-whitespace": "vim-better-whitespace",
+        "vim-budoux": "vim-budoux",
         "vim-buffer-history": "vim-buffer-history",
         "vim-bufmru": "vim-bufmru",
         "vim-bufsurf": "vim-bufsurf",
@@ -5783,6 +5836,22 @@
       "original": {
         "owner": "simrat39",
         "repo": "rust-tools.nvim",
+        "type": "github"
+      }
+    },
+    "sad-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678691282,
+        "narHash": "sha256-uwXldYA7JdZHqoB4qfCnZcQW9YBjlRWmiz8mKb9jHuI=",
+        "owner": "ray-x",
+        "repo": "sad.nvim",
+        "rev": "869c7f3ca3dcd28fd78023db6a7e1bf8af0f4714",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "sad.nvim",
         "type": "github"
       }
     },
@@ -6695,6 +6764,22 @@
       "original": {
         "owner": "ntpeters",
         "repo": "vim-better-whitespace",
+        "type": "github"
+      }
+    },
+    "vim-budoux": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697440309,
+        "narHash": "sha256-keMxyf37LGsrqCa46vqyedduUXO7GDYLyG0jc3Aq9wE=",
+        "owner": "koron",
+        "repo": "vim-budoux",
+        "rev": "e038d54398a7e620392c0719feba863f8f5afae6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "koron",
+        "repo": "vim-budoux",
         "type": "github"
       }
     },

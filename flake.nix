@@ -3,6 +3,26 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    none-ls-nvim = {
+      url = "github:nvimtools/none-ls.nvim";
+      flake = false;
+    };
+    sad-nvim = {
+      url = "github:ray-x/sad.nvim";
+      flake = false;
+    };
+    clear-action-nvim = {
+      url = "github:luckasRanarison/clear-action.nvim";
+      flake = false;
+    };
+    lsp-timeout-nvim = {
+      url = "github:hinell/lsp-timeout.nvim";
+      flake = false;
+    };
+    vim-budoux = {
+      url = "github:koron/vim-budoux";
+      flake = false;
+    };
     ddu-source-command_history = {
       url = "github:matsui54/ddu-source-command_history";
       flake = false;
