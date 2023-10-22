@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddc-filter_editdistance = {
+      url = "github:matsui54/ddc-filter_editdistance";
+      flake = false;
+    };
     ferris-nvim = {
       url = "github:mrcjkb/ferris.nvim";
       flake = false;
@@ -109,6 +113,10 @@
     };
     ddu-filter-matcher_hidden = {
       url = "github:Shougo/ddu-filter-matcher_hidden";
+      flake = false;
+    };
+    ddu-filter-matcher_files = {
+      url = "github:Shougo/ddu-filter-matcher_files";
       flake = false;
     };
     melange-nvim = {
