@@ -2338,6 +2338,22 @@
         "type": "github"
       }
     },
+    "ferris-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697920176,
+        "narHash": "sha256-OHPpgtBdVS4Fh1jYWLfFX5lLil1+/VI5PQle7cSIf+M=",
+        "owner": "mrcjkb",
+        "repo": "ferris.nvim",
+        "rev": "9a1a26199438821463b40424758a94f2e51c8c56",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mrcjkb",
+        "repo": "ferris.nvim",
+        "type": "github"
+      }
+    },
     "fidget-nvim": {
       "flake": false,
       "locked": {
@@ -2447,6 +2463,22 @@
       "original": {
         "owner": "akinsho",
         "repo": "flutter-tools.nvim",
+        "type": "github"
+      }
+    },
+    "fogbell-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589477332,
+        "narHash": "sha256-wBGzWeXvoMM2VTGP2G/X+259G5GN5HornTelbGyJ9B0=",
+        "owner": "jaredgorski",
+        "repo": "fogbell.vim",
+        "rev": "274cc13184f6a7d0589650c0763c94cef431b319",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jaredgorski",
+        "repo": "fogbell.vim",
         "type": "github"
       }
     },
@@ -2978,6 +3010,22 @@
         "type": "github"
       }
     },
+    "inline-fold-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690819538,
+        "narHash": "sha256-o07a6PA2IatlbJo7LroADybpfN1PsFVTamyRz94eZdA=",
+        "owner": "malbertzard",
+        "repo": "inline-fold.nvim",
+        "rev": "d0a24dd55c2fe9477e2636a589499fb7d530e9a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "malbertzard",
+        "repo": "inline-fold.nvim",
+        "type": "github"
+      }
+    },
     "iswap-nvim": {
       "flake": false,
       "locked": {
@@ -3457,6 +3505,22 @@
       "original": {
         "owner": "loctvl842",
         "repo": "monokai-pro.nvim",
+        "type": "github"
+      }
+    },
+    "nano-theme-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697842421,
+        "narHash": "sha256-eAgscWYmjcXNHmOknR/lMlh6bQIdiQ1WqohsYOM3TYU=",
+        "owner": "ronisbr",
+        "repo": "nano-theme.nvim",
+        "rev": "dfcd051d398883411bb045a01e7e72c4acc4736d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ronisbr",
+        "repo": "nano-theme.nvim",
         "type": "github"
       }
     },
@@ -5579,6 +5643,7 @@
         "editorconfig-nvim": "editorconfig-nvim",
         "error-lens-nvim": "error-lens-nvim",
         "everforest": "everforest",
+        "ferris-nvim": "ferris-nvim",
         "fidget-nvim": "fidget-nvim",
         "filetype-nvim": "filetype-nvim",
         "fine-cmdline-nvim": "fine-cmdline-nvim",
@@ -5586,6 +5651,7 @@
         "flash-nvim": "flash-nvim",
         "flit-nvim": "flit-nvim",
         "flutter-tools-nvim": "flutter-tools-nvim",
+        "fogbell-vim": "fogbell-vim",
         "formatter-nvim": "formatter-nvim",
         "friendly-snippets": "friendly-snippets",
         "fuzzy-motion-vim": "fuzzy-motion-vim",
@@ -5619,6 +5685,7 @@
         "incline-nvim": "incline-nvim",
         "indent-blankline-nvim": "indent-blankline-nvim",
         "indent-o-matic": "indent-o-matic",
+        "inline-fold-nvim": "inline-fold-nvim",
         "iswap-nvim": "iswap-nvim",
         "kanagawa-nvim": "kanagawa-nvim",
         "kensaku-vim": "kensaku-vim",
@@ -5649,6 +5716,7 @@
         "modicator-nvim": "modicator-nvim",
         "monokai-nightasty-nvim": "monokai-nightasty-nvim",
         "monokai-pro-nvim": "monokai-pro-nvim",
+        "nano-theme-nvim": "nano-theme-nvim",
         "nap-nvim": "nap-nvim",
         "navigator-lua": "navigator-lua",
         "neco-vim": "neco-vim",

@@ -3,6 +3,22 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ferris-nvim = {
+      url = "github:mrcjkb/ferris.nvim";
+      flake = false;
+    };
+    fogbell-vim = {
+      url = "github:jaredgorski/fogbell.vim";
+      flake = false;
+    };
+    nano-theme-nvim = {
+      url = "github:ronisbr/nano-theme.nvim";
+      flake = false;
+    };
+    inline-fold-nvim = {
+      url = "github:malbertzard/inline-fold.nvim";
+      flake = false;
+    };
     ddu-filter-converter_hl_dir = {
       url = "github:kyoh86/ddu-filter-converter_hl_dir";
       flake = false;
