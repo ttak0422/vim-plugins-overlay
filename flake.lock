@@ -1938,6 +1938,22 @@
         "type": "github"
       }
     },
+    "ddu-source-git_diff": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1695871826,
+        "narHash": "sha256-7t4WQxUTLibHWht+gUOrpQOVVf8TB+vMtnOcheJR+B0=",
+        "owner": "kuuote",
+        "repo": "ddu-source-git_diff",
+        "rev": "7b3210ef0d78ee048cf44c3fad9488a98b564a2c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kuuote",
+        "repo": "ddu-source-git_diff",
+        "type": "github"
+      }
+    },
     "ddu-source-git_log": {
       "flake": false,
       "locked": {
@@ -1951,6 +1967,22 @@
       "original": {
         "owner": "kyoh86",
         "repo": "ddu-source-git_log",
+        "type": "github"
+      }
+    },
+    "ddu-source-git_stash": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692580690,
+        "narHash": "sha256-QutN03MtyTy3d6FEUcXb+yF337fMS7rrWPV8oWhhbY8=",
+        "owner": "peacock0803sz",
+        "repo": "ddu-source-git_stash",
+        "rev": "166300b3745742674cb12b8a65934b18104e1f15",
+        "type": "github"
+      },
+      "original": {
+        "owner": "peacock0803sz",
+        "repo": "ddu-source-git_stash",
         "type": "github"
       }
     },
@@ -1999,6 +2031,22 @@
       "original": {
         "owner": "uga-rosa",
         "repo": "ddu-source-lsp",
+        "type": "github"
+      }
+    },
+    "ddu-source-mr": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693634640,
+        "narHash": "sha256-QxoXIhLnojm/WDJYrarQjncw6vUJb6pmLv9BO6XR/Ig=",
+        "owner": "kuuote",
+        "repo": "ddu-source-mr",
+        "rev": "751cd0967466f2c1b3488be6905beebd42793034",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kuuote",
+        "repo": "ddu-source-mr",
         "type": "github"
       }
     },
@@ -5650,10 +5698,13 @@
         "ddu-source-file_old": "ddu-source-file_old",
         "ddu-source-file_rec": "ddu-source-file_rec",
         "ddu-source-ghq": "ddu-source-ghq",
+        "ddu-source-git_diff": "ddu-source-git_diff",
         "ddu-source-git_log": "ddu-source-git_log",
+        "ddu-source-git_stash": "ddu-source-git_stash",
         "ddu-source-git_status": "ddu-source-git_status",
         "ddu-source-line": "ddu-source-line",
         "ddu-source-lsp": "ddu-source-lsp",
+        "ddu-source-mr": "ddu-source-mr",
         "ddu-source-register": "ddu-source-register",
         "ddu-source-rg": "ddu-source-rg",
         "ddu-source-vim": "ddu-source-vim",

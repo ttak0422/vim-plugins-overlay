@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    ddu-source-git_stash = {
+      url = "github:peacock0803sz/ddu-source-git_stash";
+      flake = false;
+    };
+    ddu-source-git_diff = {
+      url = "github:kuuote/ddu-source-git_diff";
+      flake = false;
+    };
+    ddu-source-mr = {
+      url = "github:kuuote/ddu-source-mr";
+      flake = false;
+    };
     ddc-filter_editdistance = {
       url = "github:matsui54/ddc-filter_editdistance";
       flake = false;
