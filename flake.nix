@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    mr-vim = {
+      url = "github:lambdalisue/mr.vim";
+      flake = false;
+    };
     ddu-source-git_stash = {
       url = "github:peacock0803sz/ddu-source-git_stash";
       flake = false;
