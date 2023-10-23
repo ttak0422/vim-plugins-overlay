@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-partedit = {
+      url = "github:thinca/vim-partedit";
+      flake = false;
+    };
+    vim-qfedit = {
+      url = "github:itchyny/vim-qfedit";
+      flake = false;
+    };
+    compiler-nvim = {
+      url = "github:Zeioth/compiler.nvim";
+      flake = false;
+    };
     mr-vim = {
       url = "github:lambdalisue/mr.vim";
       flake = false;
