@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    kensaku-search-vim = {
+      url = "github:lambdalisue/kensaku-search.vim";
+      flake = false;
+    };
+    kensaku-command-vim = {
+      url = "github:lambdalisue/kensaku-command.vim";
+      flake = false;
+    };
     vim-partedit = {
       url = "github:thinca/vim-partedit";
       flake = false;
