@@ -2674,6 +2674,22 @@
         "type": "github"
       }
     },
+    "gina-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648614527,
+        "narHash": "sha256-+F+ehYUvztezq+06VegLPblAS83VpB/fm8Y30eO1VCY=",
+        "owner": "lambdalisue",
+        "repo": "gina.vim",
+        "rev": "ff6c2ddeca98f886b57fb42283c12e167d6ab575",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lambdalisue",
+        "repo": "gina.vim",
+        "type": "github"
+      }
+    },
     "git-conflict-nvim": {
       "flake": false,
       "locked": {
@@ -5840,6 +5856,7 @@
         "fuzzy-motion-vim": "fuzzy-motion-vim",
         "fzy-lua-native": "fzy-lua-native",
         "gin-vim": "gin-vim",
+        "gina-vim": "gina-vim",
         "git-conflict-nvim": "git-conflict-nvim",
         "github-colors": "github-colors",
         "github-nvim-theme": "github-nvim-theme",
@@ -6103,6 +6120,7 @@
         "vim-poslist": "vim-poslist",
         "vim-qf": "vim-qf",
         "vim-qfedit": "vim-qfedit",
+        "vim-qfreplace": "vim-qfreplace",
         "vim-repeat": "vim-repeat",
         "vim-searchx": "vim-searchx",
         "vim-sensible": "vim-sensible",
@@ -7344,6 +7362,22 @@
       "original": {
         "owner": "itchyny",
         "repo": "vim-qfedit",
+        "type": "github"
+      }
+    },
+    "vim-qfreplace": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1632933604,
+        "narHash": "sha256-PLPWjPELicZXO+jxs+OWtrDtTIKUWFhXOK4bjGnToQY=",
+        "owner": "thinca",
+        "repo": "vim-qfreplace",
+        "rev": "db1c4b0161931c9a63942f4f562a0d0f4271ac14",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thinca",
+        "repo": "vim-qfreplace",
         "type": "github"
       }
     },
