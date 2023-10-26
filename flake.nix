@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    leetcode-nvim = {
+      url = "github:kawre/leetcode.nvim";
+      flake = false;
+    };
+    agitator-nvim = {
+      url = "github:emmanueltouzery/agitator.nvim";
+      flake = false;
+    };
     kensaku-search-vim = {
       url = "github:lambdalisue/kensaku-search.vim";
       flake = false;

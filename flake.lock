@@ -242,6 +242,22 @@
         "type": "github"
       }
     },
+    "agitator-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1695493769,
+        "narHash": "sha256-Kvs+rXOGZ+oAgXx1WHvlj4EheZSHVdl5+T1PMKRegZI=",
+        "owner": "emmanueltouzery",
+        "repo": "agitator.nvim",
+        "rev": "f9d9e99819087d59016626cd493b408125e39cc3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "emmanueltouzery",
+        "repo": "agitator.nvim",
+        "type": "github"
+      }
+    },
     "align-nvim": {
       "flake": false,
       "locked": {
@@ -3266,6 +3282,22 @@
         "type": "github"
       }
     },
+    "leetcode-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697985873,
+        "narHash": "sha256-BX9yr9xiUllyBW9Z5kxKXxCrKMbOU8VFtQdESMB8XP4=",
+        "owner": "kawre",
+        "repo": "leetcode.nvim",
+        "rev": "22a899ce96cbffc49de92959ae602dd053f4e325",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kawre",
+        "repo": "leetcode.nvim",
+        "type": "github"
+      }
+    },
     "legendary-nvim": {
       "flake": false,
       "locked": {
@@ -5656,6 +5688,7 @@
         "actions-preview-nvim": "actions-preview-nvim",
         "advanced-git-search-nvim": "advanced-git-search-nvim",
         "aerial-nvim": "aerial-nvim",
+        "agitator-nvim": "agitator-nvim",
         "align-nvim": "align-nvim",
         "alpha-nvim": "alpha-nvim",
         "animation-nvim": "animation-nvim",
@@ -5845,6 +5878,7 @@
         "leap-ast-nvim": "leap-ast-nvim",
         "leap-nvim": "leap-nvim",
         "leap-spooky-nvim": "leap-spooky-nvim",
+        "leetcode-nvim": "leetcode-nvim",
         "legendary-nvim": "legendary-nvim",
         "lexima-vim": "lexima-vim",
         "lsp-colors-nvim": "lsp-colors-nvim",
