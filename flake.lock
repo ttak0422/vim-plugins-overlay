@@ -530,6 +530,22 @@
         "type": "github"
       }
     },
+    "chafa-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673020992,
+        "narHash": "sha256-4k1Nga+iYyhJeCkxgn3spzsKqBNhO+J9IRiStPCAHvM=",
+        "owner": "princejoogie",
+        "repo": "chafa.nvim",
+        "rev": "792c8f4f0e86b5e27c3602be4614f886f3a12a5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "princejoogie",
+        "repo": "chafa.nvim",
+        "type": "github"
+      }
+    },
     "chowcho-nvim": {
       "flake": false,
       "locked": {
@@ -5722,6 +5738,7 @@
         "bufresize-nvim": "bufresize-nvim",
         "caret-nvim": "caret-nvim",
         "catppuccin": "catppuccin",
+        "chafa-nvim": "chafa-nvim",
         "chowcho-nvim": "chowcho-nvim",
         "circles-nvim": "circles-nvim",
         "clear-action-nvim": "clear-action-nvim",

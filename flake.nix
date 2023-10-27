@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    chafa-nvim = {
+      url = "github:princejoogie/chafa.nvim";
+      flake = false;
+    };
     gina-vim = {
       url = "github:lambdalisue/gina.vim";
       flake = false;
