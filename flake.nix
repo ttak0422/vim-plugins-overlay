@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    tangerine-nvim = {
+      url = "github:udayvir-singh/tangerine.nvim";
+      flake = false;
+    };
+    hotpot-nvim = {
+      url = "github:rktjmp/hotpot.nvim";
+      flake = false;
+    };
+    nfnl = {
+      url = "github:Olical/nfnl";
+      flake = false;
+    };
     three-nvim = {
       url = "github:stevearc/three.nvim";
       flake = false;

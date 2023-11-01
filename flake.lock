@@ -3074,6 +3074,22 @@
         "type": "github"
       }
     },
+    "hotpot-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697793633,
+        "narHash": "sha256-jI/M+yOu1T4TYHNSa7613Ql9GGtekOnWeBWV20KggXo=",
+        "owner": "rktjmp",
+        "repo": "hotpot.nvim",
+        "rev": "eb5531b5f6285656408d1ed07b4d9bcc8067bad4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rktjmp",
+        "repo": "hotpot.nvim",
+        "type": "github"
+      }
+    },
     "hover-nvim": {
       "flake": false,
       "locked": {
@@ -4258,6 +4274,22 @@
         "owner": "nvim-neo-tree",
         "ref": "v3.x",
         "repo": "neo-tree.nvim",
+        "type": "github"
+      }
+    },
+    "nfnl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694178267,
+        "narHash": "sha256-NxpeCa4JFRPNJ+amKFR0D24MImEIHKR2VeVkwoVxPlQ=",
+        "owner": "Olical",
+        "repo": "nfnl",
+        "rev": "979dbfc48bcb601a9107764a99f9459cb5bd4051",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Olical",
+        "repo": "nfnl",
         "type": "github"
       }
     },
@@ -5929,6 +5961,7 @@
         "hmts-nvim": "hmts-nvim",
         "hologram-nvim": "hologram-nvim",
         "hop-nvim": "hop-nvim",
+        "hotpot-nvim": "hotpot-nvim",
         "hover-nvim": "hover-nvim",
         "hydra-nvim": "hydra-nvim",
         "image_preview-nvim": "image_preview-nvim",
@@ -6003,6 +6036,7 @@
         "neotest-vitest": "neotest-vitest",
         "neotree-nvim": "neotree-nvim",
         "neotree-nvim-3": "neotree-nvim-3",
+        "nfnl": "nfnl",
         "nightfox-nvim": "nightfox-nvim",
         "nixpkgs": "nixpkgs",
         "noice-nvim": "noice-nvim",
@@ -6119,6 +6153,7 @@
         "symbol-usage-nvim": "symbol-usage-nvim",
         "symbols-outline-nvim": "symbols-outline-nvim",
         "tabout-nvim": "tabout-nvim",
+        "tangerine-nvim": "tangerine-nvim",
         "telescope-command-palette-nvim": "telescope-command-palette-nvim",
         "telescope-dap-nvim": "telescope-dap-nvim",
         "telescope-file-browser-nvim": "telescope-file-browser-nvim",
@@ -6582,6 +6617,22 @@
       "original": {
         "owner": "abecodes",
         "repo": "tabout.nvim",
+        "type": "github"
+      }
+    },
+    "tangerine-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693235145,
+        "narHash": "sha256-CDJHZrE8Wd303YrKgJgoL8CNrBoHT+eQ7pcu++ZJdqI=",
+        "owner": "udayvir-singh",
+        "repo": "tangerine.nvim",
+        "rev": "4913f3b2021dd6e439a83469c68affb53a257c0a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "udayvir-singh",
+        "repo": "tangerine.nvim",
         "type": "github"
       }
     },
