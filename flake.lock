@@ -5223,6 +5223,22 @@
         "url": "https://github.com/epwalsh/obsidian.nvim"
       }
     },
+    "oil-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698851344,
+        "narHash": "sha256-0RamRiVysarkCI81dxUDy3ySJkHntKC14SI1ZAY8Txc=",
+        "owner": "stevearc",
+        "repo": "oil.nvim",
+        "rev": "2e6996b0757c454a8bbf1eb719d0b0b065442213",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stevearc",
+        "repo": "oil.nvim",
+        "type": "github"
+      }
+    },
     "onedarkpro-nvim": {
       "flake": false,
       "locked": {
@@ -6047,6 +6063,7 @@
         "nvim_context_vt": "nvim_context_vt",
         "nxvim": "nxvim",
         "obsidian-nvim": "obsidian-nvim",
+        "oil-nvim": "oil-nvim",
         "onedarkpro-nvim": "onedarkpro-nvim",
         "open-handlers-nvim": "open-handlers-nvim",
         "open-nvim": "open-nvim",
@@ -6116,6 +6133,7 @@
         "term-edit-nvim": "term-edit-nvim",
         "themer-lua": "themer-lua",
         "themery-nvim": "themery-nvim",
+        "three-nvim": "three-nvim",
         "tig-explorer-vim": "tig-explorer-vim",
         "tint-nvim": "tint-nvim",
         "tmux-nvim": "tmux-nvim",
@@ -6788,6 +6806,22 @@
       "original": {
         "owner": "zaldih",
         "repo": "themery.nvim",
+        "type": "github"
+      }
+    },
+    "three-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696833631,
+        "narHash": "sha256-JXtWIVz59JDEob1Z4E4OtFmOAUasaoWE9aZhXyPLnIA=",
+        "owner": "stevearc",
+        "repo": "three.nvim",
+        "rev": "c51d21816de15456f75ab3ba4568b8a15286e965",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stevearc",
+        "repo": "three.nvim",
         "type": "github"
       }
     },
