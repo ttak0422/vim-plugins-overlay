@@ -1010,6 +1010,22 @@
         "type": "github"
       }
     },
+    "conjure": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693130762,
+        "narHash": "sha256-zYAO7aykeotKwSNGxOMh8wxNi9bxFD9Vhg8lmJ64Ut4=",
+        "owner": "Olical",
+        "repo": "conjure",
+        "rev": "58c46d1f4999679659a5918284b574c266a7ac83",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Olical",
+        "repo": "conjure",
+        "type": "github"
+      }
+    },
     "copilot-lua": {
       "flake": false,
       "locked": {
@@ -5832,6 +5848,7 @@
         "confirm-nvim": "confirm-nvim",
         "confirm-quit-nvim": "confirm-quit-nvim",
         "conform-nvim": "conform-nvim",
+        "conjure": "conjure",
         "copilot-lua": "copilot-lua",
         "copilot-vim": "copilot-vim",
         "core-nvim": "core-nvim",

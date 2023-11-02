@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    conjure = {
+      url = "github:Olical/conjure";
+      flake = false;
+    };
     tangerine-nvim = {
       url = "github:udayvir-singh/tangerine.nvim";
       flake = false;
