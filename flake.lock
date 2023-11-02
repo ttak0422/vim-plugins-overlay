@@ -3026,6 +3026,22 @@
         "type": "github"
       }
     },
+    "hibiscus-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689656565,
+        "narHash": "sha256-5+y/jxiN3UKWcgBNWWm9TFk3r/q1HmKIIydVSNMGqAc=",
+        "owner": "udayvir-singh",
+        "repo": "hibiscus.nvim",
+        "rev": "049d7d98b66d2a6ce2699e6857556ec4a8dbf479",
+        "type": "github"
+      },
+      "original": {
+        "owner": "udayvir-singh",
+        "repo": "hibiscus.nvim",
+        "type": "github"
+      }
+    },
     "hlchunk-nvim": {
       "flake": false,
       "locked": {
@@ -5990,6 +6006,7 @@
         "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",
         "heirline-nvim": "heirline-nvim",
+        "hibiscus-nvim": "hibiscus-nvim",
         "hlchunk-nvim": "hlchunk-nvim",
         "hmts-nvim": "hmts-nvim",
         "hologram-nvim": "hologram-nvim",
