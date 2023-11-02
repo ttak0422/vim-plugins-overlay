@@ -6285,6 +6285,7 @@
         "winshift-nvim": "winshift-nvim",
         "yarepl-nvim": "yarepl-nvim",
         "zen-mode-nvim": "zen-mode-nvim",
+        "zest-nvim": "zest-nvim",
         "zoomwintab-vim": "zoomwintab-vim"
       }
     },
@@ -7965,6 +7966,22 @@
       "original": {
         "owner": "folke",
         "repo": "zen-mode.nvim",
+        "type": "github"
+      }
+    },
+    "zest-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633531386,
+        "narHash": "sha256-WQJWMYyhHAIuy8YQPZgbnS1oG0nOyqPqemvs0YBnFP8=",
+        "owner": "tsbohc",
+        "repo": "zest.nvim",
+        "rev": "06cd8b2c35f0cda66f348fa3a6225c746cad2edc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tsbohc",
+        "repo": "zest.nvim",
         "type": "github"
       }
     },
