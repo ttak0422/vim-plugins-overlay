@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    iron-nvim = {
+      url = "github:Vigemus/iron.nvim";
+      flake = false;
+    };
+    yarepl-nvim = {
+      url = "github:milanglacier/yarepl.nvim";
+      flake = false;
+    };
     conjure = {
       url = "github:Olical/conjure";
       flake = false;

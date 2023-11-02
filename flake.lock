@@ -3218,6 +3218,22 @@
         "type": "github"
       }
     },
+    "iron-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689276899,
+        "narHash": "sha256-dPPMh/8lpJKj6V9jFZaKKVc59IjVwcu/rX83M6fXx3k=",
+        "owner": "Vigemus",
+        "repo": "iron.nvim",
+        "rev": "7f876ee3e1f4ea1e5284b1b697cdad5b256e8046",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Vigemus",
+        "repo": "iron.nvim",
+        "type": "github"
+      }
+    },
     "iswap-nvim": {
       "flake": false,
       "locked": {
@@ -5986,6 +6002,7 @@
         "indent-blankline-nvim": "indent-blankline-nvim",
         "indent-o-matic": "indent-o-matic",
         "inline-fold-nvim": "inline-fold-nvim",
+        "iron-nvim": "iron-nvim",
         "iswap-nvim": "iswap-nvim",
         "kanagawa-nvim": "kanagawa-nvim",
         "kensaku-command-vim": "kensaku-command-vim",
@@ -6249,6 +6266,7 @@
         "windows-nvim": "windows-nvim",
         "winresizer": "winresizer",
         "winshift-nvim": "winshift-nvim",
+        "yarepl-nvim": "yarepl-nvim",
         "zen-mode-nvim": "zen-mode-nvim",
         "zoomwintab-vim": "zoomwintab-vim"
       }
@@ -7898,6 +7916,22 @@
       "original": {
         "owner": "sindrets",
         "repo": "winshift.nvim",
+        "type": "github"
+      }
+    },
+    "yarepl-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698507999,
+        "narHash": "sha256-BSVPdYCrqkKxvbzWhrysBJxl08hk5apQD6VNgWMB3Cg=",
+        "owner": "milanglacier",
+        "repo": "yarepl.nvim",
+        "rev": "bafe287da25b96b72a20deaf2e1698938efc2c96",
+        "type": "github"
+      },
+      "original": {
+        "owner": "milanglacier",
+        "repo": "yarepl.nvim",
         "type": "github"
       }
     },
