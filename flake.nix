@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vimwiki = {
+      url = "github:vimwiki/vimwiki";
+      flake = false;
+    };
+    smart-tab-nvim = {
+      url = "github:boltlessengineer/smart-tab.nvim";
+      flake = false;
+    };
+    highlight-current-n-nvim = {
+      url = "github:rktjmp/highlight-current-n.nvim";
+      flake = false;
+    };
     zest-nvim = {
       url = "github:tsbohc/zest.nvim";
       flake = false;

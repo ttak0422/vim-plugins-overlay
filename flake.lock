@@ -3042,6 +3042,22 @@
         "type": "github"
       }
     },
+    "highlight-current-n-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687753810,
+        "narHash": "sha256-Bel83ytJCgQ6MK4qWKU557b+OI/HdMSriFoqYoCgpzA=",
+        "owner": "rktjmp",
+        "repo": "highlight-current-n.nvim",
+        "rev": "1225d1ad3fee74c3e6a6d258f25a1952b927cb76",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rktjmp",
+        "repo": "highlight-current-n.nvim",
+        "type": "github"
+      }
+    },
     "hlchunk-nvim": {
       "flake": false,
       "locked": {
@@ -6007,6 +6023,7 @@
         "headlines-nvim": "headlines-nvim",
         "heirline-nvim": "heirline-nvim",
         "hibiscus-nvim": "hibiscus-nvim",
+        "highlight-current-n-nvim": "highlight-current-n-nvim",
         "hlchunk-nvim": "hlchunk-nvim",
         "hmts-nvim": "hmts-nvim",
         "hologram-nvim": "hologram-nvim",
@@ -6193,6 +6210,7 @@
         "skkeleton": "skkeleton",
         "skkeleton_indicator-nvim": "skkeleton_indicator-nvim",
         "smart-splits-nvim": "smart-splits-nvim",
+        "smart-tab-nvim": "smart-tab-nvim",
         "spaceless-nvim": "spaceless-nvim",
         "splitjoin-vim": "splitjoin-vim",
         "ssr-nvim": "ssr-nvim",
@@ -6271,6 +6289,7 @@
         "vim-vsnip": "vim-vsnip",
         "vim-vsnip-integ": "vim-vsnip-integ",
         "vimdoc-ja": "vimdoc-ja",
+        "vimwiki": "vimwiki",
         "virtual-types-nvim": "virtual-types-nvim",
         "waitevent-nvim": "waitevent-nvim",
         "which-key-nvim": "which-key-nvim",
@@ -6494,6 +6513,22 @@
       "original": {
         "owner": "mrjones2014",
         "repo": "smart-splits.nvim",
+        "type": "github"
+      }
+    },
+    "smart-tab-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698810266,
+        "narHash": "sha256-f7/azD5TSIpUUoF6VqNWW/SjyRHSuhWzk1aNoKDWqoQ=",
+        "owner": "boltlessengineer",
+        "repo": "smart-tab.nvim",
+        "rev": "f4d34edd9be353e25507001a7d632b3146e57277",
+        "type": "github"
+      },
+      "original": {
+        "owner": "boltlessengineer",
+        "repo": "smart-tab.nvim",
         "type": "github"
       }
     },
@@ -7742,6 +7777,22 @@
       "original": {
         "owner": "vim-jp",
         "repo": "vimdoc-ja",
+        "type": "github"
+      }
+    },
+    "vimwiki": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698770718,
+        "narHash": "sha256-lLSZD4XjixIka8KSj0sC/oZ3oQrecUgcMag/uh9U1e8=",
+        "owner": "vimwiki",
+        "repo": "vimwiki",
+        "rev": "0bb1b4945bb205a076a35b66174e5d66be8eaafe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vimwiki",
+        "repo": "vimwiki",
         "type": "github"
       }
     },
