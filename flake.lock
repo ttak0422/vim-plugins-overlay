@@ -6237,6 +6237,7 @@
         "term-edit-nvim": "term-edit-nvim",
         "themer-lua": "themer-lua",
         "themery-nvim": "themery-nvim",
+        "themis-nvim": "themis-nvim",
         "three-nvim": "three-nvim",
         "tig-explorer-vim": "tig-explorer-vim",
         "tint-nvim": "tint-nvim",
@@ -6945,6 +6946,22 @@
       "original": {
         "owner": "zaldih",
         "repo": "themery.nvim",
+        "type": "github"
+      }
+    },
+    "themis-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681504579,
+        "narHash": "sha256-GPpbPzmefx5+zLhFEC4AKyJwaySbGs9IVXVOiUhFsyc=",
+        "owner": "datwaft",
+        "repo": "themis.nvim",
+        "rev": "bd114a0b18ab0bbeb6368e3fe830a032be2a0f41",
+        "type": "github"
+      },
+      "original": {
+        "owner": "datwaft",
+        "repo": "themis.nvim",
         "type": "github"
       }
     },
