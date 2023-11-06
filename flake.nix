@@ -3,6 +3,30 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    launch-nvim = {
+      url = "github:dasupradyumna/launch.nvim";
+      flake = false;
+    };
+    tshjkl-nvim = {
+      url = "github:gsuuon/tshjkl.nvim";
+      flake = false;
+    };
+    improved-search-nvim = {
+      url = "github:backdround/improved-search.nvim";
+      flake = false;
+    };
+    auto-indent-nvim = {
+      url = "github:VidocqH/auto-indent.nvim";
+      flake = false;
+    };
+    haskell-snippets-nvim = {
+      url = "github:mrcjkb/haskell-snippets.nvim";
+      flake = false;
+    };
+    rustaceanvim = {
+      url = "github:mrcjkb/rustaceanvim";
+      flake = false;
+    };
     themis-nvim = {
       url = "github:datwaft/themis.nvim";
       flake = false;
