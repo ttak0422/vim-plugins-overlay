@@ -6363,6 +6363,7 @@
         "vimwiki": "vimwiki",
         "virtual-types-nvim": "virtual-types-nvim",
         "waitevent-nvim": "waitevent-nvim",
+        "wf-nvim": "wf-nvim",
         "which-key-nvim": "which-key-nvim",
         "wilder-nvim": "wilder-nvim",
         "wildfire-nvim": "wildfire-nvim",
@@ -7944,6 +7945,22 @@
       "original": {
         "owner": "notomo",
         "repo": "waitevent.nvim",
+        "type": "github"
+      }
+    },
+    "wf-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697380700,
+        "narHash": "sha256-TS5lokzRO+/nK0EmiW5f4qEBQLl/3e2GsNIuway6iKE=",
+        "owner": "Cassin01",
+        "repo": "wf.nvim",
+        "rev": "6258254a2528fff9e4180d6fa5a0ea9e1d6784f5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Cassin01",
+        "repo": "wf.nvim",
         "type": "github"
       }
     },

@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    wf-nvim = {
+      url = "github:Cassin01/wf.nvim";
+      flake = false;
+    };
     launch-nvim = {
       url = "github:dasupradyumna/launch.nvim";
       flake = false;
