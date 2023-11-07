@@ -6288,6 +6288,7 @@
         "statuscol-nvim": "statuscol-nvim",
         "stickybuf-nvim": "stickybuf-nvim",
         "styler-nvim": "styler-nvim",
+        "suit-nvim": "suit-nvim",
         "symbol-usage-nvim": "symbol-usage-nvim",
         "symbols-outline-nvim": "symbols-outline-nvim",
         "tabout-nvim": "tabout-nvim",
@@ -6745,6 +6746,22 @@
       "original": {
         "owner": "folke",
         "repo": "styler.nvim",
+        "type": "github"
+      }
+    },
+    "suit-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690564635,
+        "narHash": "sha256-xP4ySNOlC81ZPekwptNsXij06XLRNeH29RuJHerF9Qk=",
+        "owner": "doums",
+        "repo": "suit.nvim",
+        "rev": "400478b71ba55c8167bdd255eede69841e3f0c75",
+        "type": "github"
+      },
+      "original": {
+        "owner": "doums",
+        "repo": "suit.nvim",
         "type": "github"
       }
     },

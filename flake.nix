@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    suit-nvim = {
+      url = "github:doums/suit.nvim";
+      flake = false;
+    };
     wf-nvim = {
       url = "github:Cassin01/wf.nvim";
       flake = false;
