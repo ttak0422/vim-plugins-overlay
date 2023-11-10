@@ -626,6 +626,22 @@
         "type": "github"
       }
     },
+    "climbdir-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652987926,
+        "narHash": "sha256-0JXDq6tocZhSSEM9IBNaVO7TLXt/Y4xbVUnHb83XYbM=",
+        "owner": "kyoh86",
+        "repo": "climbdir.nvim",
+        "rev": "399f331cf07313df6a857efc1a987833fb887d94",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kyoh86",
+        "repo": "climbdir.nvim",
+        "type": "github"
+      }
+    },
     "clipboard-image-nvim": {
       "flake": false,
       "locked": {
@@ -5936,6 +5952,7 @@
         "chowcho-nvim": "chowcho-nvim",
         "circles-nvim": "circles-nvim",
         "clear-action-nvim": "clear-action-nvim",
+        "climbdir-nvim": "climbdir-nvim",
         "clipboard-image-nvim": "clipboard-image-nvim",
         "close-buffers-nvim": "close-buffers-nvim",
         "cmd-parser-nvim": "cmd-parser-nvim",

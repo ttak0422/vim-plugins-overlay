@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    climbdir-nvim = {
+      url = "github:kyoh86/climbdir.nvim";
+      flake = false;
+    };
     suit-nvim = {
       url = "github:doums/suit.nvim";
       flake = false;
