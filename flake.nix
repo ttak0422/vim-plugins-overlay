@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    focus-nvim = {
+      url = "github:nvim-focus/focus.nvim";
+      flake = false;
+    };
     climbdir-nvim = {
       url = "github:kyoh86/climbdir.nvim";
       flake = false;

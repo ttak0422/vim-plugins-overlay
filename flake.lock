@@ -2658,6 +2658,22 @@
         "type": "github"
       }
     },
+    "focus-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697218916,
+        "narHash": "sha256-EL4mzBYxTcd3zMN8HhGOew06eK3bUVsFE7Gm8Jioirs=",
+        "owner": "nvim-focus",
+        "repo": "focus.nvim",
+        "rev": "5269ea70e2003d9dac199584b093323752a472ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-focus",
+        "repo": "focus.nvim",
+        "type": "github"
+      }
+    },
     "fogbell-vim": {
       "flake": false,
       "locked": {
@@ -6079,6 +6095,7 @@
         "flash-nvim": "flash-nvim",
         "flit-nvim": "flit-nvim",
         "flutter-tools-nvim": "flutter-tools-nvim",
+        "focus-nvim": "focus-nvim",
         "fogbell-vim": "fogbell-vim",
         "formatter-nvim": "formatter-nvim",
         "friendly-snippets": "friendly-snippets",
