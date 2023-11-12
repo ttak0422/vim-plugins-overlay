@@ -2754,6 +2754,22 @@
         "type": "github"
       }
     },
+    "garbage-day-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1699508690,
+        "narHash": "sha256-OhrvidFs2KafAlHUlfXjynN5IACH0x07WblpfMTi6+Y=",
+        "owner": "Zeioth",
+        "repo": "garbage-day.nvim",
+        "rev": "cecb3b5672b61d970bb714cec781720c9ab76bbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Zeioth",
+        "repo": "garbage-day.nvim",
+        "type": "github"
+      }
+    },
     "gin-vim": {
       "flake": false,
       "locked": {
@@ -6101,6 +6117,7 @@
         "friendly-snippets": "friendly-snippets",
         "fuzzy-motion-vim": "fuzzy-motion-vim",
         "fzy-lua-native": "fzy-lua-native",
+        "garbage-day-nvim": "garbage-day-nvim",
         "gin-vim": "gin-vim",
         "gina-vim": "gina-vim",
         "git-conflict-nvim": "git-conflict-nvim",

@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    garbage-day-nvim = {
+      url = "github:Zeioth/garbage-day.nvim";
+      flake = false;
+    };
     focus-nvim = {
       url = "github:nvim-focus/focus.nvim";
       flake = false;
