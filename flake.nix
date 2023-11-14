@@ -3,6 +3,42 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    vim-mundo = {
+      url = "github:simnalamburt/vim-mundo";
+      flake = false;
+    };
+    linediff-vim = {
+      url = "github:AndrewRadev/linediff.vim";
+      flake = false;
+    };
+    vim-toggle-quickfix = {
+      url = "github:drmingdrmer/vim-toggle-quickfix";
+      flake = false;
+    };
+    medit = {
+      url = "github:zdcthomas/medit";
+      flake = false;
+    };
+    capture-vim = {
+      url = "github:/tyru/capture.vim";
+      flake = false;
+    };
+    history-ignore-nvim = {
+      url = "github:yutkat/history-ignore.nvim";
+      flake = false;
+    };
+    telekasten-nvim = {
+      url = "github:renerocksai/telekasten.nvim";
+      flake = false;
+    };
+    vim-print-debug = {
+      url = "github:sentriz/vim-print-debug";
+      flake = false;
+    };
+    package-info-nvim = {
+      url = "github:vuki656/package-info.nvim";
+      flake = false;
+    };
     garbage-day-nvim = {
       url = "github:Zeioth/garbage-day.nvim";
       flake = false;

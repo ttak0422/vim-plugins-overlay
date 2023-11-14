@@ -530,6 +530,22 @@
         "type": "github"
       }
     },
+    "capture-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1529979536,
+        "narHash": "sha256-nYMNXdHFVaw6cFKGT9KiHzrlQ7u76WdA4UlvaII+bok=",
+        "owner": "tyru",
+        "repo": "capture.vim",
+        "rev": "857ee11cfe1193948d3d45dcb8d511fded8533fb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tyru",
+        "repo": "capture.vim",
+        "type": "github"
+      }
+    },
     "caret-nvim": {
       "flake": false,
       "locked": {
@@ -3138,6 +3154,22 @@
         "type": "github"
       }
     },
+    "history-ignore-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1652981128,
+        "narHash": "sha256-SbvC1+CJlutVhIR4aqwf2hdc4OWmYOuYsJ01Y4SyAxA=",
+        "owner": "yutkat",
+        "repo": "history-ignore.nvim",
+        "rev": "fa873a546e739361c1b9dd6019e7504eb57d61f3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yutkat",
+        "repo": "history-ignore.nvim",
+        "type": "github"
+      }
+    },
     "hlchunk-nvim": {
       "flake": false,
       "locked": {
@@ -3570,6 +3602,22 @@
         "type": "github"
       }
     },
+    "linediff-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678908543,
+        "narHash": "sha256-3VxpJpogPFBmo966GB90sQvcj/Ah56lGyR/y/WV3QT0=",
+        "owner": "AndrewRadev",
+        "repo": "linediff.vim",
+        "rev": "245d16328c47a132574e0fa4298d24a0f78b20b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AndrewRadev",
+        "repo": "linediff.vim",
+        "type": "github"
+      }
+    },
     "lsp-colors-nvim": {
       "flake": false,
       "locked": {
@@ -3777,6 +3825,22 @@
       "original": {
         "owner": "jubnzv",
         "repo": "mdeval.nvim",
+        "type": "github"
+      }
+    },
+    "medit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669430630,
+        "narHash": "sha256-aAcNk5gUH6jVV+ZzUSfNWiZZaBX0aGJXfIJfbg4yx5U=",
+        "owner": "zdcthomas",
+        "repo": "medit",
+        "rev": "65455f8aff879c20da4d97a41b5fbd69192cf0f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zdcthomas",
+        "repo": "medit",
         "type": "github"
       }
     },
@@ -5559,6 +5623,22 @@
         "type": "github"
       }
     },
+    "package-info-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1699776223,
+        "narHash": "sha256-XF+XYSdDKBoiGmzZbLeeM0MRZi/F/Y+oToSAb4dKOi0=",
+        "owner": "vuki656",
+        "repo": "package-info.nvim",
+        "rev": "18f8126dd8e65b2e21804c9107785af4abbb5bfc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vuki656",
+        "repo": "package-info.nvim",
+        "type": "github"
+      }
+    },
     "pantran-nvim": {
       "flake": false,
       "locked": {
@@ -5978,6 +6058,7 @@
         "bufferline-nvim": "bufferline-nvim",
         "bufpreview-vim": "bufpreview-vim",
         "bufresize-nvim": "bufresize-nvim",
+        "capture-vim": "capture-vim",
         "caret-nvim": "caret-nvim",
         "catppuccin": "catppuccin",
         "chafa-nvim": "chafa-nvim",
@@ -6141,6 +6222,7 @@
         "heirline-nvim": "heirline-nvim",
         "hibiscus-nvim": "hibiscus-nvim",
         "highlight-current-n-nvim": "highlight-current-n-nvim",
+        "history-ignore-nvim": "history-ignore-nvim",
         "hlchunk-nvim": "hlchunk-nvim",
         "hmts-nvim": "hmts-nvim",
         "hologram-nvim": "hologram-nvim",
@@ -6168,6 +6250,7 @@
         "leetcode-nvim": "leetcode-nvim",
         "legendary-nvim": "legendary-nvim",
         "lexima-vim": "lexima-vim",
+        "linediff-vim": "linediff-vim",
         "lsp-colors-nvim": "lsp-colors-nvim",
         "lsp-inlayhints-nvim": "lsp-inlayhints-nvim",
         "lsp-lens-nvim": "lsp-lens-nvim",
@@ -6181,6 +6264,7 @@
         "lush-nvim": "lush-nvim",
         "marks-nvim": "marks-nvim",
         "mdeval-nvim": "mdeval-nvim",
+        "medit": "medit",
         "melange-nvim": "melange-nvim",
         "middleclass": "middleclass",
         "minimap-vim": "minimap-vim",
@@ -6292,6 +6376,7 @@
         "orgmode": "orgmode",
         "other-nvim": "other-nvim",
         "overseer-nvim": "overseer-nvim",
+        "package-info-nvim": "package-info-nvim",
         "pantran-nvim": "pantran-nvim",
         "peek-nvim": "peek-nvim",
         "persisted-nvim": "persisted-nvim",
@@ -6344,6 +6429,7 @@
         "symbols-outline-nvim": "symbols-outline-nvim",
         "tabout-nvim": "tabout-nvim",
         "tangerine-nvim": "tangerine-nvim",
+        "telekasten-nvim": "telekasten-nvim",
         "telescope-command-palette-nvim": "telescope-command-palette-nvim",
         "telescope-dap-nvim": "telescope-dap-nvim",
         "telescope-file-browser-nvim": "telescope-file-browser-nvim",
@@ -6393,10 +6479,12 @@
         "vim-jukit": "vim-jukit",
         "vim-markdown": "vim-markdown",
         "vim-matchup": "vim-matchup",
+        "vim-mundo": "vim-mundo",
         "vim-nix": "vim-nix",
         "vim-oscyank": "vim-oscyank",
         "vim-partedit": "vim-partedit",
         "vim-poslist": "vim-poslist",
+        "vim-print-debug": "vim-print-debug",
         "vim-qf": "vim-qf",
         "vim-qfedit": "vim-qfedit",
         "vim-qfreplace": "vim-qfreplace",
@@ -6407,6 +6495,7 @@
         "vim-startuptime": "vim-startuptime",
         "vim-table-mode": "vim-table-mode",
         "vim-test": "vim-test",
+        "vim-toggle-quickfix": "vim-toggle-quickfix",
         "vim-translator": "vim-translator",
         "vim-typo": "vim-typo",
         "vim-vsnip": "vim-vsnip",
@@ -6877,6 +6966,22 @@
       "original": {
         "owner": "udayvir-singh",
         "repo": "tangerine.nvim",
+        "type": "github"
+      }
+    },
+    "telekasten-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697095424,
+        "narHash": "sha256-lLy83LiGhyAdVV82YSJUfWyLqxK3ghFJ/FWNxBFl7mQ=",
+        "owner": "renerocksai",
+        "repo": "telekasten.nvim",
+        "rev": "3fd50c62c1ed2f973ce8639c1218445e4e91a962",
+        "type": "github"
+      },
+      "original": {
+        "owner": "renerocksai",
+        "repo": "telekasten.nvim",
         "type": "github"
       }
     },
@@ -7664,6 +7769,22 @@
         "type": "github"
       }
     },
+    "vim-mundo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667661755,
+        "narHash": "sha256-qeyNrtgjkgIgmrTWPRIDhnO/LzUD1BfRsRHB3FlWmbc=",
+        "owner": "simnalamburt",
+        "repo": "vim-mundo",
+        "rev": "b53d35fb5ca9923302b9ef29e618ab2db4cc675e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "simnalamburt",
+        "repo": "vim-mundo",
+        "type": "github"
+      }
+    },
     "vim-nix": {
       "flake": false,
       "locked": {
@@ -7725,6 +7846,22 @@
       "original": {
         "owner": "thinca",
         "repo": "vim-poslist",
+        "type": "github"
+      }
+    },
+    "vim-print-debug": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647864312,
+        "narHash": "sha256-ZO9XcX3dz+YElvKOYHGuY2gSu1Uxu7wlxt+pHErRkEA=",
+        "owner": "sentriz",
+        "repo": "vim-print-debug",
+        "rev": "038b0973bd605c3131e3707ee8f8db9d68ad2aef",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sentriz",
+        "repo": "vim-print-debug",
         "type": "github"
       }
     },
@@ -7885,6 +8022,22 @@
       "original": {
         "owner": "vim-test",
         "repo": "vim-test",
+        "type": "github"
+      }
+    },
+    "vim-toggle-quickfix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1566528737,
+        "narHash": "sha256-K4KNJlNhd7buH7zjA2A4KknByIPtv0XF88QkGCySoMk=",
+        "owner": "drmingdrmer",
+        "repo": "vim-toggle-quickfix",
+        "rev": "04ca155dc8d8bd6b9e882b916ba827fa80f7b576",
+        "type": "github"
+      },
+      "original": {
+        "owner": "drmingdrmer",
+        "repo": "vim-toggle-quickfix",
         "type": "github"
       }
     },
