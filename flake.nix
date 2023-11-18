@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    detour-nvim = {
+      url = "github:carbon-steel/detour.nvim";
+      flake = false;
+    };
     vim-mundo = {
       url = "github:simnalamburt/vim-mundo";
       flake = false;
