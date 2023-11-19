@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-paredit-fennel = {
+      url = "github:julienvincent/nvim-paredit-fennel";
+      flake = false;
+    };
     lean-nvim = {
       url = "github:Julian/lean.nvim";
       flake = false;
