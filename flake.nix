@@ -3,6 +3,22 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    lean-nvim = {
+      url = "github:Julian/lean.nvim";
+      flake = false;
+    };
+    sqls-nvim = {
+      url = "github:/nanotee/sqls.nvim";
+      flake = false;
+    };
+    nvim-paredit = {
+      url = "github:julienvincent/nvim-paredit";
+      flake = false;
+    };
+    mix-nvim = {
+      url = "github:brendalf/mix.nvim";
+      flake = false;
+    };
     detour-nvim = {
       url = "github:carbon-steel/detour.nvim";
       flake = false;
