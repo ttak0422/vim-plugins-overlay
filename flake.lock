@@ -2338,19 +2338,19 @@
         "type": "github"
       }
     },
-    "deno-silicon": {
+    "denops-docker-vim": {
       "flake": false,
       "locked": {
-        "lastModified": 1700280413,
-        "narHash": "sha256-ti4EPT3ihffdXeFM7/ToAfyoq+xPdffrr8yMWMWmSzs=",
+        "lastModified": 1700280482,
+        "narHash": "sha256-HVU9k7bVKOcoYGc17SRuAHAUzht0Xzz7zJImL3kStVM=",
         "owner": "skanehira",
-        "repo": "deno-silicon",
-        "rev": "6d8d35c7c1fc3823ebcc1b40976be3751341d2be",
+        "repo": "denops-docker.vim",
+        "rev": "fc856896559fb6361050b4a0972f181b2fca6adc",
         "type": "github"
       },
       "original": {
         "owner": "skanehira",
-        "repo": "deno-silicon",
+        "repo": "denops-docker.vim",
         "type": "github"
       }
     },
@@ -2383,6 +2383,38 @@
       "original": {
         "owner": "matsui54",
         "repo": "denops-signature_help",
+        "type": "github"
+      }
+    },
+    "denops-silicon-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700280398,
+        "narHash": "sha256-x1Xt7IfqZcxa0LmisnG8jmiCZEaJUidf/cIP0wT2bkg=",
+        "owner": "skanehira",
+        "repo": "denops-silicon.vim",
+        "rev": "e52978fcac7b89ec3bdc3fe9432d348379fb76b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skanehira",
+        "repo": "denops-silicon.vim",
+        "type": "github"
+      }
+    },
+    "denops-translate-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700280442,
+        "narHash": "sha256-RyMEYZrPTbxuXws2gqckh3W1oj7tlayIrT+MOm/R2oI=",
+        "owner": "skanehira",
+        "repo": "denops-translate.vim",
+        "rev": "9b967f03626b4d35ae388f038242a159fcab3786",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skanehira",
+        "repo": "denops-translate.vim",
         "type": "github"
       }
     },
@@ -3439,6 +3471,22 @@
       "original": {
         "owner": "mizlan",
         "repo": "iswap.nvim",
+        "type": "github"
+      }
+    },
+    "k8s-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700280425,
+        "narHash": "sha256-g/dKu2aMVvUs/vrVrVUJ7VhLe6kXHGHhXbmCy0FaJGE=",
+        "owner": "skanehira",
+        "repo": "k8s.vim",
+        "rev": "14d3b7092799da0ccd0259835a15c6938057c525",
+        "type": "github"
+      },
+      "original": {
+        "owner": "skanehira",
+        "repo": "k8s.vim",
         "type": "github"
       }
     },
@@ -6283,9 +6331,11 @@
         "ddu-vim-ui-select": "ddu-vim-ui-select",
         "debugprint-nvim": "debugprint-nvim",
         "deno-nvim": "deno-nvim",
-        "deno-silicon": "deno-silicon",
+        "denops-docker-vim": "denops-docker-vim",
         "denops-popup-preview-vim": "denops-popup-preview-vim",
         "denops-signature_help": "denops-signature_help",
+        "denops-silicon-vim": "denops-silicon-vim",
+        "denops-translate-vim": "denops-translate-vim",
         "denops-vim": "denops-vim",
         "detour-nvim": "detour-nvim",
         "diagflow-nvim": "diagflow-nvim",
@@ -6352,6 +6402,7 @@
         "inline-fold-nvim": "inline-fold-nvim",
         "iron-nvim": "iron-nvim",
         "iswap-nvim": "iswap-nvim",
+        "k8s-vim": "k8s-vim",
         "kanagawa-nvim": "kanagawa-nvim",
         "kensaku-command-vim": "kensaku-command-vim",
         "kensaku-search-vim": "kensaku-search-vim",

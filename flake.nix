@@ -3,6 +3,22 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    k8s-vim = {
+      url = "github:skanehira/k8s.vim";
+      flake = false;
+    };
+    denops-docker-vim = {
+      url = "github:skanehira/denops-docker.vim" ;
+      flake = false;
+    };
+    denops-translate-vim = {
+      url = "github:skanehira/denops-translate.vim";
+      flake = false;
+    };
+    denops-silicon-vim = {
+      url = "github:skanehira/denops-silicon.vim";
+      flake = false;
+    };
     mkdnflow-nvim = {
       url = "github:/jakewvincent/mkdnflow.nvim";
       flake = false;
@@ -521,10 +537,6 @@
     };
     piccolo-pomodoro-nvim = {
       url = "github:ttak0422/piccolo-pomodoro.nvim";
-      flake = false;
-    };
-    deno-silicon = {
-      url = "github:skanehira/deno-silicon";
       flake = false;
     };
     hydra-nvim = {
