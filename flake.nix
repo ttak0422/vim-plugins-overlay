@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    flow-nvim = {
+      url = "github:arjunmahishi/flow.nvim";
+      flake = false;
+    };
     k8s-vim = {
       url = "github:skanehira/k8s.vim";
       flake = false;
