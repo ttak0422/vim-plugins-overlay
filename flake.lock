@@ -3349,15 +3349,15 @@
     "hydra-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1675678260,
-        "narHash": "sha256-MBlC7qQMVNNfOFcvTnw1DREOS9QWoI4zsyu3QYqIkLc=",
-        "owner": "anuvyklack",
+        "lastModified": 1700697213,
+        "narHash": "sha256-RnDqb5meOXZP6CbDbQGxkLot2QaZOJRQlXr69B9w2UE=",
+        "owner": "nvim-island",
         "repo": "hydra.nvim",
-        "rev": "3ced42c0b6a6c85583ff0f221635a7f4c1ab0dd0",
+        "rev": "de05017f30264acfea31f306e847ff4a028c5cf4",
         "type": "github"
       },
       "original": {
-        "owner": "anuvyklack",
+        "owner": "nvim-island",
         "repo": "hydra.nvim",
         "type": "github"
       }
