@@ -608,6 +608,10 @@
       url = "github:uga-rosa/ddc-nvim-lsp-setup";
       flake = false;
     };
+    ddc-source-lsp-setup = {
+      url = "github:uga-rosa/ddc-source-lsp-setup";
+      flake = false;
+    };
     ddc-sorter_reverse = {
       url = "github:ttak0422/ddc-sorter_reverse";
       flake = false;
@@ -1428,6 +1432,10 @@
     };
     ddc-source-nvim-lsp = {
       url = "github:Shougo/ddc-source-nvim-lsp";
+      flake = false;
+    };
+    ddc-source-lsp = {
+      url = "github:Shougo/ddc-source-lsp";
       flake = false;
     };
     denops-popup-preview-vim = {

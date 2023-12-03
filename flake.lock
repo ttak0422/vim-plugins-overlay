@@ -1522,6 +1522,38 @@
         "type": "github"
       }
     },
+    "ddc-source-lsp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701314603,
+        "narHash": "sha256-npiJ5an7iwG0CwYlCOMjBPphZZL81KYpf1uxRYdV8m4=",
+        "owner": "Shougo",
+        "repo": "ddc-source-lsp",
+        "rev": "2ef8a090d98b0c857f02a4a4675025ff32177998",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "ddc-source-lsp",
+        "type": "github"
+      }
+    },
+    "ddc-source-lsp-setup": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701308736,
+        "narHash": "sha256-u76g+XTz4Is1dm4a/Y2dyPWBVtlGlLmd0ag9KBSMOSU=",
+        "owner": "uga-rosa",
+        "repo": "ddc-source-lsp-setup",
+        "rev": "7d344ca9248ebaadb00cc3dd122ec946fe0f3e6e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "uga-rosa",
+        "repo": "ddc-source-lsp-setup",
+        "type": "github"
+      }
+    },
     "ddc-source-nextword": {
       "flake": false,
       "locked": {
@@ -6296,6 +6328,8 @@
         "ddc-source-file": "ddc-source-file",
         "ddc-source-input": "ddc-source-input",
         "ddc-source-line": "ddc-source-line",
+        "ddc-source-lsp": "ddc-source-lsp",
+        "ddc-source-lsp-setup": "ddc-source-lsp-setup",
         "ddc-source-nextword": "ddc-source-nextword",
         "ddc-source-nvim-lsp": "ddc-source-nvim-lsp",
         "ddc-source-nvim-obsidian": "ddc-source-nvim-obsidian",
