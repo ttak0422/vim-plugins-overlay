@@ -379,6 +379,10 @@
       url = "github:ThePrimeagen/harpoon";
       flake = false;
     };
+    harpoon-1 = {
+      url = "github:ThePrimeagen/harpoon/master";
+      flake = false;
+    };
     guihua-lua = {
       url = "github:ray-x/guihua.lua";
       flake = false;
