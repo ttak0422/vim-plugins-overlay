@@ -12,7 +12,7 @@
       flake = false;
     };
     denops-docker-vim = {
-      url = "github:skanehira/denops-docker.vim" ;
+      url = "github:skanehira/denops-docker.vim";
       flake = false;
     };
     denops-translate-vim = {
@@ -525,6 +525,10 @@
     };
     neotest-jest = {
       url = "github:nvim-neotest/neotest-jest";
+      flake = false;
+    };
+    neotest-java = {
+      url = "github:andy-bell101/neotest-java";
       flake = false;
     };
     neotest-go = {
@@ -2058,25 +2062,20 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-    in
-    {
+    in {
       packages = eachSystem (system:
         let
           pkgs = import nixpkgs { inherit system; };
           inherit (pkgs.vimUtils) buildVimPlugin;
           version = "latest";
-        in
-        listToAttrs
-          (map
-            (name: {
-              inherit name;
-              value = buildVimPlugin {
-                inherit version;
-                pname = name;
-                src = getAttr name inputs;
-              };
-            })
-            plugins) // {
+        in listToAttrs (map (name: {
+          inherit name;
+          value = buildVimPlugin {
+            inherit version;
+            pname = name;
+            src = getAttr name inputs;
+          };
+        }) plugins) // {
           gin-vim = buildVimPlugin {
             inherit version;
             pname = "gin-vim";

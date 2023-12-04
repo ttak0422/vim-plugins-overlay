@@ -1573,11 +1573,11 @@
     "ddc-source-nvim-lsp": {
       "flake": false,
       "locked": {
-        "lastModified": 1701314603,
-        "narHash": "sha256-npiJ5an7iwG0CwYlCOMjBPphZZL81KYpf1uxRYdV8m4=",
+        "lastModified": 1701665258,
+        "narHash": "sha256-orMVet21sDweKAIcaY7zeKEBdPmlxYygAn2CmmcnyrA=",
         "owner": "Shougo",
         "repo": "ddc-source-nvim-lsp",
-        "rev": "2ef8a090d98b0c857f02a4a4675025ff32177998",
+        "rev": "eb761ebc952980b4d824cd27e09a826e6c383829",
         "type": "github"
       },
       "original": {
@@ -4469,6 +4469,22 @@
         "type": "github"
       }
     },
+    "neotest-java": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693251739,
+        "narHash": "sha256-RQcyOzRFV84lYabv7Twx7LZBTYPsnAct/GPmInCufJY=",
+        "owner": "andy-bell101",
+        "repo": "neotest-java",
+        "rev": "5b915ad065e24149983a672c63e7273fe742fc0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andy-bell101",
+        "repo": "neotest-java",
+        "type": "github"
+      }
+    },
     "neotest-jest": {
       "flake": false,
       "locked": {
@@ -6529,6 +6545,7 @@
         "neotest-elixir": "neotest-elixir",
         "neotest-go": "neotest-go",
         "neotest-haskell": "neotest-haskell",
+        "neotest-java": "neotest-java",
         "neotest-jest": "neotest-jest",
         "neotest-minitest": "neotest-minitest",
         "neotest-pest": "neotest-pest",
