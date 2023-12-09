@@ -1026,6 +1026,22 @@
         "type": "github"
       }
     },
+    "conceal-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701804831,
+        "narHash": "sha256-4Nhcjk89WD0Kw9iD0YsZ202tRTWlhFHxhVp2kyoju/Y=",
+        "owner": "Jxstxs",
+        "repo": "conceal.nvim",
+        "rev": "1aff9fc5d1157aef1c7c88b6df6d6db21268d00a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Jxstxs",
+        "repo": "conceal.nvim",
+        "type": "github"
+      }
+    },
     "confirm-nvim": {
       "flake": false,
       "locked": {
@@ -2642,6 +2658,22 @@
         "type": "github"
       }
     },
+    "executor-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700938934,
+        "narHash": "sha256-Ng6yD3jjpOmt0wP1KJ8RS6DhYjNhaQPzxIfN7C2ZS2w=",
+        "owner": "google",
+        "repo": "executor.nvim",
+        "rev": "2af6072829562922e047ed644fc83749c4b10d92",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google",
+        "repo": "executor.nvim",
+        "type": "github"
+      }
+    },
     "ferris-nvim": {
       "flake": false,
       "locked": {
@@ -3392,6 +3424,22 @@
       "original": {
         "owner": "lewis6991",
         "repo": "hover.nvim",
+        "type": "github"
+      }
+    },
+    "hoverhints-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700732787,
+        "narHash": "sha256-QQ+ISmwY6NnvzsnY2GZVxXh/2V6LYaXIjD7evScq4HQ=",
+        "owner": "soulis-1256",
+        "repo": "hoverhints.nvim",
+        "rev": "86fad985b91fe454469108924c1cdb378cbae1ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "soulis-1256",
+        "repo": "hoverhints.nvim",
         "type": "github"
       }
     },
@@ -5094,6 +5142,22 @@
         "type": "github"
       }
     },
+    "nvim-dbee": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694192822,
+        "narHash": "sha256-IOsXc/Ed0V0odtTAIg0Mj6KizF88xGmMWFLBKU77rG8=",
+        "owner": "kndndrj",
+        "repo": "nvim-dbee",
+        "rev": "25aca37cd2dd42be99d2f50cdca63cb3c9741c62",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kndndrj",
+        "repo": "nvim-dbee",
+        "type": "github"
+      }
+    },
     "nvim-dd": {
       "flake": false,
       "locked": {
@@ -5736,6 +5800,22 @@
         "url": "https://github.com/epwalsh/obsidian.nvim"
       }
     },
+    "ofirkai-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701894682,
+        "narHash": "sha256-/wHFBhIWXLtkq2fCddUOxEZJcyAR6fM9qL/pLhiCbss=",
+        "owner": "ofirgall",
+        "repo": "ofirkai.nvim",
+        "rev": "cbb499d11827eb6b340a93f01fb5953dacaa935c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ofirgall",
+        "repo": "ofirkai.nvim",
+        "type": "github"
+      }
+    },
     "oil-nvim": {
       "flake": false,
       "locked": {
@@ -6264,6 +6344,22 @@
         "type": "github"
       }
     },
+    "rocks-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701864756,
+        "narHash": "sha256-vOMmYevhCrcyT9ggG8kRiVrdb5CrheDyAR3pHoqVXGQ=",
+        "owner": "nvim-neorocks",
+        "repo": "rocks.nvim",
+        "rev": "f06f018bfec3a4c27d5ff7d32241e8d9a1c1127c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorocks",
+        "repo": "rocks.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "ChatGPT-nvim": "ChatGPT-nvim",
@@ -6330,6 +6426,7 @@
         "comfortable-motion-vim": "comfortable-motion-vim",
         "comfortable_motion_scroll_up_key": "comfortable_motion_scroll_up_key",
         "compiler-nvim": "compiler-nvim",
+        "conceal-nvim": "conceal-nvim",
         "confirm-nvim": "confirm-nvim",
         "confirm-quit-nvim": "confirm-quit-nvim",
         "conform-nvim": "conform-nvim",
@@ -6431,6 +6528,7 @@
         "editorconfig-nvim": "editorconfig-nvim",
         "error-lens-nvim": "error-lens-nvim",
         "everforest": "everforest",
+        "executor-nvim": "executor-nvim",
         "ferris-nvim": "ferris-nvim",
         "fidget-nvim": "fidget-nvim",
         "filetype-nvim": "filetype-nvim",
@@ -6478,6 +6576,7 @@
         "hop-nvim": "hop-nvim",
         "hotpot-nvim": "hotpot-nvim",
         "hover-nvim": "hover-nvim",
+        "hoverhints-nvim": "hoverhints-nvim",
         "hydra-nvim": "hydra-nvim",
         "image_preview-nvim": "image_preview-nvim",
         "improved-search-nvim": "improved-search-nvim",
@@ -6584,6 +6683,7 @@
         "nvim-dap-ui": "nvim-dap-ui",
         "nvim-dap-virtual-text": "nvim-dap-virtual-text",
         "nvim-dap-vscode-js": "nvim-dap-vscode-js",
+        "nvim-dbee": "nvim-dbee",
         "nvim-dd": "nvim-dd",
         "nvim-docs-view": "nvim-docs-view",
         "nvim-early-retirement": "nvim-early-retirement",
@@ -6624,6 +6724,7 @@
         "nvim_context_vt": "nvim_context_vt",
         "nxvim": "nxvim",
         "obsidian-nvim": "obsidian-nvim",
+        "ofirkai-nvim": "ofirkai-nvim",
         "oil-nvim": "oil-nvim",
         "onedarkpro-nvim": "onedarkpro-nvim",
         "open-handlers-nvim": "open-handlers-nvim",
@@ -6657,6 +6758,7 @@
         "reacher-nvim": "reacher-nvim",
         "registers-nvim": "registers-nvim",
         "rest-nvim": "rest-nvim",
+        "rocks-nvim": "rocks-nvim",
         "rust-rools-nvim": "rust-rools-nvim",
         "rustaceanvim": "rustaceanvim",
         "sad-nvim": "sad-nvim",

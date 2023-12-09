@@ -3,6 +3,30 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    hoverhints-nvim = {
+      url = "github:soulis-1256/hoverhints.nvim";
+      flake = false;
+    };
+    conceal-nvim = {
+      url = "github:Jxstxs/conceal.nvim";
+      flake = false;
+    };
+    rocks-nvim = {
+      url = "github:nvim-neorocks/rocks.nvim";
+      flake = false;
+    };
+    nvim-dbee = {
+      url = "github:kndndrj/nvim-dbee";
+      flake = false;
+    };
+    ofirkai-nvim = {
+      url = "github:ofirgall/ofirkai.nvim";
+      flake = false;
+    };
+    executor-nvim = {
+      url = "github:google/executor.nvim";
+      flake = false;
+    };
     flow-nvim = {
       url = "github:arjunmahishi/flow.nvim";
       flake = false;
