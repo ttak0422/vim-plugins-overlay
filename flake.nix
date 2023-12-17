@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-dap-repl-highlights = {
+      url = "github:LiadOz/nvim-dap-repl-highlights";
+      flake = false;
+    };
     hoverhints-nvim = {
       url = "github:soulis-1256/hoverhints.nvim";
       flake = false;

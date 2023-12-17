@@ -5078,6 +5078,22 @@
         "type": "github"
       }
     },
+    "nvim-dap-repl-highlights": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700389681,
+        "narHash": "sha256-uxrczuZcgwDa/MdSQNsbSsecE1O96/2YHEwWsuFtClc=",
+        "owner": "LiadOz",
+        "repo": "nvim-dap-repl-highlights",
+        "rev": "902d533b2682c26d6be4f8a4d1dfd895cbba4840",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LiadOz",
+        "repo": "nvim-dap-repl-highlights",
+        "type": "github"
+      }
+    },
     "nvim-dap-rr": {
       "flake": false,
       "locked": {
@@ -6679,6 +6695,7 @@
         "nvim-config-local": "nvim-config-local",
         "nvim-dap": "nvim-dap",
         "nvim-dap-go": "nvim-dap-go",
+        "nvim-dap-repl-highlights": "nvim-dap-repl-highlights",
         "nvim-dap-rr": "nvim-dap-rr",
         "nvim-dap-ui": "nvim-dap-ui",
         "nvim-dap-virtual-text": "nvim-dap-virtual-text",
