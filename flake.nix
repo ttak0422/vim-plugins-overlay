@@ -581,7 +581,8 @@
     };
     hydra-nvim = {
       # url = "github:anuvyklack/hydra.nvim";
-      url = "github:nvim-island/hydra.nvim";
+      # url = "github:nvim-island/hydra.nvim";
+      url = "github:nvimtools/hydra.nvim";
       flake = false;
     };
     pomodoro-nvim = {
