@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "BufferBrowser": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1686633696,
+        "narHash": "sha256-g4Fw8R4VtBr7n2MYeAWdm2owzFZ0Qr1gnR2x95uVWag=",
+        "owner": "~marcc",
+        "repo": "BufferBrowser",
+        "rev": "15438f96df67184c137525a03d1eeca1d51b377e",
+        "type": "sourcehut"
+      },
+      "original": {
+        "owner": "~marcc",
+        "repo": "BufferBrowser",
+        "type": "sourcehut"
+      }
+    },
     "ChatGPT-nvim": {
       "flake": false,
       "locked": {
@@ -6378,6 +6394,7 @@
     },
     "root": {
       "inputs": {
+        "BufferBrowser": "BufferBrowser",
         "ChatGPT-nvim": "ChatGPT-nvim",
         "Codewindow-nvim": "Codewindow-nvim",
         "Comment-nvim": "Comment-nvim",

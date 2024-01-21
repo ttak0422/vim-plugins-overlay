@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    BufferBrowser = {
+      url = "sourcehut:~marcc/BufferBrowser";
+      flake = false;
+    };
     nvim-dap-repl-highlights = {
       url = "github:LiadOz/nvim-dap-repl-highlights";
       flake = false;
