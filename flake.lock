@@ -1170,6 +1170,22 @@
         "type": "github"
       }
     },
+    "corn-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1706169546,
+        "narHash": "sha256-pxvrGg/A1wh8faJNEY8TzJcfCY9/5LuPoWscN6Nuaoo=",
+        "owner": "RaafatTurki",
+        "repo": "corn.nvim",
+        "rev": "c29f62315db315c1214c12bc5dd17ca7a4808867",
+        "type": "github"
+      },
+      "original": {
+        "owner": "RaafatTurki",
+        "repo": "corn.nvim",
+        "type": "github"
+      }
+    },
     "crates-nvim": {
       "flake": false,
       "locked": {
@@ -5430,6 +5446,22 @@
         "type": "github"
       }
     },
+    "nvim-scissors": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707127028,
+        "narHash": "sha256-docfVy5zeBY+qAFSMxAoRaNEJUmjOK9Daby+91GnYMA=",
+        "owner": "chrisgrieser",
+        "repo": "nvim-scissors",
+        "rev": "8e892591583f775f272d826295f959867ae0aa6c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrisgrieser",
+        "repo": "nvim-scissors",
+        "type": "github"
+      }
+    },
     "nvim-scrollbar": {
       "flake": false,
       "locked": {
@@ -6136,6 +6168,22 @@
         "type": "github"
       }
     },
+    "powershell-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1704404731,
+        "narHash": "sha256-w6Dhz4/HT3PTDORUmOMCjaw190094CKXb7SqCOv2oGg=",
+        "owner": "TheLeoP",
+        "repo": "powershell.nvim",
+        "rev": "882191b2da8e60e06d299a56830948ce17c53a74",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TheLeoP",
+        "repo": "powershell.nvim",
+        "type": "github"
+      }
+    },
     "pretty-fold-nvim": {
       "flake": false,
       "locked": {
@@ -6344,6 +6392,22 @@
         "type": "github"
       }
     },
+    "reactive-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707125782,
+        "narHash": "sha256-vMAh/uJrnBy7inJBdlWrT3y/MRCWYl6erp/pJqHExbs=",
+        "owner": "rasulomaroff",
+        "repo": "reactive.nvim",
+        "rev": "c7089808d30ca5c1bfd42eb57d2c3fc43e815190",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rasulomaroff",
+        "repo": "reactive.nvim",
+        "type": "github"
+      }
+    },
     "registers-nvim": {
       "flake": false,
       "locked": {
@@ -6467,6 +6531,7 @@
         "copilot-lua": "copilot-lua",
         "copilot-vim": "copilot-vim",
         "core-nvim": "core-nvim",
+        "corn-nvim": "corn-nvim",
         "crates-nvim": "crates-nvim",
         "cybu-nvim": "cybu-nvim",
         "dap-utils-nvim": "dap-utils-nvim",
@@ -6733,6 +6798,7 @@
         "nvim-paredit": "nvim-paredit",
         "nvim-paredit-fennel": "nvim-paredit-fennel",
         "nvim-regexplainer": "nvim-regexplainer",
+        "nvim-scissors": "nvim-scissors",
         "nvim-scrollbar": "nvim-scrollbar",
         "nvim-scrollview": "nvim-scrollview",
         "nvim-spectre": "nvim-spectre",
@@ -6777,6 +6843,7 @@
         "poimandres-nvim": "poimandres-nvim",
         "pommodoro-clock": "pommodoro-clock",
         "pomodoro-nvim": "pomodoro-nvim",
+        "powershell-nvim": "powershell-nvim",
         "pretty-fold-nvim": "pretty-fold-nvim",
         "pretty_hover": "pretty_hover",
         "project-nvim": "project-nvim",
@@ -6790,6 +6857,7 @@
         "rainbow-delimiters-nvim": "rainbow-delimiters-nvim",
         "range-highlight-nvim": "range-highlight-nvim",
         "reacher-nvim": "reacher-nvim",
+        "reactive-nvim": "reactive-nvim",
         "registers-nvim": "registers-nvim",
         "rest-nvim": "rest-nvim",
         "rocks-nvim": "rocks-nvim",

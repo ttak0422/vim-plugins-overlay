@@ -3,6 +3,22 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-scissors = {
+      url = "github:chrisgrieser/nvim-scissors";
+      flake = false;
+    };
+    reactive-nvim = {
+      url = "github:rasulomaroff/reactive.nvim";
+      flake = false;
+    };
+    corn-nvim = {
+      url = "github:RaafatTurki/corn.nvim";
+      flake = false;
+    };
+    powershell-nvim = {
+      url = "github:TheLeoP/powershell.nvim";
+      flake = false;
+    };
     BufferBrowser = {
       url = "sourcehut:~marcc/BufferBrowser";
       flake = false;
@@ -2095,20 +2111,25 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-    in {
+    in
+    {
       packages = eachSystem (system:
         let
           pkgs = import nixpkgs { inherit system; };
           inherit (pkgs.vimUtils) buildVimPlugin;
           version = "latest";
-        in listToAttrs (map (name: {
-          inherit name;
-          value = buildVimPlugin {
-            inherit version;
-            pname = name;
-            src = getAttr name inputs;
-          };
-        }) plugins) // {
+        in
+        listToAttrs
+          (map
+            (name: {
+              inherit name;
+              value = buildVimPlugin {
+                inherit version;
+                pname = name;
+                src = getAttr name inputs;
+              };
+            })
+            plugins) // {
           gin-vim = buildVimPlugin {
             inherit version;
             pname = "gin-vim";
