@@ -6878,6 +6878,7 @@
         "smart-tab-nvim": "smart-tab-nvim",
         "spaceless-nvim": "spaceless-nvim",
         "splitjoin-vim": "splitjoin-vim",
+        "sqlite-lua": "sqlite-lua",
         "sqls-nvim": "sqls-nvim",
         "ssr-nvim": "ssr-nvim",
         "stabilize-nvim": "stabilize-nvim",
@@ -7251,6 +7252,22 @@
       "original": {
         "owner": "AndrewRadev",
         "repo": "splitjoin.vim",
+        "type": "github"
+      }
+    },
+    "sqlite-lua": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681923697,
+        "narHash": "sha256-XElCJGganIIh4T5K5kKZTbVYwVOXCtLF1fdc95NopDc=",
+        "owner": "kkharji",
+        "repo": "sqlite.lua",
+        "rev": "b7e28c8463254c46a8e61c52d27d6a2040492fc3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kkharji",
+        "repo": "sqlite.lua",
         "type": "github"
       }
     },

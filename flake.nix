@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    sqlite-lua = {
+      url = "github:kkharji/sqlite.lua";
+      flake = false;
+    };
     nvim-scissors = {
       url = "github:chrisgrieser/nvim-scissors";
       flake = false;
@@ -2111,25 +2115,20 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-    in
-    {
+    in {
       packages = eachSystem (system:
         let
           pkgs = import nixpkgs { inherit system; };
           inherit (pkgs.vimUtils) buildVimPlugin;
           version = "latest";
-        in
-        listToAttrs
-          (map
-            (name: {
-              inherit name;
-              value = buildVimPlugin {
-                inherit version;
-                pname = name;
-                src = getAttr name inputs;
-              };
-            })
-            plugins) // {
+        in listToAttrs (map (name: {
+          inherit name;
+          value = buildVimPlugin {
+            inherit version;
+            pname = name;
+            src = getAttr name inputs;
+          };
+        }) plugins) // {
           gin-vim = buildVimPlugin {
             inherit version;
             pname = "gin-vim";
