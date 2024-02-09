@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-pqf = {
+      url = "github:yorickpeterse/nvim-pqf";
+      flake = false;
+    };
     sqlite-lua = {
       url = "github:kkharji/sqlite.lua";
       flake = false;

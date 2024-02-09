@@ -5430,6 +5430,22 @@
         "type": "github"
       }
     },
+    "nvim-pqf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700353869,
+        "narHash": "sha256-QTnsbuJ19hYWXkRNValghpRS92skFcOG9Q7lJowNPB0=",
+        "owner": "yorickpeterse",
+        "repo": "nvim-pqf",
+        "rev": "ba0e291cb5c0249838132e197dac082777bdc7d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yorickpeterse",
+        "repo": "nvim-pqf",
+        "type": "github"
+      }
+    },
     "nvim-regexplainer": {
       "flake": false,
       "locked": {
@@ -6797,6 +6813,7 @@
         "nvim-notify": "nvim-notify",
         "nvim-paredit": "nvim-paredit",
         "nvim-paredit-fennel": "nvim-paredit-fennel",
+        "nvim-pqf": "nvim-pqf",
         "nvim-regexplainer": "nvim-regexplainer",
         "nvim-scissors": "nvim-scissors",
         "nvim-scrollbar": "nvim-scrollbar",
