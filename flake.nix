@@ -3,6 +3,42 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    treemonkey-nvim = {
+      url = "github:atusy/treemonkey.nvim";
+      flake = false;
+    };
+    scratch-nvim = {
+      url = "github:LintaoAmons/scratch.nvim";
+      flake = false;
+    };
+    nvim-lastplace = {
+      url = "github:mrcjkb/nvim-lastplace";
+      flake = false;
+    };
+    highlight-undo-nvim = {
+      url = "github:yuki-yano/highlight-undo.nvim";
+      flake = false;
+    };
+    kui-nvim = {
+      url = "github:romgrk/kui.nvim";
+      flake = false;
+    };
+    zenburn-nvim = {
+      url = "github:phha/zenburn.nvim";
+      flake = false;
+    };
+    workspace-diagnostics-nvim = {
+      url = "github:artemave/workspace-diagnostics.nvim";
+      flake = false;
+    };
+    js-teleporter-nvim = {
+      url = "github:ushmz/js-teleporter.nvim";
+      flake = false;
+    };
+    easy-commands-nvim = {
+      url = "github:LintaoAmons/easy-commands.nvim";
+      flake = false;
+    };
     nvim-pqf = {
       url = "github:yorickpeterse/nvim-pqf";
       flake = false;
