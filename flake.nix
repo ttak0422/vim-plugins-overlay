@@ -3,6 +3,26 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    clean-nvim = {
+      url = "github:drybalka/clean.nviM";
+      flake = false;
+    };
+    csharp-nvim = {
+      url = "github:iabdelkareem/csharp.nvim";
+      flake = false;
+    };
+    dotfyle-metadata-nvim = {
+      url = "github:creativenull/dotfyle-metadata.nvim";
+      flake = false;
+    };
+    oil-vcs-status = {
+      url = "github:SirZenith/oil-vcs-status";
+      flake = false;
+    };
+    global-note-nvim = {
+      url = "github:backdround/global-note.nvim";
+      flake = false;
+    };
     treemonkey-nvim = {
       url = "github:atusy/treemonkey.nvim";
       flake = false;

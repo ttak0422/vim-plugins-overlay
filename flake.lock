@@ -658,6 +658,22 @@
         "type": "github"
       }
     },
+    "clean-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1706549203,
+        "narHash": "sha256-BVzDoUbaSdIosmTkL9wXVzMKz2/gcojozeVXUXgmzTc=",
+        "owner": "drybalka",
+        "repo": "clean.nviM",
+        "rev": "ab2dd267e4662a873429a5a7003aea96b1180b0d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "drybalka",
+        "repo": "clean.nviM",
+        "type": "github"
+      }
+    },
     "clear-action-nvim": {
       "flake": false,
       "locked": {
@@ -1199,6 +1215,22 @@
       "original": {
         "owner": "Saecki",
         "repo": "crates.nvim",
+        "type": "github"
+      }
+    },
+    "csharp-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1708386303,
+        "narHash": "sha256-YjtFg83bREcSNASarMbebqFRihbdOZF4uE0OMSEtcYg=",
+        "owner": "iabdelkareem",
+        "repo": "csharp.nvim",
+        "rev": "48d72dfad26177295744d6da958f1dc08046a9d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "iabdelkareem",
+        "repo": "csharp.nvim",
         "type": "github"
       }
     },
@@ -2578,6 +2610,22 @@
         "type": "github"
       }
     },
+    "dotfyle-metadata-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1708639537,
+        "narHash": "sha256-KfQ1IjNdR2nGUb/qun5OboiwfoM0Mv4AaI44adpnYC4=",
+        "owner": "creativenull",
+        "repo": "dotfyle-metadata.nvim",
+        "rev": "720b747b8883b8d1a9a5e89c354e0f516736f005",
+        "type": "github"
+      },
+      "original": {
+        "owner": "creativenull",
+        "repo": "dotfyle-metadata.nvim",
+        "type": "github"
+      }
+    },
     "dps-dial-vim": {
       "flake": false,
       "locked": {
@@ -3087,6 +3135,22 @@
       "original": {
         "owner": "DNLHC",
         "repo": "glance.nvim",
+        "type": "github"
+      }
+    },
+    "global-note-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707927069,
+        "narHash": "sha256-fp5V2rKoyQwYPF1/cDbL+j+KC7VLPh6iWt92NkPkgOY=",
+        "owner": "backdround",
+        "repo": "global-note.nvim",
+        "rev": "1e0d4bba425d971ed3ce40d182c574a25507115c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "backdround",
+        "repo": "global-note.nvim",
         "type": "github"
       }
     },
@@ -5992,6 +6056,22 @@
         "type": "github"
       }
     },
+    "oil-vcs-status": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1708570751,
+        "narHash": "sha256-oKbQCuhIPovhjbDEumfxRQ80q9SPFS3Yfx+BxtxAG1s=",
+        "owner": "SirZenith",
+        "repo": "oil-vcs-status",
+        "rev": "1861ad95734b438e7ff64eee4706c564c044c130",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SirZenith",
+        "repo": "oil-vcs-status",
+        "type": "github"
+      }
+    },
     "onedarkpro-nvim": {
       "flake": false,
       "locked": {
@@ -6595,6 +6675,7 @@
         "chafa-nvim": "chafa-nvim",
         "chowcho-nvim": "chowcho-nvim",
         "circles-nvim": "circles-nvim",
+        "clean-nvim": "clean-nvim",
         "clear-action-nvim": "clear-action-nvim",
         "climbdir-nvim": "climbdir-nvim",
         "clipboard-image-nvim": "clipboard-image-nvim",
@@ -6629,6 +6710,7 @@
         "core-nvim": "core-nvim",
         "corn-nvim": "corn-nvim",
         "crates-nvim": "crates-nvim",
+        "csharp-nvim": "csharp-nvim",
         "cybu-nvim": "cybu-nvim",
         "dap-utils-nvim": "dap-utils-nvim",
         "dda-vim": "dda-vim",
@@ -6715,6 +6797,7 @@
         "diagflow-nvim": "diagflow-nvim",
         "diffview-nvim": "diffview-nvim",
         "direnv-vim": "direnv-vim",
+        "dotfyle-metadata-nvim": "dotfyle-metadata-nvim",
         "dps-dial-vim": "dps-dial-vim",
         "dressing-nvim": "dressing-nvim",
         "dropbar-nvim": "dropbar-nvim",
@@ -6747,6 +6830,7 @@
         "github-nvim-theme": "github-nvim-theme",
         "gitsigns-nvim": "gitsigns-nvim",
         "glance-nvim": "glance-nvim",
+        "global-note-nvim": "global-note-nvim",
         "glow-hover-nvim": "glow-hover-nvim",
         "glow-nvim": "glow-nvim",
         "go-nvim": "go-nvim",
@@ -6928,6 +7012,7 @@
         "obsidian-nvim": "obsidian-nvim",
         "ofirkai-nvim": "ofirkai-nvim",
         "oil-nvim": "oil-nvim",
+        "oil-vcs-status": "oil-vcs-status",
         "onedarkpro-nvim": "onedarkpro-nvim",
         "open-handlers-nvim": "open-handlers-nvim",
         "open-nvim": "open-nvim",
