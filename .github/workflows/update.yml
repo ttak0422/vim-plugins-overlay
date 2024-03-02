@@ -22,9 +22,14 @@ jobs:
         with:
           name: ttak0422-vim-plugins-overlay
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+      - name: Extract inputs
+        run: |
+          CUSTOM_INPUTS=`nix run .#extract_plugin_inputs`
+          echo "INPUTS=$CUSTOM_INPUTS" >> $GITHUB_ENV
       - uses: DeterminateSystems/update-flake-lock@v21
         with:
           token: ${{ steps.generate_token.outputs.token }}
+          inputs: ${{ env.INPUTS }}
       - name: Setup merge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
