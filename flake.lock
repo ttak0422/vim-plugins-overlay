@@ -3987,6 +3987,22 @@
         "type": "github"
       }
     },
+    "lir-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689169554,
+        "narHash": "sha256-+ORY3w9e+rY9wvzuu1w5iiO1mUr7ADoB6CRnJ1bUNec=",
+        "owner": "tamago324",
+        "repo": "lir.nvim",
+        "rev": "969e95bd07ec315b5efc53af69c881278c2b74fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tamago324",
+        "repo": "lir.nvim",
+        "type": "github"
+      }
+    },
     "lsp-colors-nvim": {
       "flake": false,
       "locked": {
@@ -6899,6 +6915,7 @@
         "legendary-nvim": "legendary-nvim",
         "lexima-vim": "lexima-vim",
         "linediff-vim": "linediff-vim",
+        "lir-nvim": "lir-nvim",
         "lsp-colors-nvim": "lsp-colors-nvim",
         "lsp-inlayhints-nvim": "lsp-inlayhints-nvim",
         "lsp-lens-nvim": "lsp-lens-nvim",
