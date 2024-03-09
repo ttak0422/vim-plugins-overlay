@@ -4982,6 +4982,22 @@
         "type": "github"
       }
     },
+    "nnn-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1686184812,
+        "narHash": "sha256-iJTN1g5uoS6yj0CZ6Q5wsCAVYVim5zl4ObwVyLtJkQ0=",
+        "owner": "luukvbaal",
+        "repo": "nnn.nvim",
+        "rev": "4616ec65eb0370af548e356c3ec542c1b167b415",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luukvbaal",
+        "repo": "nnn.nvim",
+        "type": "github"
+      }
+    },
     "noice-nvim": {
       "flake": false,
       "locked": {
@@ -6945,6 +6961,7 @@
         "nfnl": "nfnl",
         "nightfox-nvim": "nightfox-nvim",
         "nixpkgs": "nixpkgs",
+        "nnn-nvim": "nnn-nvim",
         "noice-nvim": "noice-nvim",
         "nomodoro": "nomodoro",
         "none-ls-nvim": "none-ls-nvim",
