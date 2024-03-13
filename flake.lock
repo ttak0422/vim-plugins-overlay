@@ -2722,6 +2722,22 @@
         "type": "github"
       }
     },
+    "efmls-configs-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707668922,
+        "narHash": "sha256-uZSFKoOuTt3B5Y99B+YbVepwFbVJB65sdqEXX8YvJHg=",
+        "owner": "creativenull",
+        "repo": "efmls-configs-nvim",
+        "rev": "a61c52d325835e24dc14ffb7748a32b8f087ae32",
+        "type": "github"
+      },
+      "original": {
+        "owner": "creativenull",
+        "repo": "efmls-configs-nvim",
+        "type": "github"
+      }
+    },
     "error-lens-nvim": {
       "flake": false,
       "locked": {
@@ -6852,6 +6868,7 @@
         "easy-commands-nvim": "easy-commands-nvim",
         "edgy-nvim": "edgy-nvim",
         "editorconfig-nvim": "editorconfig-nvim",
+        "efmls-configs-nvim": "efmls-configs-nvim",
         "error-lens-nvim": "error-lens-nvim",
         "everforest": "everforest",
         "executor-nvim": "executor-nvim",

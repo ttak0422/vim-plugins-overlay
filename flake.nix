@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    efmls-configs-nvim = {
+      url = "github:creativenull/efmls-configs-nvim";
+      flake = false;
+    };
     lir-git-status-nvim = {
       url = "github:tamago324/lir-git-status.nvim";
       flake = false;
