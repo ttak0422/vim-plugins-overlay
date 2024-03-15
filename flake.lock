@@ -4083,6 +4083,22 @@
         "type": "github"
       }
     },
+    "lsp-progress-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710128058,
+        "narHash": "sha256-EPItMt6m0wr4GFDN5uCvj2XJDZvhkF9u4jUu/kHES8I=",
+        "owner": "linrongbin16",
+        "repo": "lsp-progress.nvim",
+        "rev": "1c37b1cd0611563a767f0a340d61f265c4c54ecd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "linrongbin16",
+        "repo": "lsp-progress.nvim",
+        "type": "github"
+      }
+    },
     "lsp-timeout-nvim": {
       "flake": false,
       "locked": {
@@ -6953,6 +6969,7 @@
         "lsp-colors-nvim": "lsp-colors-nvim",
         "lsp-inlayhints-nvim": "lsp-inlayhints-nvim",
         "lsp-lens-nvim": "lsp-lens-nvim",
+        "lsp-progress-nvim": "lsp-progress-nvim",
         "lsp-timeout-nvim": "lsp-timeout-nvim",
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",

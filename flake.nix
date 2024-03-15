@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    lsp-progress-nvim = {
+      url = "github:linrongbin16/lsp-progress.nvim";
+      flake = false;
+    };
     efmls-configs-nvim = {
       url = "github:creativenull/efmls-configs-nvim";
       flake = false;
