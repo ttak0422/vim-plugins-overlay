@@ -3395,6 +3395,22 @@
         "type": "github"
       }
     },
+    "heirline-components-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710282402,
+        "narHash": "sha256-OkOg/Hd9lQCrc+EEf9TrQjcPqa/hTxrljiTEFsQp92A=",
+        "owner": "Zeioth",
+        "repo": "heirline-components.nvim",
+        "rev": "342f713d0daf233d752d1d287e0e114cd277827f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Zeioth",
+        "repo": "heirline-components.nvim",
+        "type": "github"
+      }
+    },
     "heirline-nvim": {
       "flake": false,
       "locked": {
@@ -4144,6 +4160,22 @@
       "original": {
         "owner": "onsails",
         "repo": "lspkind.nvim",
+        "type": "github"
+      }
+    },
+    "lsplinks-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710521931,
+        "narHash": "sha256-HO7BeZ+6llKZzmS5o6iIZ+VaffNNI+cIn+SHcJjtF7s=",
+        "owner": "icholy",
+        "repo": "lsplinks.nvim",
+        "rev": "eda2acee14c0e39d9efbadb5d067a7cda2a5cc31",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icholy",
+        "repo": "lsplinks.nvim",
         "type": "github"
       }
     },
@@ -6926,6 +6958,7 @@
         "haskell-snippets-nvim": "haskell-snippets-nvim",
         "haskell-tools-nvim": "haskell-tools-nvim",
         "headlines-nvim": "headlines-nvim",
+        "heirline-components-nvim": "heirline-components-nvim",
         "heirline-nvim": "heirline-nvim",
         "hibiscus-nvim": "hibiscus-nvim",
         "highlight-current-n-nvim": "highlight-current-n-nvim",
@@ -6973,6 +7006,7 @@
         "lsp-timeout-nvim": "lsp-timeout-nvim",
         "lsp_signature-nvim": "lsp_signature-nvim",
         "lspkind-nvim": "lspkind-nvim",
+        "lsplinks-nvim": "lsplinks-nvim",
         "lspsaga-nvim": "lspsaga-nvim",
         "lspstatus-nvim": "lspstatus-nvim",
         "lualine-nvim": "lualine-nvim",

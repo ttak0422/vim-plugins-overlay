@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    heirline-components-nvim = {
+      url = "github:Zeioth/heirline-components.nvim";
+      flake = false;
+    };
+    lsplinks-nvim = {
+      url = "github:icholy/lsplinks.nvim";
+      flake = false;
+    };
     lsp-progress-nvim = {
       url = "github:linrongbin16/lsp-progress.nvim";
       flake = false;
