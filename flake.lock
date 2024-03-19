@@ -5622,6 +5622,22 @@
         "type": "github"
       }
     },
+    "nvim-nio": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710785379,
+        "narHash": "sha256-2JHkfK4Q6aW2ONtDZzZd4K5o3rnNaEZMp7hIq5JCpwc=",
+        "owner": "nvim-neotest",
+        "repo": "nvim-nio",
+        "rev": "ed70af8ad9d4dafdb55539ed2b4454aac2a2a0c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neotest",
+        "repo": "nvim-nio",
+        "type": "github"
+      }
+    },
     "nvim-nonicons": {
       "flake": false,
       "locked": {
@@ -7097,6 +7113,7 @@
         "nvim-lint": "nvim-lint",
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-navbuddy": "nvim-navbuddy",
+        "nvim-nio": "nvim-nio",
         "nvim-nonicons": "nvim-nonicons",
         "nvim-notify": "nvim-notify",
         "nvim-paredit": "nvim-paredit",
