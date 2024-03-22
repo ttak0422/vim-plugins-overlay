@@ -5033,11 +5033,11 @@
     "nfnl": {
       "flake": false,
       "locked": {
-        "lastModified": 1711111388,
-        "narHash": "sha256-QMXydDaeL38ShIekX88A3e1GQR7kgMUAYu7Rk7IY/Nw=",
+        "lastModified": 1711117490,
+        "narHash": "sha256-Jl9+LiY1UNCeSv6pDG6uuLEmRUnFq1LGD8j5Q0b2Alc=",
         "owner": "Olical",
         "repo": "nfnl",
-        "rev": "c73c88b320d05ff682521105c50dd1e852c506a9",
+        "rev": "9ac9bcac112269d38548f2578fdd927c6ce3d50b",
         "type": "github"
       },
       "original": {
