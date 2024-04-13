@@ -3,6 +3,34 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    easy-dotnet-nvim = {
+      url = "github:GustavEikaas/easy-dotnet.nvim";
+      flake = false;
+    };
+    harpoonline = {
+      url = "github:abeldekat/harpoonline";
+      flake = false;
+    };
+    evergarden = {
+      url = "github:comfysage/evergarden";
+      flake = false;
+    };
+    randomquote-nvim = {
+      url = "github:kungfusheep/randomquote.nvim";
+      flake = false;
+    };
+    jot-lua = {
+      url = "github:letieu/jot.lua";
+      flake = false;
+    };
+    unimpaired-nvim = {
+      url = "github:tummetott/unimpaired.nvim";
+      flake = false;
+    };
+    btw-nvim = {
+      url = "github:letieu/btw.nvim";
+      flake = false;
+    };
     nvim-nio = {
       url = "github:nvim-neotest/nvim-nio";
       flake = false;
