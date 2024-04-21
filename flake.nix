@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    term-gf-nvim = {
+      url = "github:yutkat/term-gf.nvim";
+      flake = false;
+    };
+    img-clip-nvim = {
+      url = "github:HakonHarnes/img-clip.nvim";
+      flake = false;
+    };
     easy-dotnet-nvim = {
       url = "github:GustavEikaas/easy-dotnet.nvim";
       flake = false;
