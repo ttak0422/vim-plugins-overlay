@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    telescope-sg = {
+      url = "github:Marskey/telescope-sg";
+      flake = false;
+    };
     term-gf-nvim = {
       url = "github:yutkat/term-gf.nvim";
       flake = false;
