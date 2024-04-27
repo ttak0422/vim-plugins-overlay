@@ -3,6 +3,14 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    screenkey-nvim = {
+      url = "github:NStefan002/screenkey.nvim";
+      flake = false;
+    };
+    neotest-golang = {
+      url = "github:fredrikaverpil/neotest-golang";
+      flake = false;
+    };
     telescope-sg = {
       url = "github:Marskey/telescope-sg";
       flake = false;

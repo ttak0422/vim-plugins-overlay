@@ -4853,6 +4853,22 @@
         "type": "github"
       }
     },
+    "neotest-golang": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714205066,
+        "narHash": "sha256-OCu8B9iUFfzDffluhJmxtZDRBC7JZ5pGXJnu3TBbmV8=",
+        "owner": "fredrikaverpil",
+        "repo": "neotest-golang",
+        "rev": "613aa12f05a3031bfb6d2c95c4f3dc90ee91a50b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fredrikaverpil",
+        "repo": "neotest-golang",
+        "type": "github"
+      }
+    },
     "neotest-haskell": {
       "flake": false,
       "locked": {
@@ -7177,6 +7193,7 @@
         "neotest-dotnet": "neotest-dotnet",
         "neotest-elixir": "neotest-elixir",
         "neotest-go": "neotest-go",
+        "neotest-golang": "neotest-golang",
         "neotest-haskell": "neotest-haskell",
         "neotest-java": "neotest-java",
         "neotest-jest": "neotest-jest",
@@ -7310,6 +7327,7 @@
         "satellite-nvim": "satellite-nvim",
         "scope-nvim": "scope-nvim",
         "scratch-nvim": "scratch-nvim",
+        "screenkey-nvim": "screenkey-nvim",
         "searchbox-nvim": "searchbox-nvim",
         "sentiment-nvim": "sentiment-nvim",
         "serenade": "serenade",
@@ -7541,6 +7559,22 @@
       "original": {
         "owner": "LintaoAmons",
         "repo": "scratch.nvim",
+        "type": "github"
+      }
+    },
+    "screenkey-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713572782,
+        "narHash": "sha256-QCKOTW3mQ99kRVyXaswZXMPXCgFiXLG3dV2PpT6Mm9Y=",
+        "owner": "NStefan002",
+        "repo": "screenkey.nvim",
+        "rev": "3ee8f62196bb4fc3bdb9b102501f25a2f21218d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NStefan002",
+        "repo": "screenkey.nvim",
         "type": "github"
       }
     },
