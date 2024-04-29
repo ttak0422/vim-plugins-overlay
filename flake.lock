@@ -5703,6 +5703,22 @@
         "type": "github"
       }
     },
+    "nvim-goc-lua": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1709042838,
+        "narHash": "sha256-zL+WwostqNNDjoiIBIyegrIRAfOaoq0L5vmi4zVInxM=",
+        "owner": "rafaelsq",
+        "repo": "nvim-goc.lua",
+        "rev": "6337ef573cb493fc4088faef73ff4844d7be213f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rafaelsq",
+        "repo": "nvim-goc.lua",
+        "type": "github"
+      }
+    },
     "nvim-hlslens": {
       "flake": false,
       "locked": {
@@ -7311,6 +7327,7 @@
         "nvim-early-retirement": "nvim-early-retirement",
         "nvim-fundo": "nvim-fundo",
         "nvim-genghis": "nvim-genghis",
+        "nvim-goc-lua": "nvim-goc-lua",
         "nvim-hlslens": "nvim-hlslens",
         "nvim-jdtls": "nvim-jdtls",
         "nvim-lastplace": "nvim-lastplace",

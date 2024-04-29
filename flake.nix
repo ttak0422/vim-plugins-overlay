@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nvim-goc-lua = {
+      url = "github:rafaelsq/nvim-goc.lua";
+      flake = false;
+    };
     none-ls-extras-nvim = {
       url = "github:nvimtools/none-ls-extras.nvim";
       flake = false;
