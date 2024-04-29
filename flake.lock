@@ -5255,6 +5255,38 @@
         "type": "github"
       }
     },
+    "none-ls-extras-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714166809,
+        "narHash": "sha256-oJr4DBUAoTFgkKmyxU2yVHwBd/jre1rUkb+++gXCqjM=",
+        "owner": "nvimtools",
+        "repo": "none-ls-extras.nvim",
+        "rev": "c7264e9b97a051ccb955ae178b6fb3e0e9936a45",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvimtools",
+        "repo": "none-ls-extras.nvim",
+        "type": "github"
+      }
+    },
+    "none-ls-luacheck-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710836509,
+        "narHash": "sha256-XXxXQAasvu/APhZO+7FTr06JXBrHyr+UjhU9prcsmxg=",
+        "owner": "gbprod",
+        "repo": "none-ls-luacheck.nvim",
+        "rev": "a1dfea0d4c40c4023829c8b9a7ab0a26135985ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gbprod",
+        "repo": "none-ls-luacheck.nvim",
+        "type": "github"
+      }
+    },
     "none-ls-nvim": {
       "flake": false,
       "locked": {
@@ -5268,6 +5300,22 @@
       "original": {
         "owner": "nvimtools",
         "repo": "none-ls.nvim",
+        "type": "github"
+      }
+    },
+    "none-ls-shellcheck-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710845791,
+        "narHash": "sha256-t06Nu7wVEGoJtaaZh/psvuC9kdYhwh6JeOd0cg3WVHY=",
+        "owner": "gbprod",
+        "repo": "none-ls-shellcheck.nvim",
+        "rev": "0f84461241e76e376a95fb7391deac82dc3efdbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gbprod",
+        "repo": "none-ls-shellcheck.nvim",
         "type": "github"
       }
     },
@@ -7235,7 +7283,10 @@
         "nnn-nvim": "nnn-nvim",
         "noice-nvim": "noice-nvim",
         "nomodoro": "nomodoro",
+        "none-ls-extras-nvim": "none-ls-extras-nvim",
+        "none-ls-luacheck-nvim": "none-ls-luacheck-nvim",
         "none-ls-nvim": "none-ls-nvim",
+        "none-ls-shellcheck-nvim": "none-ls-shellcheck-nvim",
         "nordic-nvim": "nordic-nvim",
         "nui-nvim": "nui-nvim",
         "null-ls-nvim": "null-ls-nvim",

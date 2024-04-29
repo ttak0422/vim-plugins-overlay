@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    none-ls-extras-nvim = {
+      url = "github:nvimtools/none-ls-extras.nvim";
+      flake = false;
+    };
+    none-ls-shellcheck-nvim = {
+      url = "github:gbprod/none-ls-shellcheck.nvim";
+      flake = false;
+    };
+    none-ls-luacheck-nvim = {
+      url = "github:gbprod/none-ls-luacheck.nvim";
+      flake = false;
+    };
     screenkey-nvim = {
       url = "github:NStefan002/screenkey.nvim";
       flake = false;
