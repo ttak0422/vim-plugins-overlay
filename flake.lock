@@ -3266,6 +3266,22 @@
         "type": "github"
       }
     },
+    "gopher-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1696856053,
+        "narHash": "sha256-8arSYelWObRnzNQ1F4wh/U44USy5aQFIGA9Aa7p9XXM=",
+        "owner": "olexsmir",
+        "repo": "gopher.nvim",
+        "rev": "ac27f4b6794c872140fb205313d79ab166892fe9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "olexsmir",
+        "repo": "gopher.nvim",
+        "type": "github"
+      }
+    },
     "goto-preview": {
       "flake": false,
       "locked": {
@@ -7175,6 +7191,7 @@
         "glow-hover-nvim": "glow-hover-nvim",
         "glow-nvim": "glow-nvim",
         "go-nvim": "go-nvim",
+        "gopher-nvim": "gopher-nvim",
         "goto-preview": "goto-preview",
         "grapple-nvim": "grapple-nvim",
         "guard-nvim": "guard-nvim",
