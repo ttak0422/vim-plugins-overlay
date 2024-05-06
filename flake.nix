@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    octo-nvim = {
+      url = "github:pwntester/octo.nvim";
+      flake = false;
+    };
     gopher-nvim = {
       url = "github:olexsmir/gopher.nvim";
       flake = false;

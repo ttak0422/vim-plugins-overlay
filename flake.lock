@@ -6361,6 +6361,22 @@
         "url": "https://github.com/epwalsh/obsidian.nvim"
       }
     },
+    "octo-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713342426,
+        "narHash": "sha256-EK05b72/ekNcA7RBauiKZ27/rF4YX6IXnzRpODzXduI=",
+        "owner": "pwntester",
+        "repo": "octo.nvim",
+        "rev": "5646539320cd62af6ff28f48ec92aeb724c68e18",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pwntester",
+        "repo": "octo.nvim",
+        "type": "github"
+      }
+    },
     "ofirkai-nvim": {
       "flake": false,
       "locked": {
@@ -7384,6 +7400,7 @@
         "nvim_context_vt": "nvim_context_vt",
         "nxvim": "nxvim",
         "obsidian-nvim": "obsidian-nvim",
+        "octo-nvim": "octo-nvim",
         "ofirkai-nvim": "ofirkai-nvim",
         "oil-nvim": "oil-nvim",
         "oil-vcs-status": "oil-vcs-status",
