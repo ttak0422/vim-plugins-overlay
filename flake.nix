@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    tree-sitter-fsharp = {
+      url = "github:ionide/tree-sitter-fsharp";
+      flake = false;
+    };
     neorg-telescope = {
       url = "github:nvim-neorg/neorg-telescope";
       flake = false;

@@ -7549,6 +7549,7 @@
         "toggleterm-nvim": "toggleterm-nvim",
         "tokyonight-nvim": "tokyonight-nvim",
         "toolwindow-nvim": "toolwindow-nvim",
+        "tree-sitter-fsharp": "tree-sitter-fsharp",
         "tree-sitter-norg": "tree-sitter-norg",
         "treemonkey-nvim": "treemonkey-nvim",
         "treesj": "treesj",
@@ -8547,6 +8548,22 @@
       "original": {
         "owner": "EthanJWright",
         "repo": "toolwindow.nvim",
+        "type": "github"
+      }
+    },
+    "tree-sitter-fsharp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1715020617,
+        "narHash": "sha256-j9G8Y7O2Lx3m/r4FWHpgIfTETiIQWRNM5j9Yey7XWII=",
+        "owner": "ionide",
+        "repo": "tree-sitter-fsharp",
+        "rev": "5c85c505b550353310a47668c7b6d5f954840ddd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ionide",
+        "repo": "tree-sitter-fsharp",
         "type": "github"
       }
     },
