@@ -3,6 +3,18 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    neorg-telescope = {
+      url = "github:nvim-neorg/neorg-telescope";
+      flake = false;
+    };
+    lua-utils-nvim = {
+      url = "github:nvim-neorg/lua-utils.nvim";
+      flake = false;
+    };
+    pathlib-nvim = {
+      url = "github:pysan3/pathlib.nvim";
+      flake = false;
+    };
     tree-sitter-norg = {
       url = "github:nvim-neorg/tree-sitter-norg";
       flake = false;

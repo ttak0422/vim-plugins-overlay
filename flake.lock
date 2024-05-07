@@ -4340,6 +4340,22 @@
         "type": "github"
       }
     },
+    "lua-utils-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1708177208,
+        "narHash": "sha256-9ildzQEMkXKZ3LHq+khGFgRQFxlIXQclQ7QU3fcU1C4=",
+        "owner": "nvim-neorg",
+        "repo": "lua-utils.nvim",
+        "rev": "e565749421f4bbb5d2e85e37c3cef9d56553d8bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorg",
+        "repo": "lua-utils.nvim",
+        "type": "github"
+      }
+    },
     "lualine-nvim": {
       "flake": false,
       "locked": {
@@ -4771,6 +4787,22 @@
       "original": {
         "owner": "nvim-neorg",
         "repo": "neorg",
+        "type": "github"
+      }
+    },
+    "neorg-telescope": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713548473,
+        "narHash": "sha256-Ytm1Au9ir/31cL36hIlrDFFe1hSSPo9yTVeHysm1WW0=",
+        "owner": "nvim-neorg",
+        "repo": "neorg-telescope",
+        "rev": "92c1c6064429c74505de8e5d84a6dc8488a6f8e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorg",
+        "repo": "neorg-telescope",
         "type": "github"
       }
     },
@@ -6569,6 +6601,22 @@
         "type": "github"
       }
     },
+    "pathlib-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714141112,
+        "narHash": "sha256-Hx7RGyVY3j4LvNWQuQI5Vq9mkq+U/ntxgDlw5VxbUII=",
+        "owner": "pysan3",
+        "repo": "pathlib.nvim",
+        "rev": "723f9cd0d12a4bb8961cff4c2ac7edbfcf50a280",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pysan3",
+        "repo": "pathlib.nvim",
+        "type": "github"
+      }
+    },
     "peek-nvim": {
       "flake": false,
       "locked": {
@@ -7274,6 +7322,7 @@
         "lsplinks-nvim": "lsplinks-nvim",
         "lspsaga-nvim": "lspsaga-nvim",
         "lspstatus-nvim": "lspstatus-nvim",
+        "lua-utils-nvim": "lua-utils-nvim",
         "lualine-nvim": "lualine-nvim",
         "luasnip": "luasnip",
         "lush-nvim": "lush-nvim",
@@ -7301,6 +7350,7 @@
         "neogen": "neogen",
         "neogit": "neogit",
         "neorg": "neorg",
+        "neorg-telescope": "neorg-telescope",
         "neoscroll-nvim": "neoscroll-nvim",
         "neotest": "neotest",
         "neotest-dart": "neotest-dart",
@@ -7413,6 +7463,7 @@
         "overseer-nvim": "overseer-nvim",
         "package-info-nvim": "package-info-nvim",
         "pantran-nvim": "pantran-nvim",
+        "pathlib-nvim": "pathlib-nvim",
         "peek-nvim": "peek-nvim",
         "persisted-nvim": "persisted-nvim",
         "pets-nvim": "pets-nvim",
