@@ -1669,11 +1669,11 @@
     "ddc-source-nvim-lsp": {
       "flake": false,
       "locked": {
-        "lastModified": 1713158026,
-        "narHash": "sha256-hMm6WHC6ymVKflPLKgmmIjzVn5x/rOsJXdfZJmRZYFI=",
+        "lastModified": 1715318168,
+        "narHash": "sha256-UADV31+lHBdR0BsxiUGrCtAU/21IYf4Udn1vx4co8tA=",
         "owner": "Shougo",
         "repo": "ddc-source-nvim-lsp",
-        "rev": "1c8d1b40a735e11fa221ee1585796f0816a849e8",
+        "rev": "395828936c153a628c1d4c669c878ef062f892a0",
         "type": "github"
       },
       "original": {
@@ -4953,15 +4953,15 @@
     "neotest-java": {
       "flake": false,
       "locked": {
-        "lastModified": 1701945585,
-        "narHash": "sha256-u64HVuY1d94rXKZmv5aKaphwTF+WJjSVDVN1WQFuVDQ=",
-        "owner": "andy-bell101",
+        "lastModified": 1715155585,
+        "narHash": "sha256-ZPjg5x9LPAWg9DMYb4f4vBD+IuC4yf0zmu8STT11BRc=",
+        "owner": "rcasia",
         "repo": "neotest-java",
-        "rev": "320f31c71b183f2c584198f33f93542fd0e5a768",
+        "rev": "d0058e2f389cdcd7b0682aea76300a2fc1b9f0b7",
         "type": "github"
       },
       "original": {
-        "owner": "andy-bell101",
+        "owner": "rcasia",
         "repo": "neotest-java",
         "type": "github"
       }

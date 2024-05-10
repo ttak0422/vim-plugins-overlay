@@ -768,7 +768,7 @@
       flake = false;
     };
     neotest-java = {
-      url = "github:andy-bell101/neotest-java";
+      url = "github:rcasia/neotest-java";
       flake = false;
     };
     neotest-go = {
