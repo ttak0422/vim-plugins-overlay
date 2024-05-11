@@ -1669,11 +1669,11 @@
     "ddc-source-nvim-lsp": {
       "flake": false,
       "locked": {
-        "lastModified": 1715318168,
-        "narHash": "sha256-UADV31+lHBdR0BsxiUGrCtAU/21IYf4Udn1vx4co8tA=",
+        "lastModified": 1715411176,
+        "narHash": "sha256-EAYAra4VoeG/hIBK2T4b6zUH2Sby4xOoE/1kuheQr8U=",
         "owner": "Shougo",
         "repo": "ddc-source-nvim-lsp",
-        "rev": "395828936c153a628c1d4c669c878ef062f892a0",
+        "rev": "d9f893cec76317fe2cf2b6209964665227edbad5",
         "type": "github"
       },
       "original": {
@@ -7551,6 +7551,7 @@
         "toolwindow-nvim": "toolwindow-nvim",
         "tree-sitter-fsharp": "tree-sitter-fsharp",
         "tree-sitter-norg": "tree-sitter-norg",
+        "tree-sitter-norg-meta": "tree-sitter-norg-meta",
         "treemonkey-nvim": "treemonkey-nvim",
         "treesj": "treesj",
         "trim-nvim": "trim-nvim",
@@ -8580,6 +8581,22 @@
       "original": {
         "owner": "nvim-neorg",
         "repo": "tree-sitter-norg",
+        "type": "github"
+      }
+    },
+    "tree-sitter-norg-meta": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713028366,
+        "narHash": "sha256-8qSdwHlfnjFuQF4zNdLtU2/tzDRhDZbo9K54Xxgn5+8=",
+        "owner": "nvim-neorg",
+        "repo": "tree-sitter-norg-meta",
+        "rev": "6f0510cc516a3af3396a682fbd6655486c2c9d2d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorg",
+        "repo": "tree-sitter-norg-meta",
         "type": "github"
       }
     },

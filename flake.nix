@@ -3,6 +3,10 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    tree-sitter-norg-meta = {
+      url = "github:nvim-neorg/tree-sitter-norg-meta";
+      flake = false;
+    };
     tree-sitter-fsharp = {
       url = "github:ionide/tree-sitter-fsharp";
       flake = false;
