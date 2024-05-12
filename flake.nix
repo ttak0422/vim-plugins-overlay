@@ -3,6 +3,30 @@
 
   inputs = rec {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    maven-nvim = {
+      url = "github:eatgrass/maven.nvim";
+      flake = false;
+    };
+    ns-textobject-nvim = {
+      url = "github:XXiaoA/ns-textobject.nvim";
+      flake = false;
+    };
+    md-pdf-nvim = {
+      url = "github:arminveres/md-pdf.nvim";
+      flake = false;
+    };
+    grug-far-nvim = {
+      url = "github:MagicDuck/grug-far.nvim";
+      flake = false;
+    };
+    neorg-jupyter = {
+      url = "github:tamton-aquib/neorg-jupyter";
+      flake = false;
+    };
+    neorg-templates = {
+      url = "github:pysan3/neorg-templates";
+      flake = false;
+    };
     tree-sitter-norg-meta = {
       url = "github:nvim-neorg/tree-sitter-norg-meta";
       flake = false;
